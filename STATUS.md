@@ -28,6 +28,7 @@ A free, unofficial public API over NANDO (every act in NANDO) with a changes fee
 
 ## Decisions
 
+- Code licence MIT (Rutger, 2026-11-06).
 - Free use: no keys, tiers, billing, or prices (Rutger, 2026-11-04).
 - No webhooks. `GET /v1/changes` and `GET /v1/changes.atom` with filters instead (Rutger, 2026-11-04).
 - Every act in NANDO in scope (Rutger, 2026-11-04).
@@ -39,7 +40,6 @@ A free, unofficial public API over NANDO (every act in NANDO) with a changes fee
 
 ## Blockers
 
-- The code has no licence file yet (Rutger's choice).
 
 ## Resume path
 

@@ -2,6 +2,8 @@
 name = "nando-api"
 version = "0.1.0"
 description = "Free, unofficial API and Atom alerts over NANDO, the EU register of notified bodies"
+license = "MIT"
+license-files = ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [

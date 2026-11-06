@@ -101,4 +101,4 @@ uv audit --locked
 
 ## Licence
 
-The code has no licence yet. The data is CC BY 4.0, as described above.
+The code is under the [MIT licence](LICENSE). The data is CC BY 4.0, as described above.
