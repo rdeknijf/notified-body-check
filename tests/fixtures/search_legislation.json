@@ -1,0 +1,4448 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 38,
+ "totalResults": 65,
+ "pageNumber": 1,
+ "pageSize": 100,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a12cf4a6f5c5001bca8774506ce6b25527debef1",
+   "url": "urn:smcs:nando_legislation:a12cf4a6f5c5001bca8774506ce6b25527debef1",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-13T09:40:00.153+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-13T17:00:00.478+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-13T09:40:00.168+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:a12cf4a6f5c5001bca8774506ce6b25527debef1"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:a12cf4a6f5c5001bca8774506ce6b25527debef1"
+    ],
+    "esST_REFERENCE": [
+     "a12cf4a6f5c5001bca8774506ce6b25527debef1"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-13T09:40:00.162+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a12cf4a6f5c5001bca8774506ce6b25527debef1\", \"legislationId\": 171420, \"legislationName\": \"Regulation (EU) 2025/2509 on the safety of toys\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2025/2509 .pdf\", \"rssFeed\": \"Regulation (EU) 2025/2509 .xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2025/2509 \", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2025/2509 on the safety of toys"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a12cf4a6f5c5001bca8774506ce6b25527debef1. Available at: urn:smcs:nando_legislation:a12cf4a6f5c5001bca8774506ce6b25527debef1"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ee13622e58d13766c0f6243453bbed839b865465",
+   "url": "urn:smcs:nando_legislation:ee13622e58d13766c0f6243453bbed839b865465",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-01-07T15:30:00.175+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-11-27T12:40:00.223+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2026-01-07T15:30:00.190+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ee13622e58d13766c0f6243453bbed839b865465"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ee13622e58d13766c0f6243453bbed839b865465"
+    ],
+    "esST_REFERENCE": [
+     "ee13622e58d13766c0f6243453bbed839b865465"
+    ],
+    "esDA_QueueDate": [
+     "2026-01-07T15:30:00.184+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ee13622e58d13766c0f6243453bbed839b865465\", \"legislationId\": 168440, \"legislationName\": \"Regulation (EU) 2024/3110 - Construction Products\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2024/3110.pdf\", \"rssFeed\": \"Regulation (EU) 2024/3110.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2024/3110\", \"legislationProfile\": \"ConstructionProducts\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2024/3110 - Construction Products"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ee13622e58d13766c0f6243453bbed839b865465. Available at: urn:smcs:nando_legislation:ee13622e58d13766c0f6243453bbed839b865465"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ee65b873bf9626cc91984b9e0c78c460a5a3762a",
+   "url": "urn:smcs:nando_legislation:ee65b873bf9626cc91984b9e0c78c460a5a3762a",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-10T12:25:00.460+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-10T12:25:00.477+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ee65b873bf9626cc91984b9e0c78c460a5a3762a"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ee65b873bf9626cc91984b9e0c78c460a5a3762a"
+    ],
+    "esST_REFERENCE": [
+     "ee65b873bf9626cc91984b9e0c78c460a5a3762a"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-10T12:25:00.471+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ee65b873bf9626cc91984b9e0c78c460a5a3762a\", \"legislationId\": 34, \"legislationName\": \"Regulation (EU) 2017/745 on medical devices\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2017/745.pdf\", \"rssFeed\": \"Regulation (EU) 2017/745.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2017/745\", \"legislationProfile\": \"MedicalDevices\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2017/745 on medical devices"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ee65b873bf9626cc91984b9e0c78c460a5a3762a. Available at: urn:smcs:nando_legislation:ee65b873bf9626cc91984b9e0c78c460a5a3762a"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "aa8c8f56d34a987497766d3325388eacc7c480cd",
+   "url": "urn:smcs:nando_legislation:aa8c8f56d34a987497766d3325388eacc7c480cd",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-10T12:25:00.292+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-10T12:25:00.306+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:aa8c8f56d34a987497766d3325388eacc7c480cd"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:aa8c8f56d34a987497766d3325388eacc7c480cd"
+    ],
+    "esST_REFERENCE": [
+     "aa8c8f56d34a987497766d3325388eacc7c480cd"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-10T12:25:00.300+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"aa8c8f56d34a987497766d3325388eacc7c480cd\", \"legislationId\": 35, \"legislationName\": \"Regulation (EU) 2017/746 on in vitro diagnostic medical devices\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2017/746.pdf\", \"rssFeed\": \"Regulation (EU) 2017/746.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2017/746\", \"legislationProfile\": \"MedicalDevices\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2017/746 on in vitro diagnostic medical devices"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "aa8c8f56d34a987497766d3325388eacc7c480cd. Available at: urn:smcs:nando_legislation:aa8c8f56d34a987497766d3325388eacc7c480cd"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "d7b42e1d6237d64dade1665a1b8cfe336e963aff",
+   "url": "urn:smcs:nando_legislation:d7b42e1d6237d64dade1665a1b8cfe336e963aff",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-10T11:55:00.863+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-10T11:55:00.890+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:d7b42e1d6237d64dade1665a1b8cfe336e963aff"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:d7b42e1d6237d64dade1665a1b8cfe336e963aff"
+    ],
+    "esST_REFERENCE": [
+     "d7b42e1d6237d64dade1665a1b8cfe336e963aff"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-10T11:55:00.879+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"d7b42e1d6237d64dade1665a1b8cfe336e963aff\", \"legislationId\": 131881, \"legislationName\": \"2006/42/EC Machinery\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2006/42/EC.pdf\", \"rssFeed\": \"2006/42/EC.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2006/42/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2006/42/EC Machinery"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "d7b42e1d6237d64dade1665a1b8cfe336e963aff. Available at: urn:smcs:nando_legislation:d7b42e1d6237d64dade1665a1b8cfe336e963aff"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "1ca596265990a95b99aa2ca37e65cb364d7978ae",
+   "url": "urn:smcs:nando_legislation:1ca596265990a95b99aa2ca37e65cb364d7978ae",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-10T11:55:00.699+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-10T11:55:00.717+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:1ca596265990a95b99aa2ca37e65cb364d7978ae"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:1ca596265990a95b99aa2ca37e65cb364d7978ae"
+    ],
+    "esST_REFERENCE": [
+     "1ca596265990a95b99aa2ca37e65cb364d7978ae"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-10T11:55:00.705+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"1ca596265990a95b99aa2ca37e65cb364d7978ae\", \"legislationId\": 153041, \"legislationName\": \"2013/29/EU Pyrotechnic articles\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2013/29/EU.pdf\", \"rssFeed\": \"2013/29/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2013/29/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2013/29/EU Pyrotechnic articles"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "1ca596265990a95b99aa2ca37e65cb364d7978ae. Available at: urn:smcs:nando_legislation:1ca596265990a95b99aa2ca37e65cb364d7978ae"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "07f3704f3cdb283824031cb8d1777a8389f37990",
+   "url": "urn:smcs:nando_legislation:07f3704f3cdb283824031cb8d1777a8389f37990",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-10T11:55:00.556+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-10T11:55:00.570+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:07f3704f3cdb283824031cb8d1777a8389f37990"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:07f3704f3cdb283824031cb8d1777a8389f37990"
+    ],
+    "esST_REFERENCE": [
+     "07f3704f3cdb283824031cb8d1777a8389f37990"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-10T11:55:00.564+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"07f3704f3cdb283824031cb8d1777a8389f37990\", \"legislationId\": 141121, \"legislationName\": \"2010/35/EU Transportable pressure equipment\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2010/35/EU.pdf\", \"rssFeed\": \"2010/35/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2010/35/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2010/35/EU Transportable pressure equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "07f3704f3cdb283824031cb8d1777a8389f37990. Available at: urn:smcs:nando_legislation:07f3704f3cdb283824031cb8d1777a8389f37990"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28",
+   "url": "urn:smcs:nando_legislation:f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:11.124+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:26.665+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:11.168+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28"
+    ],
+    "esST_REFERENCE": [
+     "f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:11.132+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28\", \"legislationId\": 159261, \"legislationName\": \"Regulation (EU) 2019/945 on unmanned aircraft systems and on third-country operators of unmanned aircraft systems\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2019/945.pdf\", \"rssFeed\": \"Regulation (EU) 2019/945.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2019/945\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2019/945 on unmanned aircraft systems and on third-country operators of unmanned aircraft systems"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28. Available at: urn:smcs:nando_legislation:f97fac5f1959a980e94f9e1cbdc89cad2f4a5f28"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "f2deb213778c4e9df2d534601dbeabaa60be61e1",
+   "url": "urn:smcs:nando_legislation:f2deb213778c4e9df2d534601dbeabaa60be61e1",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:10.962+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:10.985+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:f2deb213778c4e9df2d534601dbeabaa60be61e1"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:f2deb213778c4e9df2d534601dbeabaa60be61e1"
+    ],
+    "esST_REFERENCE": [
+     "f2deb213778c4e9df2d534601dbeabaa60be61e1"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:10.975+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"f2deb213778c4e9df2d534601dbeabaa60be61e1\", \"legislationId\": 22, \"legislationName\": \"99/5/EC Radio and telecommunications terminal equipment\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2017-06-13T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"99/5/EC\", \"legislationProfile\": \"LegacyRadioEquipment\"}"
+    ],
+    "legislationName": [
+     "99/5/EC Radio and telecommunications terminal equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "f2deb213778c4e9df2d534601dbeabaa60be61e1. Available at: urn:smcs:nando_legislation:f2deb213778c4e9df2d534601dbeabaa60be61e1"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ee7033fe353027b3110d28bbaa2eacc1ff3494d7",
+   "url": "urn:smcs:nando_legislation:ee7033fe353027b3110d28bbaa2eacc1ff3494d7",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:10.819+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:10.831+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ee7033fe353027b3110d28bbaa2eacc1ff3494d7"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ee7033fe353027b3110d28bbaa2eacc1ff3494d7"
+    ],
+    "esST_REFERENCE": [
+     "ee7033fe353027b3110d28bbaa2eacc1ff3494d7"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:10.826+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ee7033fe353027b3110d28bbaa2eacc1ff3494d7\", \"legislationId\": 20, \"legislationName\": \"98/79/EC In vitro diagnostic medical devices\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"legislationEndDate\": \"2024-04-27T00:00:00Z\", \"pdfList\": \"98/79/EC.pdf\", \"rssFeed\": \"98/79/EC.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"98/79/EC\", \"legislationProfile\": \"MedicalDevices\"}"
+    ],
+    "legislationName": [
+     "98/79/EC In vitro diagnostic medical devices"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ee7033fe353027b3110d28bbaa2eacc1ff3494d7. Available at: urn:smcs:nando_legislation:ee7033fe353027b3110d28bbaa2eacc1ff3494d7"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ec41ab35c6b2c649bca9f10619d3873979772847",
+   "url": "urn:smcs:nando_legislation:ec41ab35c6b2c649bca9f10619d3873979772847",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:10.415+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:10.429+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ec41ab35c6b2c649bca9f10619d3873979772847"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ec41ab35c6b2c649bca9f10619d3873979772847"
+    ],
+    "esST_REFERENCE": [
+     "ec41ab35c6b2c649bca9f10619d3873979772847"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:10.423+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ec41ab35c6b2c649bca9f10619d3873979772847\", \"legislationId\": 128961, \"legislationName\": \"Regulation (EC) No 552/2004 - Interoperability of the European Air Traffic Management network\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2018-07-04T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"Regulation (EC) 552/2004\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EC) No 552/2004 - Interoperability of the European Air Traffic Management network"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ec41ab35c6b2c649bca9f10619d3873979772847. Available at: urn:smcs:nando_legislation:ec41ab35c6b2c649bca9f10619d3873979772847"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ea8e41d982fa277d011e9993f67c420b953750bc",
+   "url": "urn:smcs:nando_legislation:ea8e41d982fa277d011e9993f67c420b953750bc",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:10.262+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:26.637+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:10.273+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ea8e41d982fa277d011e9993f67c420b953750bc"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ea8e41d982fa277d011e9993f67c420b953750bc"
+    ],
+    "esST_REFERENCE": [
+     "ea8e41d982fa277d011e9993f67c420b953750bc"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:10.268+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ea8e41d982fa277d011e9993f67c420b953750bc\", \"legislationId\": 155178, \"legislationName\": \"Regulation (EU) 2016/424 Cableway installations\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2016/424.pdf\", \"rssFeed\": \"Regulation (EU) 2016/424.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2016/424\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2016/424 Cableway installations"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ea8e41d982fa277d011e9993f67c420b953750bc. Available at: urn:smcs:nando_legislation:ea8e41d982fa277d011e9993f67c420b953750bc"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f",
+   "url": "urn:smcs:nando_legislation:dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:10.115+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:10.130+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f"
+    ],
+    "esST_REFERENCE": [
+     "dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:10.123+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f\", \"legislationId\": 7, \"legislationName\": \"2009/23/EC (ex-90/384/EEC) Non-automatic weighing instruments \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2009/23/EC (ex-90/384/EEC)\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2009/23/EC (ex-90/384/EEC) Non-automatic weighing instruments "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f. Available at: urn:smcs:nando_legislation:dd997d227d8a9f2fa304b61c5ab9e2c4c61dda8f"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "dc43d41def4208db63425568569e3d110af4301e",
+   "url": "urn:smcs:nando_legislation:dc43d41def4208db63425568569e3d110af4301e",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:09.960+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:09.972+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:dc43d41def4208db63425568569e3d110af4301e"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:dc43d41def4208db63425568569e3d110af4301e"
+    ],
+    "esST_REFERENCE": [
+     "dc43d41def4208db63425568569e3d110af4301e"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:09.966+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"dc43d41def4208db63425568569e3d110af4301e\", \"legislationId\": 28, \"legislationName\": \"2001/16/EC Interoperability of the trans-European conventional rail system \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2010-12-31T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2001/16/EC\", \"legislationProfile\": \"RailSystem\"}"
+    ],
+    "legislationName": [
+     "2001/16/EC Interoperability of the trans-European conventional rail system "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "dc43d41def4208db63425568569e3d110af4301e. Available at: urn:smcs:nando_legislation:dc43d41def4208db63425568569e3d110af4301e"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "d94f6a4c854532116da5a797ea15beea59bdde40",
+   "url": "urn:smcs:nando_legislation:d94f6a4c854532116da5a797ea15beea59bdde40",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:09.782+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:09.795+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:d94f6a4c854532116da5a797ea15beea59bdde40"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:d94f6a4c854532116da5a797ea15beea59bdde40"
+    ],
+    "esST_REFERENCE": [
+     "d94f6a4c854532116da5a797ea15beea59bdde40"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:09.790+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"d94f6a4c854532116da5a797ea15beea59bdde40\", \"legislationId\": 162960, \"legislationName\": \"Regulation (EU) 2023/1542 concerning batteries and waste batteries\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation 2023/1542.pdf\", \"rssFeed\": \"Regulation 2023/1542.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation 2023/1542\", \"legislationProfile\": \"Battery\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2023/1542 concerning batteries and waste batteries"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "d94f6a4c854532116da5a797ea15beea59bdde40. Available at: urn:smcs:nando_legislation:d94f6a4c854532116da5a797ea15beea59bdde40"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "d8205c613cd371b931b895312b9f2d87cbb1d1a9",
+   "url": "urn:smcs:nando_legislation:d8205c613cd371b931b895312b9f2d87cbb1d1a9",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:09.597+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:09.610+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:d8205c613cd371b931b895312b9f2d87cbb1d1a9"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:d8205c613cd371b931b895312b9f2d87cbb1d1a9"
+    ],
+    "esST_REFERENCE": [
+     "d8205c613cd371b931b895312b9f2d87cbb1d1a9"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:09.605+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"d8205c613cd371b931b895312b9f2d87cbb1d1a9\", \"legislationId\": 17, \"legislationName\": \"96/98/EC Marine Equipment\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-09-18T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"96/98/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "96/98/EC Marine Equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "d8205c613cd371b931b895312b9f2d87cbb1d1a9. Available at: urn:smcs:nando_legislation:d8205c613cd371b931b895312b9f2d87cbb1d1a9"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "d0205dd9ffe4f7813a5d89af35788d3c71ef9e60",
+   "url": "urn:smcs:nando_legislation:d0205dd9ffe4f7813a5d89af35788d3c71ef9e60",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:09.313+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:32.025+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:09.325+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:d0205dd9ffe4f7813a5d89af35788d3c71ef9e60"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:d0205dd9ffe4f7813a5d89af35788d3c71ef9e60"
+    ],
+    "esST_REFERENCE": [
+     "d0205dd9ffe4f7813a5d89af35788d3c71ef9e60"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:09.319+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"d0205dd9ffe4f7813a5d89af35788d3c71ef9e60\", \"legislationId\": 153701, \"legislationName\": \"2014/90/EU Marine equipment\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/90/EU.pdf\", \"rssFeed\": \"2014/90/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/90/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/90/EU Marine equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "d0205dd9ffe4f7813a5d89af35788d3c71ef9e60. Available at: urn:smcs:nando_legislation:d0205dd9ffe4f7813a5d89af35788d3c71ef9e60"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "cbeb24a6641f59936e140a702c209334d38ef249",
+   "url": "urn:smcs:nando_legislation:cbeb24a6641f59936e140a702c209334d38ef249",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:09.166+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:09.179+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:cbeb24a6641f59936e140a702c209334d38ef249"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:cbeb24a6641f59936e140a702c209334d38ef249"
+    ],
+    "esST_REFERENCE": [
+     "cbeb24a6641f59936e140a702c209334d38ef249"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:09.173+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"cbeb24a6641f59936e140a702c209334d38ef249\", \"legislationId\": 10, \"legislationName\": \"98/13/EEC Telecommunications terminal equipment + Satellite earth station equipment\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"1999-03-09T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"98/13/EEC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "98/13/EEC Telecommunications terminal equipment + Satellite earth station equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "cbeb24a6641f59936e140a702c209334d38ef249. Available at: urn:smcs:nando_legislation:cbeb24a6641f59936e140a702c209334d38ef249"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "c7cc700acde81cdf73fc62d9ad04192eeac09626",
+   "url": "urn:smcs:nando_legislation:c7cc700acde81cdf73fc62d9ad04192eeac09626",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.865+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.876+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:c7cc700acde81cdf73fc62d9ad04192eeac09626"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:c7cc700acde81cdf73fc62d9ad04192eeac09626"
+    ],
+    "esST_REFERENCE": [
+     "c7cc700acde81cdf73fc62d9ad04192eeac09626"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.871+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"c7cc700acde81cdf73fc62d9ad04192eeac09626\", \"legislationId\": 1, \"legislationName\": \"2009/105/EC (ex-87/404/EEC) Simple pressure vessels \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2009/105/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2009/105/EC (ex-87/404/EEC) Simple pressure vessels "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "c7cc700acde81cdf73fc62d9ad04192eeac09626. Available at: urn:smcs:nando_legislation:c7cc700acde81cdf73fc62d9ad04192eeac09626"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "c357d7ec872e70368742669057629bbfb7428420",
+   "url": "urn:smcs:nando_legislation:c357d7ec872e70368742669057629bbfb7428420",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.724+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:34.604+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.736+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:c357d7ec872e70368742669057629bbfb7428420"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:c357d7ec872e70368742669057629bbfb7428420"
+    ],
+    "esST_REFERENCE": [
+     "c357d7ec872e70368742669057629bbfb7428420"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.731+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"c357d7ec872e70368742669057629bbfb7428420\", \"legislationId\": 160361, \"legislationName\": \"Regulation (EU) 2020/204 (implementing Directive 2019/520) - Interoperability of Electronic Road Toll Systems\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2020/204.pdf\", \"rssFeed\": \"Regulation (EU) 2020/204.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2020/204\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2020/204 (implementing Directive 2019/520) - Interoperability of Electronic Road Toll Systems"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "c357d7ec872e70368742669057629bbfb7428420. Available at: urn:smcs:nando_legislation:c357d7ec872e70368742669057629bbfb7428420"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "c2c5708aa60af16ab26ae75d20be081833247068",
+   "url": "urn:smcs:nando_legislation:c2c5708aa60af16ab26ae75d20be081833247068",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.582+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.595+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:c2c5708aa60af16ab26ae75d20be081833247068"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:c2c5708aa60af16ab26ae75d20be081833247068"
+    ],
+    "esST_REFERENCE": [
+     "c2c5708aa60af16ab26ae75d20be081833247068"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.589+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"c2c5708aa60af16ab26ae75d20be081833247068\", \"legislationId\": 26, \"legislationName\": \"2000/9/EC Cableway installations designed to carry persons \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2018-04-21T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2000/9/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2000/9/EC Cableway installations designed to carry persons "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "c2c5708aa60af16ab26ae75d20be081833247068. Available at: urn:smcs:nando_legislation:c2c5708aa60af16ab26ae75d20be081833247068"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "bb9371a6ec7b05575f0108db06d0c8a502f3699b",
+   "url": "urn:smcs:nando_legislation:bb9371a6ec7b05575f0108db06d0c8a502f3699b",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.393+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-08-04T13:00:00.308+0200"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.405+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:bb9371a6ec7b05575f0108db06d0c8a502f3699b"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:bb9371a6ec7b05575f0108db06d0c8a502f3699b"
+    ],
+    "esST_REFERENCE": [
+     "bb9371a6ec7b05575f0108db06d0c8a502f3699b"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.400+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"bb9371a6ec7b05575f0108db06d0c8a502f3699b\", \"legislationId\": 167953, \"legislationName\": \"Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements (Cyber Resilience Act) \", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2024/2847.pdf\", \"rssFeed\": \"Regulation (EU) 2024/2847.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2024/2847\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements (Cyber Resilience Act) "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "bb9371a6ec7b05575f0108db06d0c8a502f3699b. Available at: urn:smcs:nando_legislation:bb9371a6ec7b05575f0108db06d0c8a502f3699b"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ba0ebd8571f2723201bd5193363d3ab6fa2e693c",
+   "url": "urn:smcs:nando_legislation:ba0ebd8571f2723201bd5193363d3ab6fa2e693c",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.212+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:26.639+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.224+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ba0ebd8571f2723201bd5193363d3ab6fa2e693c"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ba0ebd8571f2723201bd5193363d3ab6fa2e693c"
+    ],
+    "esST_REFERENCE": [
+     "ba0ebd8571f2723201bd5193363d3ab6fa2e693c"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.220+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ba0ebd8571f2723201bd5193363d3ab6fa2e693c\", \"legislationId\": 159361, \"legislationName\": \"Regulation (EU) 2019/1009 on EU fertilising products\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2019/1009.pdf\", \"rssFeed\": \"Regulation (EU) 2019/1009.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2019/1009\", \"legislationProfile\": \"FertilizingProducts\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2019/1009 on EU fertilising products"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ba0ebd8571f2723201bd5193363d3ab6fa2e693c. Available at: urn:smcs:nando_legislation:ba0ebd8571f2723201bd5193363d3ab6fa2e693c"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "b654e3176f1e061daf0e11523a851529f6626e18",
+   "url": "urn:smcs:nando_legislation:b654e3176f1e061daf0e11523a851529f6626e18",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:08.032+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:30.209+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:08.067+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:b654e3176f1e061daf0e11523a851529f6626e18"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:b654e3176f1e061daf0e11523a851529f6626e18"
+    ],
+    "esST_REFERENCE": [
+     "b654e3176f1e061daf0e11523a851529f6626e18"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:08.062+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"b654e3176f1e061daf0e11523a851529f6626e18\", \"legislationId\": 154161, \"legislationName\": \"2014/32/EU Measuring Instruments Directive\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/32/EU.pdf\", \"rssFeed\": \"2014/32/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/32/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/32/EU Measuring Instruments Directive"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "b654e3176f1e061daf0e11523a851529f6626e18. Available at: urn:smcs:nando_legislation:b654e3176f1e061daf0e11523a851529f6626e18"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "b2b21aa4efca0b3385441f35d807c0e929683848",
+   "url": "urn:smcs:nando_legislation:b2b21aa4efca0b3385441f35d807c0e929683848",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:07.868+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:07.894+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:b2b21aa4efca0b3385441f35d807c0e929683848"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:b2b21aa4efca0b3385441f35d807c0e929683848"
+    ],
+    "esST_REFERENCE": [
+     "b2b21aa4efca0b3385441f35d807c0e929683848"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:07.878+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"b2b21aa4efca0b3385441f35d807c0e929683848\", \"legislationId\": 129141, \"legislationName\": \"2004/108/EC Electromagnetic compatibility\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2004/108/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2004/108/EC Electromagnetic compatibility"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "b2b21aa4efca0b3385441f35d807c0e929683848. Available at: urn:smcs:nando_legislation:b2b21aa4efca0b3385441f35d807c0e929683848"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "afe0eba73fa4612cfabbd75d912e532ae2f9d776",
+   "url": "urn:smcs:nando_legislation:afe0eba73fa4612cfabbd75d912e532ae2f9d776",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:07.722+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:07.736+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:afe0eba73fa4612cfabbd75d912e532ae2f9d776"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:afe0eba73fa4612cfabbd75d912e532ae2f9d776"
+    ],
+    "esST_REFERENCE": [
+     "afe0eba73fa4612cfabbd75d912e532ae2f9d776"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:07.730+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"afe0eba73fa4612cfabbd75d912e532ae2f9d776\", \"legislationId\": 29, \"legislationName\": \"2006/95/EC (ex-73/23/EEC) Low voltage directive\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2006/95/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2006/95/EC (ex-73/23/EEC) Low voltage directive"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "afe0eba73fa4612cfabbd75d912e532ae2f9d776. Available at: urn:smcs:nando_legislation:afe0eba73fa4612cfabbd75d912e532ae2f9d776"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ac76172c0226169bb0c14ce75722fb7621e174b7",
+   "url": "urn:smcs:nando_legislation:ac76172c0226169bb0c14ce75722fb7621e174b7",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:07.541+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:30.115+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:07.554+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ac76172c0226169bb0c14ce75722fb7621e174b7"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ac76172c0226169bb0c14ce75722fb7621e174b7"
+    ],
+    "esST_REFERENCE": [
+     "ac76172c0226169bb0c14ce75722fb7621e174b7"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:07.549+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ac76172c0226169bb0c14ce75722fb7621e174b7\", \"legislationId\": 153681, \"legislationName\": \"2014/30/EU Electromagnetic compatibility\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/30/EU.pdf\", \"rssFeed\": \"2014/30/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/30/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/30/EU Electromagnetic compatibility"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ac76172c0226169bb0c14ce75722fb7621e174b7. Available at: urn:smcs:nando_legislation:ac76172c0226169bb0c14ce75722fb7621e174b7"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a98148151634d3d8a43c8e7c1105558cdd429005",
+   "url": "urn:smcs:nando_legislation:a98148151634d3d8a43c8e7c1105558cdd429005",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:07.206+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:07.218+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:a98148151634d3d8a43c8e7c1105558cdd429005"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:a98148151634d3d8a43c8e7c1105558cdd429005"
+    ],
+    "esST_REFERENCE": [
+     "a98148151634d3d8a43c8e7c1105558cdd429005"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:07.213+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a98148151634d3d8a43c8e7c1105558cdd429005\", \"legislationId\": 5, \"legislationName\": \"98/37/EC Machinery\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2009-12-29T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"98/37/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "98/37/EC Machinery"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a98148151634d3d8a43c8e7c1105558cdd429005. Available at: urn:smcs:nando_legislation:a98148151634d3d8a43c8e7c1105558cdd429005"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a303cbfe3c65c72f3118f488c3fa9f668c35aead",
+   "url": "urn:smcs:nando_legislation:a303cbfe3c65c72f3118f488c3fa9f668c35aead",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:07.070+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:07.083+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:a303cbfe3c65c72f3118f488c3fa9f668c35aead"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:a303cbfe3c65c72f3118f488c3fa9f668c35aead"
+    ],
+    "esST_REFERENCE": [
+     "a303cbfe3c65c72f3118f488c3fa9f668c35aead"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:07.077+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a303cbfe3c65c72f3118f488c3fa9f668c35aead\", \"legislationId\": 125641, \"legislationName\": \"2004/22/EC Measuring Instruments Directive \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2004/22/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2004/22/EC Measuring Instruments Directive "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a303cbfe3c65c72f3118f488c3fa9f668c35aead. Available at: urn:smcs:nando_legislation:a303cbfe3c65c72f3118f488c3fa9f668c35aead"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a28984a4aa766bb25c1473b3846418aef64930a6",
+   "url": "urn:smcs:nando_legislation:a28984a4aa766bb25c1473b3846418aef64930a6",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.888+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.915+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:a28984a4aa766bb25c1473b3846418aef64930a6"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:a28984a4aa766bb25c1473b3846418aef64930a6"
+    ],
+    "esST_REFERENCE": [
+     "a28984a4aa766bb25c1473b3846418aef64930a6"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.908+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a28984a4aa766bb25c1473b3846418aef64930a6\", \"legislationId\": 23, \"legislationName\": \"96/48/EC Interoperability of the Trans-European high-speed rail system\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2010-12-31T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"96/48/EC\", \"legislationProfile\": \"RailSystem\"}"
+    ],
+    "legislationName": [
+     "96/48/EC Interoperability of the Trans-European high-speed rail system"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a28984a4aa766bb25c1473b3846418aef64930a6. Available at: urn:smcs:nando_legislation:a28984a4aa766bb25c1473b3846418aef64930a6"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d",
+   "url": "urn:smcs:nando_legislation:a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.665+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-02-24T19:12:10.707+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.681+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d"
+    ],
+    "esST_REFERENCE": [
+     "a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.672+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d\", \"legislationId\": 164702, \"legislationName\": \"Regulation (EU) 2024/482 - European Common Criteria-based cybersecurity certification scheme (EUCC)\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2024/482 .pdf\", \"rssFeed\": \"Regulation (EU) 2024/482 .xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2024/482 \", \"legislationProfile\": \"CyberSecurity\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2024/482 - European Common Criteria-based cybersecurity certification scheme (EUCC)"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d. Available at: urn:smcs:nando_legislation:a23f7571f74d0407afdbf775c7cf3d53aeb6ca5d"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "9d41092cdde0fb1a41f8501bf6aba70e19b513dc",
+   "url": "urn:smcs:nando_legislation:9d41092cdde0fb1a41f8501bf6aba70e19b513dc",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.523+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:30.600+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.537+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:9d41092cdde0fb1a41f8501bf6aba70e19b513dc"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:9d41092cdde0fb1a41f8501bf6aba70e19b513dc"
+    ],
+    "esST_REFERENCE": [
+     "9d41092cdde0fb1a41f8501bf6aba70e19b513dc"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.531+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"9d41092cdde0fb1a41f8501bf6aba70e19b513dc\", \"legislationId\": 153101, \"legislationName\": \"2014/34/EU Equipment and protective systems intended for use in potentially explosive atmospheres (recast)\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/34/EU.pdf\", \"rssFeed\": \"2014/34/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/34/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/34/EU Equipment and protective systems intended for use in potentially explosive atmospheres (recast)"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "9d41092cdde0fb1a41f8501bf6aba70e19b513dc. Available at: urn:smcs:nando_legislation:9d41092cdde0fb1a41f8501bf6aba70e19b513dc"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "9d0612eace2127537c18cf9ef94c00db5d0615dd",
+   "url": "urn:smcs:nando_legislation:9d0612eace2127537c18cf9ef94c00db5d0615dd",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.373+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.389+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:9d0612eace2127537c18cf9ef94c00db5d0615dd"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:9d0612eace2127537c18cf9ef94c00db5d0615dd"
+    ],
+    "esST_REFERENCE": [
+     "9d0612eace2127537c18cf9ef94c00db5d0615dd"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.380+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"9d0612eace2127537c18cf9ef94c00db5d0615dd\", \"legislationId\": 9, \"legislationName\": \"2009/142/EC (ex-90/396/EEC) Appliances burning gaseous fuels \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2018-04-21T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2009/142/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2009/142/EC (ex-90/396/EEC) Appliances burning gaseous fuels "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "9d0612eace2127537c18cf9ef94c00db5d0615dd. Available at: urn:smcs:nando_legislation:9d0612eace2127537c18cf9ef94c00db5d0615dd"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "9bec686e9c510dd12e19f106cddc24cf75550834",
+   "url": "urn:smcs:nando_legislation:9bec686e9c510dd12e19f106cddc24cf75550834",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.221+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.237+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:9bec686e9c510dd12e19f106cddc24cf75550834"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:9bec686e9c510dd12e19f106cddc24cf75550834"
+    ],
+    "esST_REFERENCE": [
+     "9bec686e9c510dd12e19f106cddc24cf75550834"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.231+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"9bec686e9c510dd12e19f106cddc24cf75550834\", \"legislationId\": 140521, \"legislationName\": \"2009/48/EC Safety of toys\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2009_48.pdf\", \"rssFeed\": \"2009_48.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2009/48/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2009/48/EC Safety of toys"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "9bec686e9c510dd12e19f106cddc24cf75550834. Available at: urn:smcs:nando_legislation:9bec686e9c510dd12e19f106cddc24cf75550834"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "992c87ff7503cf7dff15fd342f3404e2cb8d2f12",
+   "url": "urn:smcs:nando_legislation:992c87ff7503cf7dff15fd342f3404e2cb8d2f12",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:06.041+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:06.057+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:992c87ff7503cf7dff15fd342f3404e2cb8d2f12"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:992c87ff7503cf7dff15fd342f3404e2cb8d2f12"
+    ],
+    "esST_REFERENCE": [
+     "992c87ff7503cf7dff15fd342f3404e2cb8d2f12"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:06.048+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"992c87ff7503cf7dff15fd342f3404e2cb8d2f12\", \"legislationId\": 24, \"legislationName\": \"99/36/EC Transportable pressure equipment\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2011-07-01T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"99/36/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "99/36/EC Transportable pressure equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "992c87ff7503cf7dff15fd342f3404e2cb8d2f12. Available at: urn:smcs:nando_legislation:992c87ff7503cf7dff15fd342f3404e2cb8d2f12"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "97d1b7e257c4ed700e8b620018bc34f202b58c00",
+   "url": "urn:smcs:nando_legislation:97d1b7e257c4ed700e8b620018bc34f202b58c00",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.868+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.883+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:97d1b7e257c4ed700e8b620018bc34f202b58c00"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:97d1b7e257c4ed700e8b620018bc34f202b58c00"
+    ],
+    "esST_REFERENCE": [
+     "97d1b7e257c4ed700e8b620018bc34f202b58c00"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.877+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"97d1b7e257c4ed700e8b620018bc34f202b58c00\", \"legislationId\": 13, \"legislationName\": \"93/42/EEC Medical devices\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"legislationEndDate\": \"2024-04-27T00:00:00Z\", \"pdfList\": \"93/42/EEC.pdf\", \"rssFeed\": \"93/42/EEC.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"93/42/EEC\", \"legislationProfile\": \"MedicalDevices\"}"
+    ],
+    "legislationName": [
+     "93/42/EEC Medical devices"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "97d1b7e257c4ed700e8b620018bc34f202b58c00. Available at: urn:smcs:nando_legislation:97d1b7e257c4ed700e8b620018bc34f202b58c00"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "8e96861d0349bb45a6da3b64a2f2440fff9de936",
+   "url": "urn:smcs:nando_legislation:8e96861d0349bb45a6da3b64a2f2440fff9de936",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.698+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.715+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:8e96861d0349bb45a6da3b64a2f2440fff9de936"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:8e96861d0349bb45a6da3b64a2f2440fff9de936"
+    ],
+    "esST_REFERENCE": [
+     "8e96861d0349bb45a6da3b64a2f2440fff9de936"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.709+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"8e96861d0349bb45a6da3b64a2f2440fff9de936\", \"legislationId\": 4, \"legislationName\": \"89/336/EEC Electromagnetic compatibility\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2007-07-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"89/336/EEC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "89/336/EEC Electromagnetic compatibility"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "8e96861d0349bb45a6da3b64a2f2440fff9de936. Available at: urn:smcs:nando_legislation:8e96861d0349bb45a6da3b64a2f2440fff9de936"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "876bbfeef32d9f3ec5537a73da652986a15b6c5d",
+   "url": "urn:smcs:nando_legislation:876bbfeef32d9f3ec5537a73da652986a15b6c5d",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.550+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:26.636+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.570+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:876bbfeef32d9f3ec5537a73da652986a15b6c5d"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:876bbfeef32d9f3ec5537a73da652986a15b6c5d"
+    ],
+    "esST_REFERENCE": [
+     "876bbfeef32d9f3ec5537a73da652986a15b6c5d"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.558+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"876bbfeef32d9f3ec5537a73da652986a15b6c5d\", \"legislationId\": 155611, \"legislationName\": \"Regulation (EU) 2016/426 Appliances burning gaseous fuels\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2016/426.pdf\", \"rssFeed\": \"Regulation (EU) 2016/426.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2016/426\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2016/426 Appliances burning gaseous fuels"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "876bbfeef32d9f3ec5537a73da652986a15b6c5d. Available at: urn:smcs:nando_legislation:876bbfeef32d9f3ec5537a73da652986a15b6c5d"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "84f2f16dcff90ba9542368b12febe393686377ee",
+   "url": "urn:smcs:nando_legislation:84f2f16dcff90ba9542368b12febe393686377ee",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.397+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.414+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:84f2f16dcff90ba9542368b12febe393686377ee"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:84f2f16dcff90ba9542368b12febe393686377ee"
+    ],
+    "esST_REFERENCE": [
+     "84f2f16dcff90ba9542368b12febe393686377ee"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.407+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"84f2f16dcff90ba9542368b12febe393686377ee\", \"legislationId\": 3, \"legislationName\": \"89/106/EEC Construction products \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2013-07-01T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"89/106/EEC\", \"legislationProfile\": \"ConstructionProducts\"}"
+    ],
+    "legislationName": [
+     "89/106/EEC Construction products "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "84f2f16dcff90ba9542368b12febe393686377ee. Available at: urn:smcs:nando_legislation:84f2f16dcff90ba9542368b12febe393686377ee"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "83aa6f60172dde61881fa0b1a3125ac515009721",
+   "url": "urn:smcs:nando_legislation:83aa6f60172dde61881fa0b1a3125ac515009721",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.164+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.178+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:83aa6f60172dde61881fa0b1a3125ac515009721"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:83aa6f60172dde61881fa0b1a3125ac515009721"
+    ],
+    "esST_REFERENCE": [
+     "83aa6f60172dde61881fa0b1a3125ac515009721"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.172+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"83aa6f60172dde61881fa0b1a3125ac515009721\", \"legislationId\": 153661, \"legislationName\": \"2014/28/EU Explosives for civil uses\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014_28.pdf\", \"rssFeed\": \"2014_28.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/28/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/28/EU Explosives for civil uses"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "83aa6f60172dde61881fa0b1a3125ac515009721. Available at: urn:smcs:nando_legislation:83aa6f60172dde61881fa0b1a3125ac515009721"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "7cfddceec7adaa7990125e9d9e2431be93cf90b4",
+   "url": "urn:smcs:nando_legislation:7cfddceec7adaa7990125e9d9e2431be93cf90b4",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:05.008+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:30.219+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:05.022+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:7cfddceec7adaa7990125e9d9e2431be93cf90b4"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:7cfddceec7adaa7990125e9d9e2431be93cf90b4"
+    ],
+    "esST_REFERENCE": [
+     "7cfddceec7adaa7990125e9d9e2431be93cf90b4"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:05.016+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"7cfddceec7adaa7990125e9d9e2431be93cf90b4\", \"legislationId\": 154121, \"legislationName\": \"2014/31/EU Non-automatic weighing instruments\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/31/EU.pdf\", \"rssFeed\": \"2014/31/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/31/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/31/EU Non-automatic weighing instruments"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "7cfddceec7adaa7990125e9d9e2431be93cf90b4. Available at: urn:smcs:nando_legislation:7cfddceec7adaa7990125e9d9e2431be93cf90b4"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "7b17078fa78e1b70f508ebcaec819977dab57245",
+   "url": "urn:smcs:nando_legislation:7b17078fa78e1b70f508ebcaec819977dab57245",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:04.866+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:04.877+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:7b17078fa78e1b70f508ebcaec819977dab57245"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:7b17078fa78e1b70f508ebcaec819977dab57245"
+    ],
+    "esST_REFERENCE": [
+     "7b17078fa78e1b70f508ebcaec819977dab57245"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:04.872+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"7b17078fa78e1b70f508ebcaec819977dab57245\", \"legislationId\": 15, \"legislationName\": \"94/25/EC Recreational craft\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2017-01-18T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"94/25/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "94/25/EC Recreational craft"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "7b17078fa78e1b70f508ebcaec819977dab57245. Available at: urn:smcs:nando_legislation:7b17078fa78e1b70f508ebcaec819977dab57245"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "769c0c13be61a8f6e0324e72b72257f83898e5ca",
+   "url": "urn:smcs:nando_legislation:769c0c13be61a8f6e0324e72b72257f83898e5ca",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:04.715+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:28.118+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:04.736+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:769c0c13be61a8f6e0324e72b72257f83898e5ca"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:769c0c13be61a8f6e0324e72b72257f83898e5ca"
+    ],
+    "esST_REFERENCE": [
+     "769c0c13be61a8f6e0324e72b72257f83898e5ca"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:04.726+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"769c0c13be61a8f6e0324e72b72257f83898e5ca\", \"legislationId\": 11, \"legislationName\": \"92/42/EEC Hot-water boilers\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"92/42/EEC .pdf\", \"rssFeed\": \"92/42/EEC .xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"92/42/EEC \", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "92/42/EEC Hot-water boilers"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "769c0c13be61a8f6e0324e72b72257f83898e5ca. Available at: urn:smcs:nando_legislation:769c0c13be61a8f6e0324e72b72257f83898e5ca"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "72fd400d69e719725e478baba9623780394aa4ab",
+   "url": "urn:smcs:nando_legislation:72fd400d69e719725e478baba9623780394aa4ab",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:04.383+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:04.397+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:72fd400d69e719725e478baba9623780394aa4ab"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:72fd400d69e719725e478baba9623780394aa4ab"
+    ],
+    "esST_REFERENCE": [
+     "72fd400d69e719725e478baba9623780394aa4ab"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:04.391+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"72fd400d69e719725e478baba9623780394aa4ab\", \"legislationId\": 12, \"legislationName\": \"93/15/EEC Explosives for civil uses\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"93/15/EEC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "93/15/EEC Explosives for civil uses"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "72fd400d69e719725e478baba9623780394aa4ab. Available at: urn:smcs:nando_legislation:72fd400d69e719725e478baba9623780394aa4ab"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "5ebb89ca345e4f96d02eaee1e6b39114e8da6d82",
+   "url": "urn:smcs:nando_legislation:5ebb89ca345e4f96d02eaee1e6b39114e8da6d82",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:04.211+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:28.706+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:04.241+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:5ebb89ca345e4f96d02eaee1e6b39114e8da6d82"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:5ebb89ca345e4f96d02eaee1e6b39114e8da6d82"
+    ],
+    "esST_REFERENCE": [
+     "5ebb89ca345e4f96d02eaee1e6b39114e8da6d82"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:04.236+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"5ebb89ca345e4f96d02eaee1e6b39114e8da6d82\", \"legislationId\": 25, \"legislationName\": \"2000/14/EC Noise emission in the environment by equipment for use outdoors\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2000/14/EC.pdf\", \"rssFeed\": \"2000/14/EC.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2000/14/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2000/14/EC Noise emission in the environment by equipment for use outdoors"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "5ebb89ca345e4f96d02eaee1e6b39114e8da6d82. Available at: urn:smcs:nando_legislation:5ebb89ca345e4f96d02eaee1e6b39114e8da6d82"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "5383cc416ee691366c51a1a81183f4bb05bb511e",
+   "url": "urn:smcs:nando_legislation:5383cc416ee691366c51a1a81183f4bb05bb511e",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:04.043+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:04.053+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:5383cc416ee691366c51a1a81183f4bb05bb511e"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:5383cc416ee691366c51a1a81183f4bb05bb511e"
+    ],
+    "esST_REFERENCE": [
+     "5383cc416ee691366c51a1a81183f4bb05bb511e"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:04.049+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"5383cc416ee691366c51a1a81183f4bb05bb511e\", \"legislationId\": 140661, \"legislationName\": \"Decision 2009/750/EC (implementing Directive 2004/52/EC) - Interoperability of Electronic Road Toll Systems\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2021-10-19T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"Decision 2009/750/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Decision 2009/750/EC (implementing Directive 2004/52/EC) - Interoperability of Electronic Road Toll Systems"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "5383cc416ee691366c51a1a81183f4bb05bb511e. Available at: urn:smcs:nando_legislation:5383cc416ee691366c51a1a81183f4bb05bb511e"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "491ebd278d0375f34921ac672ef086c4b5967d46",
+   "url": "urn:smcs:nando_legislation:491ebd278d0375f34921ac672ef086c4b5967d46",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:03.906+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:32.025+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:03.920+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:491ebd278d0375f34921ac672ef086c4b5967d46"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:491ebd278d0375f34921ac672ef086c4b5967d46"
+    ],
+    "esST_REFERENCE": [
+     "491ebd278d0375f34921ac672ef086c4b5967d46"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:03.914+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"491ebd278d0375f34921ac672ef086c4b5967d46\", \"legislationId\": 31, \"legislationName\": \"2016/797 on the interoperability of the rail system\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2016/797.pdf\", \"rssFeed\": \"2016/797.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2016/797\", \"legislationProfile\": \"RailSystem\"}"
+    ],
+    "legislationName": [
+     "2016/797 on the interoperability of the rail system"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "491ebd278d0375f34921ac672ef086c4b5967d46. Available at: urn:smcs:nando_legislation:491ebd278d0375f34921ac672ef086c4b5967d46"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "431be36b4864d61c2be4fe8173a2a65df7397652",
+   "url": "urn:smcs:nando_legislation:431be36b4864d61c2be4fe8173a2a65df7397652",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:03.528+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:03.550+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:431be36b4864d61c2be4fe8173a2a65df7397652"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:431be36b4864d61c2be4fe8173a2a65df7397652"
+    ],
+    "esST_REFERENCE": [
+     "431be36b4864d61c2be4fe8173a2a65df7397652"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:03.540+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"431be36b4864d61c2be4fe8173a2a65df7397652\", \"legislationId\": 8, \"legislationName\": \"90/385/EEC Active implantable medical devices\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"90_385.pdf\", \"rssFeed\": \"90_385.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"90/385/EEC\", \"legislationProfile\": \"MedicalDevices\"}"
+    ],
+    "legislationName": [
+     "90/385/EEC Active implantable medical devices"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "431be36b4864d61c2be4fe8173a2a65df7397652. Available at: urn:smcs:nando_legislation:431be36b4864d61c2be4fe8173a2a65df7397652"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "3f2a637afc9624113091c003366a48d5e621b5af",
+   "url": "urn:smcs:nando_legislation:3f2a637afc9624113091c003366a48d5e621b5af",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:03.361+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:03.376+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:3f2a637afc9624113091c003366a48d5e621b5af"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:3f2a637afc9624113091c003366a48d5e621b5af"
+    ],
+    "esST_REFERENCE": [
+     "3f2a637afc9624113091c003366a48d5e621b5af"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:03.371+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"3f2a637afc9624113091c003366a48d5e621b5af\", \"legislationId\": 14, \"legislationName\": \"94/9/EC Equipment and protective systems intended for use in potentially explosive atmospheres\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"94/9/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "94/9/EC Equipment and protective systems intended for use in potentially explosive atmospheres"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "3f2a637afc9624113091c003366a48d5e621b5af. Available at: urn:smcs:nando_legislation:3f2a637afc9624113091c003366a48d5e621b5af"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "3d932ed6967c09c948c90bb421b940c0889dd4ab",
+   "url": "urn:smcs:nando_legislation:3d932ed6967c09c948c90bb421b940c0889dd4ab",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:03.212+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:32.001+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:03.228+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:3d932ed6967c09c948c90bb421b940c0889dd4ab"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:3d932ed6967c09c948c90bb421b940c0889dd4ab"
+    ],
+    "esST_REFERENCE": [
+     "3d932ed6967c09c948c90bb421b940c0889dd4ab"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:03.223+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"3d932ed6967c09c948c90bb421b940c0889dd4ab\", \"legislationId\": 154428, \"legislationName\": \"2014/53/EU Radio equipment\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/53/EU.pdf\", \"rssFeed\": \"2014/53/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/53/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/53/EU Radio equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "3d932ed6967c09c948c90bb421b940c0889dd4ab. Available at: urn:smcs:nando_legislation:3d932ed6967c09c948c90bb421b940c0889dd4ab"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "3a60a6a9e6f4bf93ca9123bd28ca03600442bf83",
+   "url": "urn:smcs:nando_legislation:3a60a6a9e6f4bf93ca9123bd28ca03600442bf83",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:03.061+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:03.073+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:3a60a6a9e6f4bf93ca9123bd28ca03600442bf83"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:3a60a6a9e6f4bf93ca9123bd28ca03600442bf83"
+    ],
+    "esST_REFERENCE": [
+     "3a60a6a9e6f4bf93ca9123bd28ca03600442bf83"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:03.068+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"3a60a6a9e6f4bf93ca9123bd28ca03600442bf83\", \"legislationId\": 131581, \"legislationName\": \"2007/23/EC Pyrotechnic articles\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2015-07-01T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2007/23/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2007/23/EC Pyrotechnic articles"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "3a60a6a9e6f4bf93ca9123bd28ca03600442bf83. Available at: urn:smcs:nando_legislation:3a60a6a9e6f4bf93ca9123bd28ca03600442bf83"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "36e2bc675ece7f50ae220375ebac942fb4567e8a",
+   "url": "urn:smcs:nando_legislation:36e2bc675ece7f50ae220375ebac942fb4567e8a",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:02.798+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:02.810+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:36e2bc675ece7f50ae220375ebac942fb4567e8a"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:36e2bc675ece7f50ae220375ebac942fb4567e8a"
+    ],
+    "esST_REFERENCE": [
+     "36e2bc675ece7f50ae220375ebac942fb4567e8a"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:02.805+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"36e2bc675ece7f50ae220375ebac942fb4567e8a\", \"legislationId\": 162400, \"legislationName\": \"Regulation (EU) 2023/1230 on machinery\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation 2023/1230.pdf\", \"rssFeed\": \"Regulation 2023/1230.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation 2023/1230\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2023/1230 on machinery"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "36e2bc675ece7f50ae220375ebac942fb4567e8a. Available at: urn:smcs:nando_legislation:36e2bc675ece7f50ae220375ebac942fb4567e8a"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "353d5e11642ccd6b7149264afb042af32c090652",
+   "url": "urn:smcs:nando_legislation:353d5e11642ccd6b7149264afb042af32c090652",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:02.646+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-10-29T20:20:00.487+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:02.660+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:353d5e11642ccd6b7149264afb042af32c090652"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:353d5e11642ccd6b7149264afb042af32c090652"
+    ],
+    "esST_REFERENCE": [
+     "353d5e11642ccd6b7149264afb042af32c090652"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:02.654+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"353d5e11642ccd6b7149264afb042af32c090652\", \"legislationId\": 168380, \"legislationName\": \"Regulation (EU) 2024/1689 on artificial intelligence (Artificial Intelligence Act)\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2024/1689.pdf\", \"rssFeed\": \"Regulation (EU) 2024/1689.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2024/1689\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2024/1689 on artificial intelligence (Artificial Intelligence Act)"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "353d5e11642ccd6b7149264afb042af32c090652. Available at: urn:smcs:nando_legislation:353d5e11642ccd6b7149264afb042af32c090652"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "334be25523d4b31edc27373e65bfc79c180b62cc",
+   "url": "urn:smcs:nando_legislation:334be25523d4b31edc27373e65bfc79c180b62cc",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:02.479+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:02.491+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:334be25523d4b31edc27373e65bfc79c180b62cc"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:334be25523d4b31edc27373e65bfc79c180b62cc"
+    ],
+    "esST_REFERENCE": [
+     "334be25523d4b31edc27373e65bfc79c180b62cc"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:02.485+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"334be25523d4b31edc27373e65bfc79c180b62cc\", \"legislationId\": 30, \"legislationName\": \"2008/57/EC Interoperability of the rail system within the Community (Recast)\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2020-11-01T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"2008/57/EC\", \"legislationProfile\": \"RailSystem\"}"
+    ],
+    "legislationName": [
+     "2008/57/EC Interoperability of the rail system within the Community (Recast)"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "334be25523d4b31edc27373e65bfc79c180b62cc. Available at: urn:smcs:nando_legislation:334be25523d4b31edc27373e65bfc79c180b62cc"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "3048c6b7000b7a9124eef85349c83c68f8a7876c",
+   "url": "urn:smcs:nando_legislation:3048c6b7000b7a9124eef85349c83c68f8a7876c",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:02.200+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:02.212+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:3048c6b7000b7a9124eef85349c83c68f8a7876c"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:3048c6b7000b7a9124eef85349c83c68f8a7876c"
+    ],
+    "esST_REFERENCE": [
+     "3048c6b7000b7a9124eef85349c83c68f8a7876c"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:02.207+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"3048c6b7000b7a9124eef85349c83c68f8a7876c\", \"legislationId\": 153461, \"legislationName\": \"2013/53/EU Recreational craft and personal watercraft\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2013_53.pdf\", \"rssFeed\": \"2013_53.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2013/53/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2013/53/EU Recreational craft and personal watercraft"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "3048c6b7000b7a9124eef85349c83c68f8a7876c. Available at: urn:smcs:nando_legislation:3048c6b7000b7a9124eef85349c83c68f8a7876c"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "301dc299b76a278d689d2b25548ed14ce6aa772b",
+   "url": "urn:smcs:nando_legislation:301dc299b76a278d689d2b25548ed14ce6aa772b",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:01.978+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:34.601+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:01.990+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:301dc299b76a278d689d2b25548ed14ce6aa772b"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:301dc299b76a278d689d2b25548ed14ce6aa772b"
+    ],
+    "esST_REFERENCE": [
+     "301dc299b76a278d689d2b25548ed14ce6aa772b"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:01.984+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"301dc299b76a278d689d2b25548ed14ce6aa772b\", \"legislationId\": 155501, \"legislationName\": \"Regulation (EU) 2016/425 Personal protective equipment\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2016/425.pdf\", \"rssFeed\": \"Regulation (EU) 2016/425.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2016/425\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2016/425 Personal protective equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "301dc299b76a278d689d2b25548ed14ce6aa772b. Available at: urn:smcs:nando_legislation:301dc299b76a278d689d2b25548ed14ce6aa772b"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30",
+   "url": "urn:smcs:nando_legislation:2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:01.730+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:01.743+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30"
+    ],
+    "esST_REFERENCE": [
+     "2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:01.737+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30\", \"legislationId\": 16, \"legislationName\": \"95/16/EC Lifts\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"95/16/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "95/16/EC Lifts"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30. Available at: urn:smcs:nando_legislation:2c3be91fc1ec46cd9ca2f8dde53be1424d04ed30"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608",
+   "url": "urn:smcs:nando_legislation:2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:01.570+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:28.367+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:01.584+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608"
+    ],
+    "esST_REFERENCE": [
+     "2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:01.578+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608\", \"legislationId\": 33, \"legislationName\": \"Regulation (EU) No 305/2011 - Construction products\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 305/2011.pdf\", \"rssFeed\": \"Regulation (EU) 305/2011.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 305/2011\", \"legislationProfile\": \"ConstructionProducts\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) No 305/2011 - Construction products"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608. Available at: urn:smcs:nando_legislation:2a8c1c3c09eaf85df60bbcfd8b5fde1f0c74e608"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "293d57ff36eda9406deab9e961a87f4c6356c82f",
+   "url": "urn:smcs:nando_legislation:293d57ff36eda9406deab9e961a87f4c6356c82f",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:01.335+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:01.350+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:293d57ff36eda9406deab9e961a87f4c6356c82f"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:293d57ff36eda9406deab9e961a87f4c6356c82f"
+    ],
+    "esST_REFERENCE": [
+     "293d57ff36eda9406deab9e961a87f4c6356c82f"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:01.342+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"293d57ff36eda9406deab9e961a87f4c6356c82f\", \"legislationId\": 6, \"legislationName\": \"89/686/EEC Personal protective equipment \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2019-04-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"89/686/EEC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "89/686/EEC Personal protective equipment "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "293d57ff36eda9406deab9e961a87f4c6356c82f. Available at: urn:smcs:nando_legislation:293d57ff36eda9406deab9e961a87f4c6356c82f"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "277bb88e8691e7583c9746cdaa9e9987bdb070ca",
+   "url": "urn:smcs:nando_legislation:277bb88e8691e7583c9746cdaa9e9987bdb070ca",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:01.183+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:30.599+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:01.199+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:277bb88e8691e7583c9746cdaa9e9987bdb070ca"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:277bb88e8691e7583c9746cdaa9e9987bdb070ca"
+    ],
+    "esST_REFERENCE": [
+     "277bb88e8691e7583c9746cdaa9e9987bdb070ca"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:01.193+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"277bb88e8691e7583c9746cdaa9e9987bdb070ca\", \"legislationId\": 153562, \"legislationName\": \"2014/33/EU Lifts and safety components for lifts\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/33/EU.pdf\", \"rssFeed\": \"2014/33/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/33/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/33/EU Lifts and safety components for lifts"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "277bb88e8691e7583c9746cdaa9e9987bdb070ca. Available at: urn:smcs:nando_legislation:277bb88e8691e7583c9746cdaa9e9987bdb070ca"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "145dfd6b4757aa763a73e4542d6f151b3fd686a9",
+   "url": "urn:smcs:nando_legislation:145dfd6b4757aa763a73e4542d6f151b3fd686a9",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:00.872+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:28.366+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:00.887+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:145dfd6b4757aa763a73e4542d6f151b3fd686a9"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:145dfd6b4757aa763a73e4542d6f151b3fd686a9"
+    ],
+    "esST_REFERENCE": [
+     "145dfd6b4757aa763a73e4542d6f151b3fd686a9"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:00.879+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"145dfd6b4757aa763a73e4542d6f151b3fd686a9\", \"legislationId\": 153421, \"legislationName\": \"2014/29/EU Simple pressure vessels\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/29/EU.pdf\", \"rssFeed\": \"2014/29/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/29/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/29/EU Simple pressure vessels"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "145dfd6b4757aa763a73e4542d6f151b3fd686a9. Available at: urn:smcs:nando_legislation:145dfd6b4757aa763a73e4542d6f151b3fd686a9"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "01218a6363aa4b5dfc1ecf82f445448aa36d4255",
+   "url": "urn:smcs:nando_legislation:01218a6363aa4b5dfc1ecf82f445448aa36d4255",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:00.455+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:00.469+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:01218a6363aa4b5dfc1ecf82f445448aa36d4255"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:01218a6363aa4b5dfc1ecf82f445448aa36d4255"
+    ],
+    "esST_REFERENCE": [
+     "01218a6363aa4b5dfc1ecf82f445448aa36d4255"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:00.462+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"01218a6363aa4b5dfc1ecf82f445448aa36d4255\", \"legislationId\": 2, \"legislationName\": \"88/378/EEC Safety of toys \", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2011-07-20T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"88/378/EEC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "88/378/EEC Safety of toys "
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "01218a6363aa4b5dfc1ecf82f445448aa36d4255. Available at: urn:smcs:nando_legislation:01218a6363aa4b5dfc1ecf82f445448aa36d4255"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "00d8e4490659bc229a4ced9ef667cfa707b82d8b",
+   "url": "urn:smcs:nando_legislation:00d8e4490659bc229a4ced9ef667cfa707b82d8b",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:00.302+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:00.318+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "2"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:00d8e4490659bc229a4ced9ef667cfa707b82d8b"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:00d8e4490659bc229a4ced9ef667cfa707b82d8b"
+    ],
+    "esST_REFERENCE": [
+     "00d8e4490659bc229a4ced9ef667cfa707b82d8b"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:00.309+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"00d8e4490659bc229a4ced9ef667cfa707b82d8b\", \"legislationId\": 19, \"legislationName\": \"97/23/EC Pressure equipment\", \"language\": \"EN\", \"legislationStatus\": \"Obsolete\", \"legislationEndDate\": \"2016-07-19T00:00:00Z\", \"legislationStatusId\": \"2\", \"legislationCode\": \"97/23/EC\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "97/23/EC Pressure equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "00d8e4490659bc229a4ced9ef667cfa707b82d8b. Available at: urn:smcs:nando_legislation:00d8e4490659bc229a4ced9ef667cfa707b82d8b"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "00cea51113511c6dd8c3094903f29bc800e8cfd9",
+   "url": "urn:smcs:nando_legislation:00cea51113511c6dd8c3094903f29bc800e8cfd9",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T21:45:00.156+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2024-11-28T01:11:32.037+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T21:45:00.169+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:00cea51113511c6dd8c3094903f29bc800e8cfd9"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:00cea51113511c6dd8c3094903f29bc800e8cfd9"
+    ],
+    "esST_REFERENCE": [
+     "00cea51113511c6dd8c3094903f29bc800e8cfd9"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T21:45:00.163+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"00cea51113511c6dd8c3094903f29bc800e8cfd9\", \"legislationId\": 153841, \"legislationName\": \"2014/68/EU Pressure equipment\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"2014/68/EU.pdf\", \"rssFeed\": \"2014/68/EU.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"2014/68/EU\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "2014/68/EU Pressure equipment"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "00cea51113511c6dd8c3094903f29bc800e8cfd9. Available at: urn:smcs:nando_legislation:00cea51113511c6dd8c3094903f29bc800e8cfd9"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ff27ee4fba12aa2acc2e61c0751763472ca5b5f4",
+   "url": "urn:smcs:nando_legislation:ff27ee4fba12aa2acc2e61c0751763472ca5b5f4",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T15:30:00.562+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-12-09T15:30:00.577+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_legislation"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T15:30:00.577+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "legislationStatusId": [
+     "1"
+    ],
+    "url": [
+     "urn:smcs:nando_legislation:ff27ee4fba12aa2acc2e61c0751763472ca5b5f4"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_legislation:ff27ee4fba12aa2acc2e61c0751763472ca5b5f4"
+    ],
+    "esST_REFERENCE": [
+     "ff27ee4fba12aa2acc2e61c0751763472ca5b5f4"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T15:30:00.571+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ff27ee4fba12aa2acc2e61c0751763472ca5b5f4\", \"legislationId\": 168695, \"legislationName\": \"Regulation (EU) 2024/370 on products that come into contact with water intended for human consumption\", \"language\": \"EN\", \"legislationStatus\": \"Active\", \"pdfList\": \"Regulation (EU) 2024/370.pdf\", \"rssFeed\": \"Regulation (EU) 2024/370.xml\", \"legislationStatusId\": \"1\", \"legislationCode\": \"Regulation (EU) 2024/370\", \"legislationProfile\": \"Other\"}"
+    ],
+    "legislationName": [
+     "Regulation (EU) 2024/370 on products that come into contact with water intended for human consumption"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ff27ee4fba12aa2acc2e61c0751763472ca5b5f4. Available at: urn:smcs:nando_legislation:ff27ee4fba12aa2acc2e61c0751763472ca5b5f4"
+  }
+ ],
+ "warnings": []
+}

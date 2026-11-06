@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms: {{SERVICE_NAME}}</title>
+  <meta name="description" content="Terms of use for {{SERVICE_NAME}}, a free and unofficial API over NANDO.">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/site.css">
+</head>
+<body>
+  <a class="skip" href="#terms-title">Skip to the terms</a>
+  <header class="masthead">
+    <a class="wordmark" href="/">{{SERVICE_NAME}}</a>
+    <nav aria-label="Sections">
+      <a href="/#check">Check</a>
+      <a href="/#endpoints">Endpoints</a>
+      <a href="/#alerts">Alerts</a>
+      <a href="/docs">API docs</a>
+    </nav>
+  </header>
+
+  <main class="terms">
+    <h1 id="terms-title">Terms</h1>
+    <p class="updated">Last changed 2026-11-06</p>
+    <ol>
+      <li>
+        <h2>Free to use</h2>
+        <p>The API, the Atom feeds, and the daily exports are free. There is no account, no key, and no paid plan. Please keep automated use reasonable; the service may slow down or block very heavy traffic so it stays up for everyone.</p>
+      </li>
+      <li>
+        <h2>Unofficial</h2>
+        <p>This service is not affiliated with or endorsed by the European Commission. NANDO, at the <a href="https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies">Single Market Compliance Space</a>, is the official source.</p>
+      </li>
+      <li>
+        <h2>Data as published</h2>
+        <p>The data is what the Commission publishes in NANDO, copied at the time shown in <code>as_of</code> on every answer. Between syncs, NANDO can be ahead of this service. Every answer also carries <code>stale</code>, which is true when the last successful sync is more than {{STALE_HOURS}} hours old. Change events and the <code>since</code> date are worked out by this service and can be wrong.</p>
+      </li>
+      <li>
+        <h2>No warranty</h2>
+        <p>The service and the data come as they are, with no warranty of any kind, and without liability for any loss from using them. Before you rely on a result for a legal or commercial decision, check it against NANDO itself.</p>
+      </li>
+      <li>
+        <h2>Licence and attribution</h2>
+        <p>This service reuses the data under the Commission's reuse policy, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011D0833">Commission Decision 2011/833/EU</a>. The Commission adopted <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> as the open licence for that policy (Commission Decision C(2019) 1655 of 22 February 2019), and applies it to Commission content unless otherwise indicated; see the Commission's <a href="https://commission.europa.eu/legal-notice_en">legal notice</a>. If you republish it, keep the credit "European Commission, NANDO", the source link, the licence link and the list of changes, and add the changes you make yourself. This service has restructured the records, removed personal contact fields, converted times to UTC, added status names, and derived change events.</p>
+      </li>
+      <li>
+        <h2>Personal data</h2>
+        <p>This service does not publish email addresses or phone and fax numbers, even when the source puts one in the website field. The service does not ask for or store personal data from its users beyond standard server logs.</p>
+      </li>
+      <li>
+        <h2>Corrections and removal</h2>
+        <p>To ask for a correction or for the removal of a record, open an issue at <a href="https://github.com/rdeknijf/notified-body-check/issues">github.com/rdeknijf/notified-body-check</a>. This service cannot fix an error in the source data; NANDO has to correct it, and this service shows the correction after its next sync. On a reasonable request from the European Commission or from a body listed in NANDO, the maintainer takes the records concerned, or the whole service, offline.</p>
+      </li>
+      <li>
+        <h2>It may stop</h2>
+        <p>The service depends on how the Commission publishes NANDO. If the source changes or access ends, the service may change or stop without notice.</p>
+      </li>
+    </ol>
+    <p><a href="/">Back to the start page</a></p>
+  </main>
+
+  <footer class="colophon">
+    <span>{{SERVICE_NAME}}</span>
+    <a href="/terms">Terms</a>
+    <a href="/docs">API docs</a>
+    <a href="/v1/status">Status</a>
+  </footer>
+</body>
+</html>

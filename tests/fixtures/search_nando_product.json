@@ -1,0 +1,164 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 21,
+ "totalResults": 14986,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "b19c11890091790c30f24dc0f73c9ae42f3ac56c",
+   "url": "urn:smcs:nando_product:b19c11890091790c30f24dc0f73c9ae42f3ac56c",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-16T18:05:03.445+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-02-16T18:05:03.463+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_product"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-16T18:05:03.463+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_product:b19c11890091790c30f24dc0f73c9ae42f3ac56c"
+    ],
+    "productName": [
+     "Permanent anchor devices  and safety hooks"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_product:b19c11890091790c30f24dc0f73c9ae42f3ac56c"
+    ],
+    "esST_REFERENCE": [
+     "b19c11890091790c30f24dc0f73c9ae42f3ac56c"
+    ],
+    "isHtc": [
+     "N"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-16T18:05:03.457+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"b19c11890091790c30f24dc0f73c9ae42f3ac56c\", \"productId\": 171892, \"productName\": \"Permanent anchor devices  and safety hooks\", \"language\": \"EN\", \"legislationId\": 33, \"isHtc\": \"N\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "b19c11890091790c30f24dc0f73c9ae42f3ac56c. Available at: urn:smcs:nando_product:b19c11890091790c30f24dc0f73c9ae42f3ac56c"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0",
+   "url": "urn:smcs:nando_product:4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-16T18:05:03.196+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-02-16T18:05:03.217+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_product"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-16T18:05:03.217+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_product:4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0"
+    ],
+    "productName": [
+     "Residential solid fuel burning appliances – Part  2-7: Combination  appliances fired by wood  logs and pellets"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_product:4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0"
+    ],
+    "esST_REFERENCE": [
+     "4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0"
+    ],
+    "isHtc": [
+     "N"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-16T18:05:03.211+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0\", \"productId\": 171890, \"productName\": \"Residential solid fuel burning appliances – Part  2-7: Combination  appliances fired by wood  logs and pellets\", \"language\": \"EN\", \"legislationId\": 33, \"isHtc\": \"N\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "EN"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0. Available at: urn:smcs:nando_product:4dc59a7a9ac3dab5eaca9734d621c64170e2a9c0"
+  }
+ ],
+ "warnings": []
+}

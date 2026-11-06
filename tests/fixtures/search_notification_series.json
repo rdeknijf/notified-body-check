@@ -1,0 +1,1200 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 24,
+ "totalResults": 4,
+ "pageNumber": 1,
+ "pageSize": 10,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ecdb9420c11648fe9d6a0347ce50253e2e857500",
+   "url": "urn:smcs:nando_notification:ecdb9420c11648fe9d6a0347ce50253e2e857500",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "groupById": "EPOS_43805NB",
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "notificationStatusId": [
+     "1"
+    ],
+    "es_SortDate": [
+     "2026-10-21T16:20:03.591+0200"
+    ],
+    "displayTypeAndNumber": [
+     "NB 0483"
+    ],
+    "bodyNumber": [
+     "483"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "http://www.mdc-ce.de"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "ecdb9420c11648fe9d6a0347ce50253e2e857500"
+    ],
+    "notificationLegislationId": [
+     "34"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ecdb9420c11648fe9d6a0347ce50253e2e857500\", \"notificationId\": 1016902, \"organizationName\": \"mdc medical device certification GmbH\", \"organizationRefeCd\": \"EPOS_43805\", \"organizationRefeCdAndType\": \"EPOS_43805NB\", \"bodyNumber\": 483, \"bodyTypeId\": 3, \"bodyTypeAbbr\": \"NB\", \"displayTypeAndNumber\": \"NB 0483\", \"organizationCountryId\": 276, \"organizationCountryName\": \"Germany\", \"organizationStreetAndNumber\": \"Kriegerstrasse  6\", \"organizationZipCodeAndCity\": \"70191 Stuttgart\", \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"http://www.mdc-ce.de\", \"organizationVersion\": 9, \"notificationStatusId\": 1, \"notificationIfLatestVersion\": \"N\", \"notificationVersion\": 3, \"notificationLegislationId\": 34, \"notificationUpdateDate\": \"2026-10-21T16:14:11Z\", \"notificationAccreditationFl\": \"Y\", \"notificationAccreditationExpiryDate\": \"2027-04-26T00:00:00Z\", \"notificationLastApprovalDate\": \"2025-03-19T00:00:00Z\", \"notificationJcdNumber\": \"12122025_Y\", \"notificationLegislationCode\": \"Regulation (EU) 2017/745\", \"notificationLegislationKeyword\": \"Regulation (EU) 2017/745 on medical devices\", \"notificationLegislationName\": [{\"language\": \"EN\", \"name\": \"Regulation (EU) 2017/745 on medical devices\"}], \"notificationProductIds\": [158143, 158169, 158265, 158271, 158161, 158237, 158269, 158173, 158201, 158211, 158261, 158273, 158167, 158179, 158203, 158207, 158213, 158253, 158259, 158141, 158209, 158235, 158243, 158277, 158164, 158171, 158187, 158191, 158241, 158245, 158255, 158263, 158267, 158233, 158195, 158197, 158257, 158275, 158181, 158183, 158189, 158193, 158199, 158205, 158247, 158279], \"notificationProductKeyword\": [\"2.   Active non-implantable devices for imaging, monitoring and/or diagnosis\", \"MDA 0314\\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDA 0308\\tActive non-implantable devices for wound and skin care\", \"MDA 0315\\tSoftware\", \"MDA 0313\\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport\", \"MDA 0201\\tActive non-implantable imaging devices utilising ionizing radiation\", \"MDN 1203\\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools\", \"MDA 0301\\tActive non-implantable devices utilising ionizing radiation\", \"MDN 1103\\tNon-active dental implants and dental materials\", \"MDN 1102\\tNon-active osteo- and orthopaedic implants\", \"MDN 1101\\tNon-active cardiovascular, vascular and neurovascular implants\", \"MDN 1202\\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis\", \"MDN 1104\\tNon-active soft tissue and other implants\", \"3.   Active non-implantable therapeutic devices and general active non-implantable devices\", \"MDA 0202\\tActive non-implantable imaging devices utilising non-ionizing radiation\", \"MDA 0306\\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis\", \"I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE\", \"1.   Non-active implants and long term surgically invasive devices\", \"MDA 0302\\tActive non-implantable devices utilising non-ionizing radiation\", \"MDA 0303\\tActive non-implantable devices utilising hyperthermia/hypothermia\", \"MDA 0310\\tActive non-implantable devices for ear, nose and throat\", \"MDA 0309\\tActive non-implantable ophthalmologic devices\", \"MDN 1213\\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route\", \"MDA 0203\\tActive non-implantable devices for monitoring of vital physiological parameters\", \"MDN 1208\\tNon-active non-implantable instruments\", \"2.   Non-active non-implantable devices\", \"MDN 1204\\tNon-active non-implantable devices for wound and skin care\", \"MDN 1214\\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices\", \"MDA 0311\\tActive non-implantable dental devices\", \"MDA 0305\\tActive non-implantable devices for stimulation or inhibition\", \"MDN 1211\\tNon-active non-implantable devices for disinfecting, cleaning and rinsing\", \"MDN 1201\\tNon-active non-implantable devices for anaesthesia, emergency and intensive care\", \"MDN 1205\\tNon-active non-implantable orthopaedic and rehabilitation devices\", \"MDN 1207\\tNon-active non-implantable diagnostic devices\", \"MDN 1209\\tNon-active non-implantable dental materials\", \"MDA 0317\\tActive non-implantable devices for cleaning, disinfection and sterilisation\", \"MDA 0318\\tOther active non-implantable devices\", \"MDA 0312\\tOther active non-implantable surgical devices\", \"A.   Active devices\", \"MDN 1212\\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDN 1210\\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases\", \"MDA 0204\\tOther active non-implantable devices for monitoring and/or diagnosis\", \"MDA 0307\\tActive non-implantable respiratory devices\", \"MDA 0316\\tMedical gas supply systems and parts thereof\", \"B.   Non-active devices\", \"MDN 1206\\tNon-active non-implantable ophthalmologic devices\"], \"notificationHtcIds\": [158313, 158319, 158349, 158367, 158347, 158355, 158311, 158315, 158323, 158303, 158307, 158309, 158325, 158329, 158353, 158327, 158351, 158365, 158317, 158345, 158357, 158359, 158361, 158321, 158363, 158369], \"notificationHtcKeyword\": [\"MDS 1005\\tDevices in sterile condition\", \"MDT 2012\\tDevices which require installation, refurbishment\", \"MDS 1008\\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body\", \"MDS 1013\\tClass III custom-made implantable devices\", \"MDS 1003\\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives\", \"MDS 1014\\tDevices incorporating as an integral part an in vitro diagnostic device\", \"MDT 2011\\tDevices which require packaging, including labelling\", \"MDS 1010\\tDevices with a measuring function\", \"MDS 1012\\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745\", \"MDT 2001\\tDevices manufactured using metal processing\", \"MDT 2009\\tDevices manufactured using processing of materials of human, animal, or microbial origin\", \"MDT 2007\\tDevices which require knowledge regarding the production of pharmaceuticals\", \"MDS 1006\\tReusable surgical instruments\", \"MDS 1004\\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)\", \"MDT 2006\\tDevices manufactured using chemical processing\", \"MDT 2002\\tDevices manufactured using plastic processing\", \"MDS 1001\\tDevices incorporating medicinal substances\", \"MDS 1009\\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices\", \"MDS 1011\\tDevices in systems or procedure packs\", \"MDT 2008\\tDevices manufactured in clean rooms and associated controlled environments\", \"MDT 2005\\tDevices manufactured using biotechnology\", \"MDT 2004\\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)\", \"MDT 2010\\tDevices manufactured using electronic components including communication devices\", \"MDT 2003\\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)\", \"MDT 2013\\tDevices which have undergone reprocessing\", \"MDS 1007\\tDevices incorporating or consisting of nanomaterial\"], \"notificationProcedureIds\": [158708, 158707, 158709], \"notificationProcedureKeyword\": [\"Conformity assessment based on a quality management system\", \"Conformity assessment based on assessment of technical documentation\", \"Conformity assessment based on product quality assurance\"], \"notificationAnnexIds\": [158702, 158703, 158701], \"notificationAnnexKeyword\": [\"Annex IX(II)\", \"Annex XI(A)\", \"Annex IX(I)\"], \"notificationTemplate\": {\"id\": 56, \"profile\": \"MedicalDevices\", \"horizTechComp\": \"Y\", \"products\": \"Product\", \"limitationsV2\": \"Conditions\", \"comments\": null, \"remark\": null, \"inVitroMed\": \"N\", \"canAddProducts\": \"N\", \"productsHierarchy\": \"N\"}}"
+    ],
+    "notificationHtcKeyword": [
+     "MDS 1005\tDevices in sterile condition",
+     "MDT 2012\tDevices which require installation, refurbishment",
+     "MDS 1008\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body",
+     "MDS 1013\tClass III custom-made implantable devices",
+     "MDS 1003\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives",
+     "MDS 1014\tDevices incorporating as an integral part an in vitro diagnostic device",
+     "MDT 2011\tDevices which require packaging, including labelling",
+     "MDS 1010\tDevices with a measuring function",
+     "MDS 1012\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745",
+     "MDT 2001\tDevices manufactured using metal processing",
+     "MDT 2009\tDevices manufactured using processing of materials of human, animal, or microbial origin",
+     "MDT 2007\tDevices which require knowledge regarding the production of pharmaceuticals",
+     "MDS 1006\tReusable surgical instruments",
+     "MDS 1004\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)",
+     "MDT 2006\tDevices manufactured using chemical processing",
+     "MDT 2002\tDevices manufactured using plastic processing",
+     "MDS 1001\tDevices incorporating medicinal substances",
+     "MDS 1009\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices",
+     "MDS 1011\tDevices in systems or procedure packs",
+     "MDT 2008\tDevices manufactured in clean rooms and associated controlled environments",
+     "MDT 2005\tDevices manufactured using biotechnology",
+     "MDT 2004\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)",
+     "MDT 2010\tDevices manufactured using electronic components including communication devices",
+     "MDT 2003\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)",
+     "MDT 2013\tDevices which have undergone reprocessing",
+     "MDS 1007\tDevices incorporating or consisting of nanomaterial"
+    ],
+    "notificationVersion": [
+     "3"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "notificationLegislationKeyword": [
+     "Regulation (EU) 2017/745 on medical devices"
+    ],
+    "notificationAnnexIds": [
+     "158702",
+     "158703",
+     "158701"
+    ],
+    "notificationProcedureKeyword": [
+     "Conformity assessment based on a quality management system",
+     "Conformity assessment based on assessment of technical documentation",
+     "Conformity assessment based on product quality assurance"
+    ],
+    "notificationHtcIds": [
+     "158313",
+     "158319",
+     "158349",
+     "158367",
+     "158347",
+     "158355",
+     "158311",
+     "158315",
+     "158323",
+     "158303",
+     "158307",
+     "158309",
+     "158325",
+     "158329",
+     "158353",
+     "158327",
+     "158351",
+     "158365",
+     "158317",
+     "158345",
+     "158357",
+     "158359",
+     "158361",
+     "158321",
+     "158363",
+     "158369"
+    ],
+    "notificationId": [
+     "1016902"
+    ],
+    "notificationProductKeyword": [
+     "2.   Active non-implantable devices for imaging, monitoring and/or diagnosis",
+     "MDA 0314\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDA 0308\tActive non-implantable devices for wound and skin care",
+     "MDA 0315\tSoftware",
+     "MDA 0313\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport",
+     "MDA 0201\tActive non-implantable imaging devices utilising ionizing radiation",
+     "MDN 1203\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools",
+     "MDA 0301\tActive non-implantable devices utilising ionizing radiation",
+     "MDN 1103\tNon-active dental implants and dental materials",
+     "MDN 1102\tNon-active osteo- and orthopaedic implants",
+     "MDN 1101\tNon-active cardiovascular, vascular and neurovascular implants",
+     "MDN 1202\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis",
+     "MDN 1104\tNon-active soft tissue and other implants",
+     "3.   Active non-implantable therapeutic devices and general active non-implantable devices",
+     "MDA 0202\tActive non-implantable imaging devices utilising non-ionizing radiation",
+     "MDA 0306\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis",
+     "I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE",
+     "1.   Non-active implants and long term surgically invasive devices",
+     "MDA 0302\tActive non-implantable devices utilising non-ionizing radiation",
+     "MDA 0303\tActive non-implantable devices utilising hyperthermia/hypothermia",
+     "MDA 0310\tActive non-implantable devices for ear, nose and throat",
+     "MDA 0309\tActive non-implantable ophthalmologic devices",
+     "MDN 1213\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route",
+     "MDA 0203\tActive non-implantable devices for monitoring of vital physiological parameters",
+     "MDN 1208\tNon-active non-implantable instruments",
+     "2.   Non-active non-implantable devices",
+     "MDN 1204\tNon-active non-implantable devices for wound and skin care",
+     "MDN 1214\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices",
+     "MDA 0311\tActive non-implantable dental devices",
+     "MDA 0305\tActive non-implantable devices for stimulation or inhibition",
+     "MDN 1211\tNon-active non-implantable devices for disinfecting, cleaning and rinsing",
+     "MDN 1201\tNon-active non-implantable devices for anaesthesia, emergency and intensive care",
+     "MDN 1205\tNon-active non-implantable orthopaedic and rehabilitation devices",
+     "MDN 1207\tNon-active non-implantable diagnostic devices",
+     "MDN 1209\tNon-active non-implantable dental materials",
+     "MDA 0317\tActive non-implantable devices for cleaning, disinfection and sterilisation",
+     "MDA 0318\tOther active non-implantable devices",
+     "MDA 0312\tOther active non-implantable surgical devices",
+     "A.   Active devices",
+     "MDN 1212\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDN 1210\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases",
+     "MDA 0204\tOther active non-implantable devices for monitoring and/or diagnosis",
+     "MDA 0307\tActive non-implantable respiratory devices",
+     "MDA 0316\tMedical gas supply systems and parts thereof",
+     "B.   Non-active devices",
+     "MDN 1206\tNon-active non-implantable ophthalmologic devices"
+    ],
+    "notificationAnnexKeyword": [
+     "Annex IX(II)",
+     "Annex XI(A)",
+     "Annex IX(I)"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Kriegerstrasse  6"
+    ],
+    "organizationName": [
+     "mdc medical device certification GmbH"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-03-19T19:39:06.553+0100"
+    ],
+    "csType": [
+     "nando_notification"
+    ],
+    "esDA_IngestDate": [
+     "2026-10-21T16:20:03.662+0200"
+    ],
+    "organizationRefeCdAndType": [
+     "EPOS_43805NB"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_notification:ecdb9420c11648fe9d6a0347ce50253e2e857500"
+    ],
+    "es_Combine": [
+     "EPOS_43805NB"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_notification:ecdb9420c11648fe9d6a0347ce50253e2e857500"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43805"
+    ],
+    "esDA_QueueDate": [
+     "2026-10-21T16:20:03.638+0200"
+    ],
+    "notificationProcedureIds": [
+     "158708",
+     "158707",
+     "158709"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "notificationIfLatestVersion": [
+     "N"
+    ],
+    "organizationCountryId": [
+     "276"
+    ],
+    "orgFax": [
+     "+00 0"
+    ],
+    "notificationProductIds": [
+     "158143",
+     "158169",
+     "158265",
+     "158271",
+     "158161",
+     "158237",
+     "158269",
+     "158173",
+     "158201",
+     "158211",
+     "158261",
+     "158273",
+     "158167",
+     "158179",
+     "158203",
+     "158207",
+     "158213",
+     "158253",
+     "158259",
+     "158141",
+     "158209",
+     "158235",
+     "158243",
+     "158277",
+     "158164",
+     "158171",
+     "158187",
+     "158191",
+     "158241",
+     "158245",
+     "158255",
+     "158263",
+     "158267",
+     "158233",
+     "158195",
+     "158197",
+     "158257",
+     "158275",
+     "158181",
+     "158183",
+     "158189",
+     "158193",
+     "158199",
+     "158205",
+     "158247",
+     "158279"
+    ],
+    "countryName": [
+     "Germany"
+    ],
+    "orgAddressCity": [
+     "70191 Stuttgart"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ecdb9420c11648fe9d6a0347ce50253e2e857500. Available at: urn:smcs:nando_notification:ecdb9420c11648fe9d6a0347ce50253e2e857500"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "6ffd6fb0dec49c60647335e48f7c8ce458725069",
+   "url": "urn:smcs:nando_notification:6ffd6fb0dec49c60647335e48f7c8ce458725069",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "groupById": "EPOS_43805NB",
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "notificationStatusId": [
+     "1"
+    ],
+    "es_SortDate": [
+     "2026-10-21T16:20:03.352+0200"
+    ],
+    "displayTypeAndNumber": [
+     "NB 0483"
+    ],
+    "bodyNumber": [
+     "483"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "http://www.mdc-ce.de"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "6ffd6fb0dec49c60647335e48f7c8ce458725069"
+    ],
+    "notificationLegislationId": [
+     "34"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"6ffd6fb0dec49c60647335e48f7c8ce458725069\", \"notificationId\": 1028568, \"organizationName\": \"mdc medical device certification GmbH\", \"organizationRefeCd\": \"EPOS_43805\", \"organizationRefeCdAndType\": \"EPOS_43805NB\", \"bodyNumber\": 483, \"bodyTypeId\": 3, \"bodyTypeAbbr\": \"NB\", \"displayTypeAndNumber\": \"NB 0483\", \"organizationCountryId\": 276, \"organizationCountryName\": \"Germany\", \"organizationStreetAndNumber\": \"Kriegerstrasse  6\", \"organizationZipCodeAndCity\": \"70191 Stuttgart\", \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"http://www.mdc-ce.de\", \"organizationVersion\": 9, \"notificationStatusId\": 1, \"notificationIfLatestVersion\": \"Y\", \"notificationVersion\": 4, \"notificationLegislationId\": 34, \"notificationUpdateDate\": \"2026-10-21T16:14:11Z\", \"notificationAccreditationFl\": \"Y\", \"notificationAccreditationExpiryDate\": \"2030-04-25T00:00:00Z\", \"notificationLastApprovalDate\": \"2026-10-21T00:00:00Z\", \"notificationJcdNumber\": \"12122025_Y\", \"notificationLegislationCode\": \"Regulation (EU) 2017/745\", \"notificationLegislationKeyword\": \"Regulation (EU) 2017/745 on medical devices\", \"notificationLegislationName\": [{\"language\": \"EN\", \"name\": \"Regulation (EU) 2017/745 on medical devices\"}], \"notificationProductIds\": [158143, 158265, 158271, 158169, 158237, 158269, 158161, 158261, 158273, 158173, 158201, 158211, 158253, 158259, 158167, 158179, 158203, 158207, 158213, 158243, 158235, 158141, 158277, 158209, 158241, 158245, 158255, 158263, 158267, 158164, 158171, 158187, 158191, 158233, 158257, 158275, 158195, 158197, 158247, 158279, 158181, 158183, 158189, 158193, 158199, 158205], \"notificationProductKeyword\": [\"MDN 1102\\tNon-active osteo- and orthopaedic implants\", \"MDN 1202\\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis\", \"MDA 0311\\tActive non-implantable dental devices\", \"MDN 1101\\tNon-active cardiovascular, vascular and neurovascular implants\", \"1.   Non-active implants and long term surgically invasive devices\", \"MDA 0314\\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDN 1201\\tNon-active non-implantable devices for anaesthesia, emergency and intensive care\", \"MDA 0204\\tOther active non-implantable devices for monitoring and/or diagnosis\", \"MDA 0312\\tOther active non-implantable surgical devices\", \"MDA 0306\\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis\", \"MDA 0309\\tActive non-implantable ophthalmologic devices\", \"MDN 1104\\tNon-active soft tissue and other implants\", \"MDN 1214\\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices\", \"2.   Non-active non-implantable devices\", \"MDN 1211\\tNon-active non-implantable devices for disinfecting, cleaning and rinsing\", \"MDN 1207\\tNon-active non-implantable diagnostic devices\", \"MDA 0202\\tActive non-implantable imaging devices utilising non-ionizing radiation\", \"MDA 0310\\tActive non-implantable devices for ear, nose and throat\", \"2.   Active non-implantable devices for imaging, monitoring and/or diagnosis\", \"MDA 0303\\tActive non-implantable devices utilising hyperthermia/hypothermia\", \"A.   Active devices\", \"MDA 0203\\tActive non-implantable devices for monitoring of vital physiological parameters\", \"MDN 1208\\tNon-active non-implantable instruments\", \"MDA 0317\\tActive non-implantable devices for cleaning, disinfection and sterilisation\", \"MDN 1203\\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools\", \"MDN 1209\\tNon-active non-implantable dental materials\", \"MDA 0307\\tActive non-implantable respiratory devices\", \"MDN 1210\\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases\", \"MDA 0315\\tSoftware\", \"I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE\", \"MDA 0201\\tActive non-implantable imaging devices utilising ionizing radiation\", \"MDA 0302\\tActive non-implantable devices utilising non-ionizing radiation\", \"3.   Active non-implantable therapeutic devices and general active non-implantable devices\", \"MDA 0313\\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport\", \"MDN 1205\\tNon-active non-implantable orthopaedic and rehabilitation devices\", \"MDA 0301\\tActive non-implantable devices utilising ionizing radiation\", \"MDA 0305\\tActive non-implantable devices for stimulation or inhibition\", \"MDA 0308\\tActive non-implantable devices for wound and skin care\", \"MDA 0318\\tOther active non-implantable devices\", \"MDN 1206\\tNon-active non-implantable ophthalmologic devices\", \"MDN 1212\\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDN 1204\\tNon-active non-implantable devices for wound and skin care\", \"MDN 1213\\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route\", \"MDA 0316\\tMedical gas supply systems and parts thereof\", \"MDN 1103\\tNon-active dental implants and dental materials\", \"B.   Non-active devices\"], \"notificationHtcIds\": [158313, 158319, 158349, 158367, 158347, 158355, 158311, 158315, 158323, 158303, 158307, 158309, 158325, 158329, 158353, 158327, 158351, 158365, 158317, 158345, 158357, 158359, 158361, 158321, 158363, 158369], \"notificationHtcKeyword\": [\"MDS 1003\\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives\", \"MDT 2010\\tDevices manufactured using electronic components including communication devices\", \"MDS 1004\\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)\", \"MDT 2001\\tDevices manufactured using metal processing\", \"MDT 2007\\tDevices which require knowledge regarding the production of pharmaceuticals\", \"MDS 1010\\tDevices with a measuring function\", \"MDT 2004\\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)\", \"MDS 1006\\tReusable surgical instruments\", \"MDT 2005\\tDevices manufactured using biotechnology\", \"MDT 2008\\tDevices manufactured in clean rooms and associated controlled environments\", \"MDS 1012\\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745\", \"MDS 1005\\tDevices in sterile condition\", \"MDT 2012\\tDevices which require installation, refurbishment\", \"MDS 1008\\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body\", \"MDT 2002\\tDevices manufactured using plastic processing\", \"MDT 2011\\tDevices which require packaging, including labelling\", \"MDT 2006\\tDevices manufactured using chemical processing\", \"MDS 1011\\tDevices in systems or procedure packs\", \"MDT 2009\\tDevices manufactured using processing of materials of human, animal, or microbial origin\", \"MDS 1013\\tClass III custom-made implantable devices\", \"MDS 1009\\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices\", \"MDS 1014\\tDevices incorporating as an integral part an in vitro diagnostic device\", \"MDS 1007\\tDevices incorporating or consisting of nanomaterial\", \"MDT 2003\\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)\", \"MDT 2013\\tDevices which have undergone reprocessing\", \"MDS 1001\\tDevices incorporating medicinal substances\"], \"notificationProcedureIds\": [158708, 158707, 158709], \"notificationProcedureKeyword\": [\"Conformity assessment based on a quality management system\", \"Conformity assessment based on assessment of technical documentation\", \"Conformity assessment based on product quality assurance\"], \"notificationAnnexIds\": [158702, 158703, 158701], \"notificationAnnexKeyword\": [\"Annex IX(II)\", \"Annex IX(I)\", \"Annex XI(A)\"], \"notificationTemplate\": {\"id\": 56, \"profile\": \"MedicalDevices\", \"horizTechComp\": \"Y\", \"products\": \"Product\", \"limitationsV2\": \"Conditions\", \"comments\": null, \"remark\": null, \"inVitroMed\": \"N\", \"canAddProducts\": \"N\", \"productsHierarchy\": \"N\"}}"
+    ],
+    "notificationHtcKeyword": [
+     "MDS 1003\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives",
+     "MDT 2010\tDevices manufactured using electronic components including communication devices",
+     "MDS 1004\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)",
+     "MDT 2001\tDevices manufactured using metal processing",
+     "MDT 2007\tDevices which require knowledge regarding the production of pharmaceuticals",
+     "MDS 1010\tDevices with a measuring function",
+     "MDT 2004\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)",
+     "MDS 1006\tReusable surgical instruments",
+     "MDT 2005\tDevices manufactured using biotechnology",
+     "MDT 2008\tDevices manufactured in clean rooms and associated controlled environments",
+     "MDS 1012\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745",
+     "MDS 1005\tDevices in sterile condition",
+     "MDT 2012\tDevices which require installation, refurbishment",
+     "MDS 1008\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body",
+     "MDT 2002\tDevices manufactured using plastic processing",
+     "MDT 2011\tDevices which require packaging, including labelling",
+     "MDT 2006\tDevices manufactured using chemical processing",
+     "MDS 1011\tDevices in systems or procedure packs",
+     "MDT 2009\tDevices manufactured using processing of materials of human, animal, or microbial origin",
+     "MDS 1013\tClass III custom-made implantable devices",
+     "MDS 1009\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices",
+     "MDS 1014\tDevices incorporating as an integral part an in vitro diagnostic device",
+     "MDS 1007\tDevices incorporating or consisting of nanomaterial",
+     "MDT 2003\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)",
+     "MDT 2013\tDevices which have undergone reprocessing",
+     "MDS 1001\tDevices incorporating medicinal substances"
+    ],
+    "notificationVersion": [
+     "4"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "notificationLegislationKeyword": [
+     "Regulation (EU) 2017/745 on medical devices"
+    ],
+    "notificationAnnexIds": [
+     "158702",
+     "158703",
+     "158701"
+    ],
+    "notificationProcedureKeyword": [
+     "Conformity assessment based on a quality management system",
+     "Conformity assessment based on assessment of technical documentation",
+     "Conformity assessment based on product quality assurance"
+    ],
+    "notificationHtcIds": [
+     "158313",
+     "158319",
+     "158349",
+     "158367",
+     "158347",
+     "158355",
+     "158311",
+     "158315",
+     "158323",
+     "158303",
+     "158307",
+     "158309",
+     "158325",
+     "158329",
+     "158353",
+     "158327",
+     "158351",
+     "158365",
+     "158317",
+     "158345",
+     "158357",
+     "158359",
+     "158361",
+     "158321",
+     "158363",
+     "158369"
+    ],
+    "notificationId": [
+     "1028568"
+    ],
+    "notificationProductKeyword": [
+     "MDN 1102\tNon-active osteo- and orthopaedic implants",
+     "MDN 1202\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis",
+     "MDA 0311\tActive non-implantable dental devices",
+     "MDN 1101\tNon-active cardiovascular, vascular and neurovascular implants",
+     "1.   Non-active implants and long term surgically invasive devices",
+     "MDA 0314\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDN 1201\tNon-active non-implantable devices for anaesthesia, emergency and intensive care",
+     "MDA 0204\tOther active non-implantable devices for monitoring and/or diagnosis",
+     "MDA 0312\tOther active non-implantable surgical devices",
+     "MDA 0306\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis",
+     "MDA 0309\tActive non-implantable ophthalmologic devices",
+     "MDN 1104\tNon-active soft tissue and other implants",
+     "MDN 1214\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices",
+     "2.   Non-active non-implantable devices",
+     "MDN 1211\tNon-active non-implantable devices for disinfecting, cleaning and rinsing",
+     "MDN 1207\tNon-active non-implantable diagnostic devices",
+     "MDA 0202\tActive non-implantable imaging devices utilising non-ionizing radiation",
+     "MDA 0310\tActive non-implantable devices for ear, nose and throat",
+     "2.   Active non-implantable devices for imaging, monitoring and/or diagnosis",
+     "MDA 0303\tActive non-implantable devices utilising hyperthermia/hypothermia",
+     "A.   Active devices",
+     "MDA 0203\tActive non-implantable devices for monitoring of vital physiological parameters",
+     "MDN 1208\tNon-active non-implantable instruments",
+     "MDA 0317\tActive non-implantable devices for cleaning, disinfection and sterilisation",
+     "MDN 1203\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools",
+     "MDN 1209\tNon-active non-implantable dental materials",
+     "MDA 0307\tActive non-implantable respiratory devices",
+     "MDN 1210\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases",
+     "MDA 0315\tSoftware",
+     "I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE",
+     "MDA 0201\tActive non-implantable imaging devices utilising ionizing radiation",
+     "MDA 0302\tActive non-implantable devices utilising non-ionizing radiation",
+     "3.   Active non-implantable therapeutic devices and general active non-implantable devices",
+     "MDA 0313\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport",
+     "MDN 1205\tNon-active non-implantable orthopaedic and rehabilitation devices",
+     "MDA 0301\tActive non-implantable devices utilising ionizing radiation",
+     "MDA 0305\tActive non-implantable devices for stimulation or inhibition",
+     "MDA 0308\tActive non-implantable devices for wound and skin care",
+     "MDA 0318\tOther active non-implantable devices",
+     "MDN 1206\tNon-active non-implantable ophthalmologic devices",
+     "MDN 1212\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDN 1204\tNon-active non-implantable devices for wound and skin care",
+     "MDN 1213\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route",
+     "MDA 0316\tMedical gas supply systems and parts thereof",
+     "MDN 1103\tNon-active dental implants and dental materials",
+     "B.   Non-active devices"
+    ],
+    "notificationAnnexKeyword": [
+     "Annex IX(II)",
+     "Annex IX(I)",
+     "Annex XI(A)"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Kriegerstrasse  6"
+    ],
+    "organizationName": [
+     "mdc medical device certification GmbH"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-10-21T16:20:03.409+0200"
+    ],
+    "csType": [
+     "nando_notification"
+    ],
+    "esDA_IngestDate": [
+     "2026-10-21T16:20:03.409+0200"
+    ],
+    "organizationRefeCdAndType": [
+     "EPOS_43805NB"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_notification:6ffd6fb0dec49c60647335e48f7c8ce458725069"
+    ],
+    "es_Combine": [
+     "EPOS_43805NB"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_notification:6ffd6fb0dec49c60647335e48f7c8ce458725069"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43805"
+    ],
+    "esDA_QueueDate": [
+     "2026-10-21T16:20:03.404+0200"
+    ],
+    "notificationProcedureIds": [
+     "158708",
+     "158707",
+     "158709"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "notificationIfLatestVersion": [
+     "Y"
+    ],
+    "organizationCountryId": [
+     "276"
+    ],
+    "orgFax": [
+     "+00 0"
+    ],
+    "notificationProductIds": [
+     "158143",
+     "158265",
+     "158271",
+     "158169",
+     "158237",
+     "158269",
+     "158161",
+     "158261",
+     "158273",
+     "158173",
+     "158201",
+     "158211",
+     "158253",
+     "158259",
+     "158167",
+     "158179",
+     "158203",
+     "158207",
+     "158213",
+     "158243",
+     "158235",
+     "158141",
+     "158277",
+     "158209",
+     "158241",
+     "158245",
+     "158255",
+     "158263",
+     "158267",
+     "158164",
+     "158171",
+     "158187",
+     "158191",
+     "158233",
+     "158257",
+     "158275",
+     "158195",
+     "158197",
+     "158247",
+     "158279",
+     "158181",
+     "158183",
+     "158189",
+     "158193",
+     "158199",
+     "158205"
+    ],
+    "countryName": [
+     "Germany"
+    ],
+    "orgAddressCity": [
+     "70191 Stuttgart"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "6ffd6fb0dec49c60647335e48f7c8ce458725069. Available at: urn:smcs:nando_notification:6ffd6fb0dec49c60647335e48f7c8ce458725069"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "56032af7da39bb1e1c6ba5580cb00d161ffc083b",
+   "url": "urn:smcs:nando_notification:56032af7da39bb1e1c6ba5580cb00d161ffc083b",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "groupById": "EPOS_43805NB",
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "notificationStatusId": [
+     "1"
+    ],
+    "es_SortDate": [
+     "2026-09-03T17:55:50.137+0200"
+    ],
+    "displayTypeAndNumber": [
+     "NB 0483"
+    ],
+    "bodyNumber": [
+     "483"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "http://www.mdc-ce.de"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "56032af7da39bb1e1c6ba5580cb00d161ffc083b"
+    ],
+    "notificationLegislationId": [
+     "34"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"56032af7da39bb1e1c6ba5580cb00d161ffc083b\", \"notificationId\": 322944, \"organizationName\": \"mdc medical device certification GmbH\", \"organizationRefeCd\": \"EPOS_43805\", \"organizationRefeCdAndType\": \"EPOS_43805NB\", \"bodyNumber\": 483, \"bodyTypeId\": 3, \"bodyTypeAbbr\": \"NB\", \"displayTypeAndNumber\": \"NB 0483\", \"organizationCountryId\": 276, \"organizationCountryName\": \"Germany\", \"organizationStreetAndNumber\": \"Kriegerstrasse  6\", \"organizationZipCodeAndCity\": \"70191 Stuttgart\", \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"http://www.mdc-ce.de\", \"organizationVersion\": 9, \"notificationStatusId\": 1, \"notificationIfLatestVersion\": \"N\", \"notificationVersion\": 2, \"notificationLegislationId\": 34, \"notificationUpdateDate\": \"2025-03-19T17:02:35Z\", \"notificationAccreditationFl\": \"Y\", \"notificationAccreditationExpiryDate\": \"2025-03-26T00:00:00Z\", \"notificationLastApprovalDate\": \"2023-04-25T00:00:00Z\", \"notificationJcdNumber\": \"12122025_Y\", \"notificationLegislationCode\": \"Regulation (EU) 2017/745\", \"notificationLegislationKeyword\": \"Regulation (EU) 2017/745 on medical devices\", \"notificationLegislationName\": [{\"language\": \"EN\", \"name\": \"Regulation (EU) 2017/745 on medical devices\"}], \"notificationProductIds\": [158143, 158169, 158265, 158271, 158161, 158237, 158269, 158173, 158201, 158211, 158261, 158273, 158167, 158179, 158203, 158207, 158213, 158253, 158259, 158141, 158209, 158235, 158243, 158277, 158164, 158171, 158187, 158191, 158241, 158245, 158255, 158263, 158267, 158233, 158195, 158197, 158257, 158275, 158181, 158183, 158189, 158193, 158199, 158205, 158247, 158279], \"notificationProductKeyword\": [\"MDN 1211\\tNon-active non-implantable devices for disinfecting, cleaning and rinsing\", \"MDN 1214\\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices\", \"MDA 0204\\tOther active non-implantable devices for monitoring and/or diagnosis\", \"MDN 1103\\tNon-active dental implants and dental materials\", \"MDN 1201\\tNon-active non-implantable devices for anaesthesia, emergency and intensive care\", \"MDN 1209\\tNon-active non-implantable dental materials\", \"MDA 0311\\tActive non-implantable dental devices\", \"MDN 1204\\tNon-active non-implantable devices for wound and skin care\", \"MDN 1212\\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDA 0306\\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis\", \"MDA 0201\\tActive non-implantable imaging devices utilising ionizing radiation\", \"MDN 1208\\tNon-active non-implantable instruments\", \"I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE\", \"MDA 0305\\tActive non-implantable devices for stimulation or inhibition\", \"MDA 0307\\tActive non-implantable respiratory devices\", \"MDA 0303\\tActive non-implantable devices utilising hyperthermia/hypothermia\", \"MDN 1104\\tNon-active soft tissue and other implants\", \"MDA 0310\\tActive non-implantable devices for ear, nose and throat\", \"MDA 0317\\tActive non-implantable devices for cleaning, disinfection and sterilisation\", \"MDN 1205\\tNon-active non-implantable orthopaedic and rehabilitation devices\", \"MDN 1102\\tNon-active osteo- and orthopaedic implants\", \"B.   Non-active devices\", \"MDN 1202\\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis\", \"MDN 1207\\tNon-active non-implantable diagnostic devices\", \"MDA 0302\\tActive non-implantable devices utilising non-ionizing radiation\", \"3.   Active non-implantable therapeutic devices and general active non-implantable devices\", \"1.   Non-active implants and long term surgically invasive devices\", \"MDN 1206\\tNon-active non-implantable ophthalmologic devices\", \"MDA 0315\\tSoftware\", \"MDA 0316\\tMedical gas supply systems and parts thereof\", \"MDN 1210\\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases\", \"MDA 0314\\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)\", \"2.   Non-active non-implantable devices\", \"MDN 1101\\tNon-active cardiovascular, vascular and neurovascular implants\", \"MDA 0308\\tActive non-implantable devices for wound and skin care\", \"2.   Active non-implantable devices for imaging, monitoring and/or diagnosis\", \"MDA 0318\\tOther active non-implantable devices\", \"MDN 1203\\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools\", \"MDA 0309\\tActive non-implantable ophthalmologic devices\", \"MDA 0313\\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport\", \"A.   Active devices\", \"MDN 1213\\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route\", \"MDA 0203\\tActive non-implantable devices for monitoring of vital physiological parameters\", \"MDA 0301\\tActive non-implantable devices utilising ionizing radiation\", \"MDA 0202\\tActive non-implantable imaging devices utilising non-ionizing radiation\", \"MDA 0312\\tOther active non-implantable surgical devices\"], \"notificationHtcIds\": [158313, 158319, 158349, 158367, 158347, 158355, 158311, 158315, 158323, 158303, 158307, 158309, 158325, 158329, 158353, 158327, 158351, 158365, 158317, 158345, 158357, 158359, 158361, 158321, 158363, 158369], \"notificationHtcKeyword\": [\"MDT 2011\\tDevices which require packaging, including labelling\", \"MDT 2002\\tDevices manufactured using plastic processing\", \"MDT 2005\\tDevices manufactured using biotechnology\", \"MDT 2010\\tDevices manufactured using electronic components including communication devices\", \"MDS 1014\\tDevices incorporating as an integral part an in vitro diagnostic device\", \"MDT 2013\\tDevices which have undergone reprocessing\", \"MDS 1003\\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives\", \"MDT 2004\\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)\", \"MDS 1010\\tDevices with a measuring function\", \"MDS 1007\\tDevices incorporating or consisting of nanomaterial\", \"MDS 1009\\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices\", \"MDT 2001\\tDevices manufactured using metal processing\", \"MDT 2007\\tDevices which require knowledge regarding the production of pharmaceuticals\", \"MDT 2003\\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)\", \"MDS 1004\\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)\", \"MDT 2008\\tDevices manufactured in clean rooms and associated controlled environments\", \"MDS 1001\\tDevices incorporating medicinal substances\", \"MDT 2009\\tDevices manufactured using processing of materials of human, animal, or microbial origin\", \"MDS 1005\\tDevices in sterile condition\", \"MDS 1013\\tClass III custom-made implantable devices\", \"MDS 1012\\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745\", \"MDT 2012\\tDevices which require installation, refurbishment\", \"MDS 1008\\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body\", \"MDT 2006\\tDevices manufactured using chemical processing\", \"MDS 1011\\tDevices in systems or procedure packs\", \"MDS 1006\\tReusable surgical instruments\"], \"notificationProcedureIds\": [158708, 158707, 158709], \"notificationProcedureKeyword\": [\"Conformity assessment based on a quality management system\", \"Conformity assessment based on product quality assurance\", \"Conformity assessment based on assessment of technical documentation\"], \"notificationAnnexIds\": [158702, 158703, 158701], \"notificationAnnexKeyword\": [\"Annex IX(I)\", \"Annex XI(A)\", \"Annex IX(II)\"], \"notificationTemplate\": {\"id\": 56, \"profile\": \"MedicalDevices\", \"horizTechComp\": \"Y\", \"products\": \"Product\", \"limitationsV2\": \"Conditions\", \"comments\": null, \"remark\": null, \"inVitroMed\": \"N\", \"canAddProducts\": \"N\", \"productsHierarchy\": \"N\"}}"
+    ],
+    "notificationHtcKeyword": [
+     "MDT 2011\tDevices which require packaging, including labelling",
+     "MDT 2002\tDevices manufactured using plastic processing",
+     "MDT 2005\tDevices manufactured using biotechnology",
+     "MDT 2010\tDevices manufactured using electronic components including communication devices",
+     "MDS 1014\tDevices incorporating as an integral part an in vitro diagnostic device",
+     "MDT 2013\tDevices which have undergone reprocessing",
+     "MDS 1003\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives",
+     "MDT 2004\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)",
+     "MDS 1010\tDevices with a measuring function",
+     "MDS 1007\tDevices incorporating or consisting of nanomaterial",
+     "MDS 1009\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices",
+     "MDT 2001\tDevices manufactured using metal processing",
+     "MDT 2007\tDevices which require knowledge regarding the production of pharmaceuticals",
+     "MDT 2003\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)",
+     "MDS 1004\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)",
+     "MDT 2008\tDevices manufactured in clean rooms and associated controlled environments",
+     "MDS 1001\tDevices incorporating medicinal substances",
+     "MDT 2009\tDevices manufactured using processing of materials of human, animal, or microbial origin",
+     "MDS 1005\tDevices in sterile condition",
+     "MDS 1013\tClass III custom-made implantable devices",
+     "MDS 1012\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745",
+     "MDT 2012\tDevices which require installation, refurbishment",
+     "MDS 1008\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body",
+     "MDT 2006\tDevices manufactured using chemical processing",
+     "MDS 1011\tDevices in systems or procedure packs",
+     "MDS 1006\tReusable surgical instruments"
+    ],
+    "notificationVersion": [
+     "2"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "notificationLegislationKeyword": [
+     "Regulation (EU) 2017/745 on medical devices"
+    ],
+    "notificationAnnexIds": [
+     "158702",
+     "158703",
+     "158701"
+    ],
+    "notificationProcedureKeyword": [
+     "Conformity assessment based on a quality management system",
+     "Conformity assessment based on product quality assurance",
+     "Conformity assessment based on assessment of technical documentation"
+    ],
+    "notificationHtcIds": [
+     "158313",
+     "158319",
+     "158349",
+     "158367",
+     "158347",
+     "158355",
+     "158311",
+     "158315",
+     "158323",
+     "158303",
+     "158307",
+     "158309",
+     "158325",
+     "158329",
+     "158353",
+     "158327",
+     "158351",
+     "158365",
+     "158317",
+     "158345",
+     "158357",
+     "158359",
+     "158361",
+     "158321",
+     "158363",
+     "158369"
+    ],
+    "notificationId": [
+     "322944"
+    ],
+    "notificationProductKeyword": [
+     "MDN 1211\tNon-active non-implantable devices for disinfecting, cleaning and rinsing",
+     "MDN 1214\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices",
+     "MDA 0204\tOther active non-implantable devices for monitoring and/or diagnosis",
+     "MDN 1103\tNon-active dental implants and dental materials",
+     "MDN 1201\tNon-active non-implantable devices for anaesthesia, emergency and intensive care",
+     "MDN 1209\tNon-active non-implantable dental materials",
+     "MDA 0311\tActive non-implantable dental devices",
+     "MDN 1204\tNon-active non-implantable devices for wound and skin care",
+     "MDN 1212\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDA 0306\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis",
+     "MDA 0201\tActive non-implantable imaging devices utilising ionizing radiation",
+     "MDN 1208\tNon-active non-implantable instruments",
+     "I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE",
+     "MDA 0305\tActive non-implantable devices for stimulation or inhibition",
+     "MDA 0307\tActive non-implantable respiratory devices",
+     "MDA 0303\tActive non-implantable devices utilising hyperthermia/hypothermia",
+     "MDN 1104\tNon-active soft tissue and other implants",
+     "MDA 0310\tActive non-implantable devices for ear, nose and throat",
+     "MDA 0317\tActive non-implantable devices for cleaning, disinfection and sterilisation",
+     "MDN 1205\tNon-active non-implantable orthopaedic and rehabilitation devices",
+     "MDN 1102\tNon-active osteo- and orthopaedic implants",
+     "B.   Non-active devices",
+     "MDN 1202\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis",
+     "MDN 1207\tNon-active non-implantable diagnostic devices",
+     "MDA 0302\tActive non-implantable devices utilising non-ionizing radiation",
+     "3.   Active non-implantable therapeutic devices and general active non-implantable devices",
+     "1.   Non-active implants and long term surgically invasive devices",
+     "MDN 1206\tNon-active non-implantable ophthalmologic devices",
+     "MDA 0315\tSoftware",
+     "MDA 0316\tMedical gas supply systems and parts thereof",
+     "MDN 1210\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases",
+     "MDA 0314\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)",
+     "2.   Non-active non-implantable devices",
+     "MDN 1101\tNon-active cardiovascular, vascular and neurovascular implants",
+     "MDA 0308\tActive non-implantable devices for wound and skin care",
+     "2.   Active non-implantable devices for imaging, monitoring and/or diagnosis",
+     "MDA 0318\tOther active non-implantable devices",
+     "MDN 1203\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools",
+     "MDA 0309\tActive non-implantable ophthalmologic devices",
+     "MDA 0313\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport",
+     "A.   Active devices",
+     "MDN 1213\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route",
+     "MDA 0203\tActive non-implantable devices for monitoring of vital physiological parameters",
+     "MDA 0301\tActive non-implantable devices utilising ionizing radiation",
+     "MDA 0202\tActive non-implantable imaging devices utilising non-ionizing radiation",
+     "MDA 0312\tOther active non-implantable surgical devices"
+    ],
+    "notificationAnnexKeyword": [
+     "Annex IX(I)",
+     "Annex XI(A)",
+     "Annex IX(II)"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Kriegerstrasse  6"
+    ],
+    "organizationName": [
+     "mdc medical device certification GmbH"
+    ],
+    "csType": [
+     "nando_notification"
+    ],
+    "esDA_IngestDate": [
+     "2026-09-03T17:55:50.175+0200"
+    ],
+    "organizationRefeCdAndType": [
+     "EPOS_43805NB"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_notification:56032af7da39bb1e1c6ba5580cb00d161ffc083b"
+    ],
+    "es_Combine": [
+     "EPOS_43805NB"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_notification:56032af7da39bb1e1c6ba5580cb00d161ffc083b"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43805"
+    ],
+    "esDA_QueueDate": [
+     "2026-09-03T17:55:50.170+0200"
+    ],
+    "notificationProcedureIds": [
+     "158708",
+     "158707",
+     "158709"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "notificationIfLatestVersion": [
+     "N"
+    ],
+    "organizationCountryId": [
+     "276"
+    ],
+    "orgFax": [
+     "+00 0"
+    ],
+    "notificationProductIds": [
+     "158143",
+     "158169",
+     "158265",
+     "158271",
+     "158161",
+     "158237",
+     "158269",
+     "158173",
+     "158201",
+     "158211",
+     "158261",
+     "158273",
+     "158167",
+     "158179",
+     "158203",
+     "158207",
+     "158213",
+     "158253",
+     "158259",
+     "158141",
+     "158209",
+     "158235",
+     "158243",
+     "158277",
+     "158164",
+     "158171",
+     "158187",
+     "158191",
+     "158241",
+     "158245",
+     "158255",
+     "158263",
+     "158267",
+     "158233",
+     "158195",
+     "158197",
+     "158257",
+     "158275",
+     "158181",
+     "158183",
+     "158189",
+     "158193",
+     "158199",
+     "158205",
+     "158247",
+     "158279"
+    ],
+    "countryName": [
+     "Germany"
+    ],
+    "orgAddressCity": [
+     "70191 Stuttgart"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "56032af7da39bb1e1c6ba5580cb00d161ffc083b. Available at: urn:smcs:nando_notification:56032af7da39bb1e1c6ba5580cb00d161ffc083b"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "f1ed1413e310910d62dd3aefd0398df1be27a5b0",
+   "url": "urn:smcs:nando_notification:f1ed1413e310910d62dd3aefd0398df1be27a5b0",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "groupById": "EPOS_43805NB",
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "notificationStatusId": [
+     "1"
+    ],
+    "es_SortDate": [
+     "2026-09-03T17:17:14.709+0200"
+    ],
+    "displayTypeAndNumber": [
+     "NB 0483"
+    ],
+    "bodyNumber": [
+     "483"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "http://www.mdc-ce.de"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "f1ed1413e310910d62dd3aefd0398df1be27a5b0"
+    ],
+    "notificationLegislationId": [
+     "34"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"f1ed1413e310910d62dd3aefd0398df1be27a5b0\", \"notificationId\": 306369, \"organizationName\": \"mdc medical device certification GmbH\", \"organizationRefeCd\": \"EPOS_43805\", \"organizationRefeCdAndType\": \"EPOS_43805NB\", \"bodyNumber\": 483, \"bodyTypeId\": 3, \"bodyTypeAbbr\": \"NB\", \"displayTypeAndNumber\": \"NB 0483\", \"organizationCountryId\": 276, \"organizationCountryName\": \"Germany\", \"organizationStreetAndNumber\": \"Kriegerstrasse  6\", \"organizationZipCodeAndCity\": \"70191 Stuttgart\", \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"http://www.mdc-ce.de\", \"organizationVersion\": 9, \"notificationStatusId\": 1, \"notificationIfLatestVersion\": \"N\", \"notificationVersion\": 1, \"notificationLegislationId\": 34, \"notificationUpdateDate\": \"2020-03-26T12:37:45Z\", \"notificationAccreditationFl\": \"Y\", \"notificationAccreditationExpiryDate\": \"2023-03-26T00:00:00Z\", \"notificationLastApprovalDate\": \"2020-04-25T09:03:00Z\", \"notificationJcdNumber\": \"12122025_Y\", \"notificationLegislationCode\": \"Regulation (EU) 2017/745\", \"notificationLegislationKeyword\": \"Regulation (EU) 2017/745 on medical devices\", \"notificationLegislationName\": [{\"language\": \"EN\", \"name\": \"Regulation (EU) 2017/745 on medical devices\"}], \"notificationProductIds\": [158143, 158169, 158265, 158271, 158161, 158237, 158269, 158173, 158201, 158211, 158261, 158273, 158167, 158179, 158203, 158207, 158213, 158253, 158259, 158141, 158209, 158235, 158243, 158277, 158164, 158171, 158187, 158191, 158241, 158245, 158255, 158263, 158267, 158233, 158195, 158197, 158257, 158275, 158181, 158183, 158189, 158193, 158199, 158205, 158247, 158279], \"notificationProductKeyword\": [\"B.   Non-active devices\", \"MDA 0315\\tSoftware\", \"MDA 0308\\tActive non-implantable devices for wound and skin care\", \"MDA 0309\\tActive non-implantable ophthalmologic devices\", \"MDA 0305\\tActive non-implantable devices for stimulation or inhibition\", \"MDA 0310\\tActive non-implantable devices for ear, nose and throat\", \"MDN 1206\\tNon-active non-implantable ophthalmologic devices\", \"MDN 1204\\tNon-active non-implantable devices for wound and skin care\", \"2.   Non-active non-implantable devices\", \"MDN 1209\\tNon-active non-implantable dental materials\", \"MDA 0303\\tActive non-implantable devices utilising hyperthermia/hypothermia\", \"MDA 0306\\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis\", \"MDA 0311\\tActive non-implantable dental devices\", \"MDN 1203\\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools\", \"1.   Non-active implants and long term surgically invasive devices\", \"A.   Active devices\", \"MDA 0302\\tActive non-implantable devices utilising non-ionizing radiation\", \"MDN 1210\\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases\", \"MDN 1211\\tNon-active non-implantable devices for disinfecting, cleaning and rinsing\", \"MDA 0301\\tActive non-implantable devices utilising ionizing radiation\", \"MDN 1102\\tNon-active osteo- and orthopaedic implants\", \"MDA 0312\\tOther active non-implantable surgical devices\", \"MDN 1202\\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis\", \"MDN 1212\\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDN 1213\\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route\", \"MDA 0203\\tActive non-implantable devices for monitoring of vital physiological parameters\", \"MDN 1214\\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices\", \"MDA 0307\\tActive non-implantable respiratory devices\", \"MDA 0318\\tOther active non-implantable devices\", \"MDA 0316\\tMedical gas supply systems and parts thereof\", \"MDA 0317\\tActive non-implantable devices for cleaning, disinfection and sterilisation\", \"MDN 1207\\tNon-active non-implantable diagnostic devices\", \"MDA 0201\\tActive non-implantable imaging devices utilising ionizing radiation\", \"2.   Active non-implantable devices for imaging, monitoring and/or diagnosis\", \"I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE\", \"MDA 0202\\tActive non-implantable imaging devices utilising non-ionizing radiation\", \"MDN 1104\\tNon-active soft tissue and other implants\", \"MDA 0314\\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)\", \"MDN 1201\\tNon-active non-implantable devices for anaesthesia, emergency and intensive care\", \"MDN 1205\\tNon-active non-implantable orthopaedic and rehabilitation devices\", \"MDN 1101\\tNon-active cardiovascular, vascular and neurovascular implants\", \"3.   Active non-implantable therapeutic devices and general active non-implantable devices\", \"MDA 0204\\tOther active non-implantable devices for monitoring and/or diagnosis\", \"MDA 0313\\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport\", \"MDN 1103\\tNon-active dental implants and dental materials\", \"MDN 1208\\tNon-active non-implantable instruments\"], \"notificationHtcIds\": [158313, 158319, 158349, 158367, 158347, 158355, 158311, 158315, 158323, 158303, 158307, 158309, 158325, 158329, 158353, 158327, 158351, 158365, 158317, 158345, 158357, 158359, 158361, 158321, 158363, 158369], \"notificationHtcKeyword\": [\"MDT 2010\\tDevices manufactured using electronic components including communication devices\", \"MDT 2003\\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)\", \"MDT 2009\\tDevices manufactured using processing of materials of human, animal, or microbial origin\", \"MDS 1001\\tDevices incorporating medicinal substances\", \"MDS 1003\\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives\", \"MDT 2011\\tDevices which require packaging, including labelling\", \"MDS 1005\\tDevices in sterile condition\", \"MDT 2008\\tDevices manufactured in clean rooms and associated controlled environments\", \"MDS 1010\\tDevices with a measuring function\", \"MDT 2002\\tDevices manufactured using plastic processing\", \"MDT 2004\\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)\", \"MDT 2012\\tDevices which require installation, refurbishment\", \"MDS 1008\\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body\", \"MDS 1014\\tDevices incorporating as an integral part an in vitro diagnostic device\", \"MDT 2001\\tDevices manufactured using metal processing\", \"MDS 1004\\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)\", \"MDS 1011\\tDevices in systems or procedure packs\", \"MDS 1006\\tReusable surgical instruments\", \"MDS 1007\\tDevices incorporating or consisting of nanomaterial\", \"MDS 1013\\tClass III custom-made implantable devices\", \"MDS 1012\\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745\", \"MDT 2006\\tDevices manufactured using chemical processing\", \"MDT 2007\\tDevices which require knowledge regarding the production of pharmaceuticals\", \"MDS 1009\\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices\", \"MDT 2005\\tDevices manufactured using biotechnology\", \"MDT 2013\\tDevices which have undergone reprocessing\"], \"notificationProcedureIds\": [158708, 158707, 158709], \"notificationProcedureKeyword\": [\"Conformity assessment based on a quality management system\", \"Conformity assessment based on product quality assurance\", \"Conformity assessment based on assessment of technical documentation\"], \"notificationAnnexIds\": [158702, 158703, 158701], \"notificationAnnexKeyword\": [\"Annex IX(II)\", \"Annex XI(A)\", \"Annex IX(I)\"], \"notificationTemplate\": {\"id\": 56, \"profile\": \"MedicalDevices\", \"horizTechComp\": \"Y\", \"products\": \"Product\", \"limitationsV2\": \"Conditions\", \"comments\": null, \"remark\": null, \"inVitroMed\": \"N\", \"canAddProducts\": \"N\", \"productsHierarchy\": \"N\"}}"
+    ],
+    "notificationHtcKeyword": [
+     "MDT 2010\tDevices manufactured using electronic components including communication devices",
+     "MDT 2003\tDevices manufactured using non-metal mineral processing (e.g. glass, ceramics)",
+     "MDT 2009\tDevices manufactured using processing of materials of human, animal, or microbial origin",
+     "MDS 1001\tDevices incorporating medicinal substances",
+     "MDS 1003\tDevices manufactured utilising tissues or cells of animal origin, or their derivatives",
+     "MDT 2011\tDevices which require packaging, including labelling",
+     "MDS 1005\tDevices in sterile condition",
+     "MDT 2008\tDevices manufactured in clean rooms and associated controlled environments",
+     "MDS 1010\tDevices with a measuring function",
+     "MDT 2002\tDevices manufactured using plastic processing",
+     "MDT 2004\tDevices manufactured using non-metal non-mineral processing (e.g. textiles, rubber, leather, paper)",
+     "MDT 2012\tDevices which require installation, refurbishment",
+     "MDS 1008\tDevices utilising biologically active coatings and/or materials or being wholly or mainly absorbed or locally dispersed in the human body or are intended to undergo a chemical change in the body",
+     "MDS 1014\tDevices incorporating as an integral part an in vitro diagnostic device",
+     "MDT 2001\tDevices manufactured using metal processing",
+     "MDS 1004\tDevices which are also machinery as defined in point (a) of the second paragraph of Article 2 of Directive 2006/42/EC of the European Parliament and of the Council (1)",
+     "MDS 1011\tDevices in systems or procedure packs",
+     "MDS 1006\tReusable surgical instruments",
+     "MDS 1007\tDevices incorporating or consisting of nanomaterial",
+     "MDS 1013\tClass III custom-made implantable devices",
+     "MDS 1012\tProducts without an intended medical purpose listed in Annex XVI to Regulation (EU) 2017/745",
+     "MDT 2006\tDevices manufactured using chemical processing",
+     "MDT 2007\tDevices which require knowledge regarding the production of pharmaceuticals",
+     "MDS 1009\tDevices incorporating software/utilising software/controlled by software, including devices intended for controlling, monitoring or directly influencing the performance of active or active implantable devices",
+     "MDT 2005\tDevices manufactured using biotechnology",
+     "MDT 2013\tDevices which have undergone reprocessing"
+    ],
+    "notificationVersion": [
+     "1"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "notificationLegislationKeyword": [
+     "Regulation (EU) 2017/745 on medical devices"
+    ],
+    "notificationAnnexIds": [
+     "158702",
+     "158703",
+     "158701"
+    ],
+    "notificationProcedureKeyword": [
+     "Conformity assessment based on a quality management system",
+     "Conformity assessment based on product quality assurance",
+     "Conformity assessment based on assessment of technical documentation"
+    ],
+    "notificationHtcIds": [
+     "158313",
+     "158319",
+     "158349",
+     "158367",
+     "158347",
+     "158355",
+     "158311",
+     "158315",
+     "158323",
+     "158303",
+     "158307",
+     "158309",
+     "158325",
+     "158329",
+     "158353",
+     "158327",
+     "158351",
+     "158365",
+     "158317",
+     "158345",
+     "158357",
+     "158359",
+     "158361",
+     "158321",
+     "158363",
+     "158369"
+    ],
+    "notificationId": [
+     "306369"
+    ],
+    "notificationProductKeyword": [
+     "B.   Non-active devices",
+     "MDA 0315\tSoftware",
+     "MDA 0308\tActive non-implantable devices for wound and skin care",
+     "MDA 0309\tActive non-implantable ophthalmologic devices",
+     "MDA 0305\tActive non-implantable devices for stimulation or inhibition",
+     "MDA 0310\tActive non-implantable devices for ear, nose and throat",
+     "MDN 1206\tNon-active non-implantable ophthalmologic devices",
+     "MDN 1204\tNon-active non-implantable devices for wound and skin care",
+     "2.   Non-active non-implantable devices",
+     "MDN 1209\tNon-active non-implantable dental materials",
+     "MDA 0303\tActive non-implantable devices utilising hyperthermia/hypothermia",
+     "MDA 0306\tActive non-implantable devices for extra-corporal circulation, administration or removal of substances and haemapheresis",
+     "MDA 0311\tActive non-implantable dental devices",
+     "MDN 1203\tNon-active non-implantable guide catheters, balloon catheters, guidewires, introducers, filters, and related tools",
+     "1.   Non-active implants and long term surgically invasive devices",
+     "A.   Active devices",
+     "MDA 0302\tActive non-implantable devices utilising non-ionizing radiation",
+     "MDN 1210\tNon-active non-implantable devices used for contraception or prevention of the transmission of sexually transmitted diseases",
+     "MDN 1211\tNon-active non-implantable devices for disinfecting, cleaning and rinsing",
+     "MDA 0301\tActive non-implantable devices utilising ionizing radiation",
+     "MDN 1102\tNon-active osteo- and orthopaedic implants",
+     "MDA 0312\tOther active non-implantable surgical devices",
+     "MDN 1202\tNon-active non-implantable devices for administration, channelling and removal of substances, including devices for dialysis",
+     "MDN 1212\tNon-active non-implantable devices for processing and preservation of human cells, tissue or organs including in vitro fertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDN 1213\tNon-active non-implantable devices composed of substances to be introduced into the human body via a body orifice or the dermal route",
+     "MDA 0203\tActive non-implantable devices for monitoring of vital physiological parameters",
+     "MDN 1214\tGeneral non-active non-implantable devices used in health care and other non-active non-implantable devices",
+     "MDA 0307\tActive non-implantable respiratory devices",
+     "MDA 0318\tOther active non-implantable devices",
+     "MDA 0316\tMedical gas supply systems and parts thereof",
+     "MDA 0317\tActive non-implantable devices for cleaning, disinfection and sterilisation",
+     "MDN 1207\tNon-active non-implantable diagnostic devices",
+     "MDA 0201\tActive non-implantable imaging devices utilising ionizing radiation",
+     "2.   Active non-implantable devices for imaging, monitoring and/or diagnosis",
+     "I. CODES REFLECTING THE DESIGN AND INTENDED PURPOSE OF THE DEVICE",
+     "MDA 0202\tActive non-implantable imaging devices utilising non-ionizing radiation",
+     "MDN 1104\tNon-active soft tissue and other implants",
+     "MDA 0314\tActive non-implantable devices for processing and preservation of human cells, tissues or organs including in vitrofertilisation (IVF) and assisted reproductive technologies (ART)",
+     "MDN 1201\tNon-active non-implantable devices for anaesthesia, emergency and intensive care",
+     "MDN 1205\tNon-active non-implantable orthopaedic and rehabilitation devices",
+     "MDN 1101\tNon-active cardiovascular, vascular and neurovascular implants",
+     "3.   Active non-implantable therapeutic devices and general active non-implantable devices",
+     "MDA 0204\tOther active non-implantable devices for monitoring and/or diagnosis",
+     "MDA 0313\tActive non-implantable prostheses, devices for rehabilitation and devices for patient positioning and transport",
+     "MDN 1103\tNon-active dental implants and dental materials",
+     "MDN 1208\tNon-active non-implantable instruments"
+    ],
+    "notificationAnnexKeyword": [
+     "Annex IX(II)",
+     "Annex XI(A)",
+     "Annex IX(I)"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Kriegerstrasse  6"
+    ],
+    "organizationName": [
+     "mdc medical device certification GmbH"
+    ],
+    "csType": [
+     "nando_notification"
+    ],
+    "esDA_IngestDate": [
+     "2026-09-03T17:17:14.747+0200"
+    ],
+    "organizationRefeCdAndType": [
+     "EPOS_43805NB"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_notification:f1ed1413e310910d62dd3aefd0398df1be27a5b0"
+    ],
+    "es_Combine": [
+     "EPOS_43805NB"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_notification:f1ed1413e310910d62dd3aefd0398df1be27a5b0"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43805"
+    ],
+    "esDA_QueueDate": [
+     "2026-09-03T17:17:14.742+0200"
+    ],
+    "notificationProcedureIds": [
+     "158708",
+     "158707",
+     "158709"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "notificationIfLatestVersion": [
+     "N"
+    ],
+    "organizationCountryId": [
+     "276"
+    ],
+    "orgFax": [
+     "+00 0"
+    ],
+    "notificationProductIds": [
+     "158143",
+     "158169",
+     "158265",
+     "158271",
+     "158161",
+     "158237",
+     "158269",
+     "158173",
+     "158201",
+     "158211",
+     "158261",
+     "158273",
+     "158167",
+     "158179",
+     "158203",
+     "158207",
+     "158213",
+     "158253",
+     "158259",
+     "158141",
+     "158209",
+     "158235",
+     "158243",
+     "158277",
+     "158164",
+     "158171",
+     "158187",
+     "158191",
+     "158241",
+     "158245",
+     "158255",
+     "158263",
+     "158267",
+     "158233",
+     "158195",
+     "158197",
+     "158257",
+     "158275",
+     "158181",
+     "158183",
+     "158189",
+     "158193",
+     "158199",
+     "158205",
+     "158247",
+     "158279"
+    ],
+    "countryName": [
+     "Germany"
+    ],
+    "orgAddressCity": [
+     "70191 Stuttgart"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "f1ed1413e310910d62dd3aefd0398df1be27a5b0. Available at: urn:smcs:nando_notification:f1ed1413e310910d62dd3aefd0398df1be27a5b0"
+  }
+ ],
+ "warnings": []
+}

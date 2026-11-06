@@ -1,0 +1,125 @@
+[project]
+name = "nando-api"
+version = "0.1.0"
+description = "Free, unofficial API and Atom alerts over NANDO, the EU register of notified bodies"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "click",
+    "fastapi",
+    "httpx",
+    "pydantic-settings",
+    "uvicorn",
+]
+
+[project.scripts]
+nando-api = "nando_api.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+required-version = ">=0.13"
+
+[dependency-groups]
+dev = [
+    "prek",
+    "pytest",
+    "pytest-cov",
+    "pytest-socket",
+    "ruff",
+    "ty",
+]
+
+# ---------------------------------------------------------------------------
+# ruff
+# ---------------------------------------------------------------------------
+[tool.ruff]
+target-version = "py314"
+src = ["src", "tests"]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E", "W",      # pycodestyle
+    "F",           # pyflakes
+    "I",           # isort
+    "N",           # pep8-naming
+    "UP",          # pyupgrade
+    "B",           # bugbear
+    "A",           # builtins shadow
+    "C4",          # comprehensions
+    "PTH",         # use pathlib, not os.path
+    "SIM",         # simplify
+    "RET",         # return statements
+    "TC",          # type-checking imports
+    "ANN",         # missing annotations
+    "ASYNC",       # async pitfalls
+    "S",           # bandit (security)
+    "FURB",        # refurb
+    "PERF",        # perf anti-patterns
+    "RUF",         # ruff-specific
+]
+ignore = [
+    "ANN401",      # Allow `Any` for raw source JSON
+    "S101",        # assert in tests is fine
+    "S608",        # SQL is built from fixed fragments with bound parameters
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["ANN", "S101", "S105", "S106"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Query", "fastapi.Path", "fastapi.Body"]
+
+# ---------------------------------------------------------------------------
+# ty
+# ---------------------------------------------------------------------------
+[tool.ty.environment]
+python-version = "3.14"
+python = ".venv"
+
+[tool.ty.src]
+include = ["src", "tests"]
+
+[tool.ty.rules]
+possibly-unresolved-reference = "error"
+possibly-missing-attribute = "error"
+possibly-missing-import = "error"
+unused-ignore-comment = "warn"
+
+# ---------------------------------------------------------------------------
+# pytest
+# ---------------------------------------------------------------------------
+[tool.pytest]
+minversion = "9.0"
+testpaths = ["tests"]
+strict = true
+addopts = [
+    "-ra",
+    "--cov",
+    "--cov-report=term-missing",
+    # pytest-socket: block network by default. Unix sockets stay open for the
+    # asyncio event loop. No test opts in: the source is never called from tests.
+    "--disable-socket",
+    "--allow-unix-socket",
+]
+
+# ---------------------------------------------------------------------------
+# coverage
+# ---------------------------------------------------------------------------
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+precision = 1
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]

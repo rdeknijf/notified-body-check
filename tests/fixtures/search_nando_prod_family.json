@@ -1,0 +1,164 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 16,
+ "totalResults": 1315,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "c8195bb45ae04305ea953152259eea22b1045647",
+   "url": "urn:smcs:nando_prod_family:c8195bb45ae04305ea953152259eea22b1045647",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-01-07T15:03:45.071+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-07T15:03:45.082+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_prod_family"
+    ],
+    "esDA_IngestDate": [
+     "2026-01-07T15:03:45.082+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_prod_family:c8195bb45ae04305ea953152259eea22b1045647"
+    ],
+    "prodFamilyName": [
+     "Productos metálicos estructurales y auxiliares (1/4)"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_prod_family:c8195bb45ae04305ea953152259eea22b1045647"
+    ],
+    "esST_REFERENCE": [
+     "c8195bb45ae04305ea953152259eea22b1045647"
+    ],
+    "esDA_QueueDate": [
+     "2026-01-07T15:03:45.077+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"c8195bb45ae04305ea953152259eea22b1045647\", \"prodFamilyId\": 3569, \"prodFamilyName\": \"Productos metálicos estructurales y auxiliares (1/4)\", \"language\": \"ES\", \"legislationId\": 33}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "ES"
+    ],
+    "prodFamilyId": [
+     "3569"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "c8195bb45ae04305ea953152259eea22b1045647. Available at: urn:smcs:nando_prod_family:c8195bb45ae04305ea953152259eea22b1045647"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "c817fcdd1702bd76a796a9ce834fc1244e257786",
+   "url": "urn:smcs:nando_prod_family:c817fcdd1702bd76a796a9ce834fc1244e257786",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-01-07T15:03:44.927+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-07T15:03:44.939+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_prod_family"
+    ],
+    "esDA_IngestDate": [
+     "2026-01-07T15:03:44.939+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_prod_family:c817fcdd1702bd76a796a9ce834fc1244e257786"
+    ],
+    "prodFamilyName": [
+     "Aparatos sanitarios (1/1)"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_prod_family:c817fcdd1702bd76a796a9ce834fc1244e257786"
+    ],
+    "esST_REFERENCE": [
+     "c817fcdd1702bd76a796a9ce834fc1244e257786"
+    ],
+    "esDA_QueueDate": [
+     "2026-01-07T15:03:44.934+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"c817fcdd1702bd76a796a9ce834fc1244e257786\", \"prodFamilyId\": 3596, \"prodFamilyName\": \"Aparatos sanitarios (1/1)\", \"language\": \"ES\", \"legislationId\": 33}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "csLanguage": [
+     "ES"
+    ],
+    "prodFamilyId": [
+     "3596"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "c817fcdd1702bd76a796a9ce834fc1244e257786. Available at: urn:smcs:nando_prod_family:c817fcdd1702bd76a796a9ce834fc1244e257786"
+  }
+ ],
+ "warnings": []
+}

@@ -1,0 +1,208 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 91,
+ "totalResults": 2,
+ "pageNumber": 1,
+ "pageSize": 200,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "29018960a470ab521f53afce98a45e978d7081d3",
+   "url": "urn:smcs:nando_body:29018960a470ab521f53afce98a45e978d7081d3",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_SortDate": [
+     "2026-07-28T01:05:00.609+0200"
+    ],
+    "ancestorBodyNumber": [
+     "620",
+     "956",
+     "560"
+    ],
+    "bodyNumber": [
+     "63"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "www.kiwa.com"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "29018960a470ab521f53afce98a45e978d7081d3"
+    ],
+    "organizationId": [
+     "269356"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"29018960a470ab521f53afce98a45e978d7081d3\", \"organizationName\": \"Kiwa Nederland B.V.\", \"organizationId\": 269356, \"organizationRefeCd\": \"EPOS_43385\", \"bodyNumber\": 63, \"bodyTypeId\": 3, \"bodyTypeAbbrev\": \"NB\", \"ancestorBodyNumber\": [620, 956, 560], \"organizationStreetAndNumber\": \"Wilmersdorf, 50  (PO Box 137, 7300 AC)\", \"organizationZipCodeAndCity\": \"7327 AC APELDOORN\", \"organizationCountryId\": 528, \"organizationCountryName\": \"Netherlands\", \"organizationPhone\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"www.kiwa.com\", \"bodyLastApprovalDate\": \"2023-08-21T00:00:00Z\", \"organizationVersion\": 24, \"organizationIfLatestVersion\": \"Y\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Wilmersdorf, 50  (PO Box 137, 7300 AC)"
+    ],
+    "organizationName": [
+     "Kiwa Nederland B.V."
+    ],
+    "csType": [
+     "nando_body"
+    ],
+    "organizationIfLatestVersion": [
+     "Y"
+    ],
+    "esDA_IngestDate": [
+     "2026-07-28T01:05:00.814+0200"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_body:29018960a470ab521f53afce98a45e978d7081d3"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_body:29018960a470ab521f53afce98a45e978d7081d3"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43385"
+    ],
+    "esDA_QueueDate": [
+     "2026-07-28T01:05:00.804+0200"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "organizationVersion": [
+     "24"
+    ],
+    "organizationCountryId": [
+     "528"
+    ],
+    "countryName": [
+     "Netherlands"
+    ],
+    "orgAddressCity": [
+     "7327 AC APELDOORN"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "29018960a470ab521f53afce98a45e978d7081d3. Available at: urn:smcs:nando_body:29018960a470ab521f53afce98a45e978d7081d3"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "e68ff99d02a4b940055c9f7c11c92cdd542d80da",
+   "url": "urn:smcs:nando_body:e68ff99d02a4b940055c9f7c11c92cdd542d80da",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-09-16T11:55:00.373+0200"
+    ],
+    "organizationName": [
+     "International Weld S.r.l."
+    ],
+    "bodyNumber": [
+     "2620"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_body"
+    ],
+    "esDA_IngestDate": [
+     "2025-09-16T11:55:00.386+0200"
+    ],
+    "organizationIfLatestVersion": [
+     "Y"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_body:e68ff99d02a4b940055c9f7c11c92cdd542d80da"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_body:e68ff99d02a4b940055c9f7c11c92cdd542d80da"
+    ],
+    "organizationRefeCd": [
+     "NANDO_INPUT_215223"
+    ],
+    "esST_REFERENCE": [
+     "e68ff99d02a4b940055c9f7c11c92cdd542d80da"
+    ],
+    "organizationId": [
+     "215223"
+    ],
+    "esDA_QueueDate": [
+     "2025-09-16T11:55:00.381+0200"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"e68ff99d02a4b940055c9f7c11c92cdd542d80da\", \"organizationName\": \"International Weld S.r.l.\", \"organizationId\": 215223, \"organizationRefeCd\": \"NANDO_INPUT_215223\", \"bodyNumber\": 2620, \"bodyTypeId\": 14, \"bodyTypeAbbrev\": \"RTPO\", \"organizationStreetAndNumber\": \"Via Diviglio, 243 - int. 2\", \"organizationZipCodeAndCity\": \"36030 Caldogno (VI)\", \"organizationCountryId\": 380, \"organizationCountryName\": [{\"language\": \"ES\", \"name\": \"Italia\"}, {\"language\": \"EN\", \"name\": \"Italy\"}, {\"language\": \"SV\", \"name\": \"Italy\"}, {\"language\": \"SK\", \"name\": \"Taliansko\"}, {\"language\": \"HR\", \"name\": \"Italija\"}, {\"language\": \"CS\", \"name\": \"Itálie\"}, {\"language\": \"FI\", \"name\": \"Italia\"}, {\"language\": \"HU\", \"name\": \"Olaszország\"}, {\"language\": \"LT\", \"name\": \"Italija\"}, {\"language\": \"DA\", \"name\": \"Italien\"}, {\"language\": \"ET\", \"name\": \"Itaalia\"}, {\"language\": \"IT\", \"name\": \"Italia\"}, {\"language\": \"NL\", \"name\": \"Italië\"}, {\"language\": \"PT\", \"name\": \"Itália\"}, {\"language\": \"SL\", \"name\": \"Italija\"}, {\"language\": \"LV\", \"name\": \"Itālija\"}, {\"language\": \"NO\", \"name\": \"Italia\"}, {\"language\": \"PL\", \"name\": \"Włochy\"}, {\"language\": \"RO\", \"name\": \"Italia\"}, {\"language\": \"DE\", \"name\": \"Italien\"}, {\"language\": \"FR\", \"name\": \"Italie\"}], \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"www.iweld.it\", \"bodyLastApprovalDate\": \"2025-09-16T11:48:29Z\", \"bodyEndDate\": \"2029-05-23T00:00:00Z\", \"organizationVersion\": 1, \"organizationIfLatestVersion\": \"Y\"}"
+    ],
+    "bodyTypeId": [
+     "14"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "bodyEndDate": [
+     "2029-05-23T00:00:00.000+0000"
+    ],
+    "organizationVersion": [
+     "1"
+    ],
+    "organizationCountryId": [
+     "380"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "e68ff99d02a4b940055c9f7c11c92cdd542d80da. Available at: urn:smcs:nando_body:e68ff99d02a4b940055c9f7c11c92cdd542d80da"
+  }
+ ],
+ "warnings": []
+}

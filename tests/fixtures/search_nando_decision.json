@@ -1,0 +1,152 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 15,
+ "totalResults": 71,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "a10149a09fb81a26bbeb398e994203882fa3fcb3",
+   "url": "urn:smcs:nando_decision:a10149a09fb81a26bbeb398e994203882fa3fcb3",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-01-27T11:04:41.914+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-07T15:00:31.623+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_decision"
+    ],
+    "esDA_IngestDate": [
+     "2026-01-27T11:04:41.926+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "decisionCode": [
+     "2015/1959/EC"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_decision:a10149a09fb81a26bbeb398e994203882fa3fcb3"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_decision:a10149a09fb81a26bbeb398e994203882fa3fcb3"
+    ],
+    "esST_REFERENCE": [
+     "a10149a09fb81a26bbeb398e994203882fa3fcb3"
+    ],
+    "esDA_QueueDate": [
+     "2026-01-27T11:04:41.921+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"a10149a09fb81a26bbeb398e994203882fa3fcb3\", \"decisionId\": 145813, \"decisionCode\": \"2015/1959/EC\", \"decisionName\": \"COMMISSION DELEGATED DECISION (EU) 2015/1959  of 1 July 2015  on the applicable systems to assess and verify constancy of performance of wastewater  engineering products pursuant to Regulation (EU) No 305/2011 of the European Parliament and of  the Council \", \"decisionDescription\": \"<p>Commission Delegated Regulation (EU) 2015/1959 of 1 July 2015 on the applicable systems to assess and verify constancy of performance of wastewater engineering products pursuant to Regulation (EU) No 305/2011 of the European Parliament and of the Council </p>\", \"decisionJournal\": \"L 284\", \"decisionJournalDate\": \"2015-10-30T00:00:00Z\", \"decisionDate\": \"2015-07-01T00:00:00Z\", \"legislationId\": 33}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "a10149a09fb81a26bbeb398e994203882fa3fcb3. Available at: urn:smcs:nando_decision:a10149a09fb81a26bbeb398e994203882fa3fcb3"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "ed62936c50e6084fab2702747c33f6f010042b5b",
+   "url": "urn:smcs:nando_decision:ed62936c50e6084fab2702747c33f6f010042b5b",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-01-27T11:04:41.759+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-07T15:00:31.484+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_decision"
+    ],
+    "esDA_IngestDate": [
+     "2026-01-27T11:04:41.774+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "decisionCode": [
+     "2011/246/EU"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_decision:ed62936c50e6084fab2702747c33f6f010042b5b"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_decision:ed62936c50e6084fab2702747c33f6f010042b5b"
+    ],
+    "esST_REFERENCE": [
+     "ed62936c50e6084fab2702747c33f6f010042b5b"
+    ],
+    "esDA_QueueDate": [
+     "2026-01-27T11:04:41.767+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"ed62936c50e6084fab2702747c33f6f010042b5b\", \"decisionId\": 162271, \"decisionCode\": \"2011/246/EU\", \"decisionName\": \"doors, windows, shutters, blinds, gates and related building hardware\", \"decisionDescription\": \"2011/246/EU - COMMISSION DECISION of 18 April 2011 amending Decision 1999/93/EC on the procedure for attesting the conformity of construction products pursuant to Article 20(2) of Council Directive 89/106/EEC as regards doors, windows, shutters, blinds, gates and related building hardware\", \"decisionJournal\": \"L 103\", \"decisionJournalDate\": \"2011-04-19T00:00:00Z\", \"decisionDate\": \"2011-04-18T00:00:00Z\", \"legislationId\": 33}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "legislationId": [
+     "33"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "ed62936c50e6084fab2702747c33f6f010042b5b. Available at: urn:smcs:nando_decision:ed62936c50e6084fab2702747c33f6f010042b5b"
+  }
+ ],
+ "warnings": []
+}

@@ -1,0 +1,158 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 20,
+ "totalResults": 140,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "bd913a9ead8710c867f68b0ac214de0eb0504e10",
+   "url": "urn:smcs:nando_horizontal_spec:bd913a9ead8710c867f68b0ac214de0eb0504e10",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-20T13:05:03.296+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-14T08:45:02.979+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_horizontal_spec"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-20T13:05:03.315+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_horizontal_spec:bd913a9ead8710c867f68b0ac214de0eb0504e10"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_horizontal_spec:bd913a9ead8710c867f68b0ac214de0eb0504e10"
+    ],
+    "esST_REFERENCE": [
+     "bd913a9ead8710c867f68b0ac214de0eb0504e10"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-20T13:05:03.305+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"bd913a9ead8710c867f68b0ac214de0eb0504e10\", \"specificationId\": 151705, \"specificationCode\": \"EN 13501-2:2023-12 \", \"legislationId\": 168440, \"specificationDescription\": \"EN 13501-2:2023-12 Fire classification of construction products and building elements - Part 2: Classification using data from fire resistance and/or smoke control tests, excluding ventilation services\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "legislationId": [
+     "168440"
+    ],
+    "specificationCode": [
+     "EN 13501-2:2023-12 "
+    ],
+    "specificationDescription": [
+     "EN 13501-2:2023-12 Fire classification of construction products and building elements - Part 2: Classification using data from fire resistance and/or smoke control tests, excluding ventilation services"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "bd913a9ead8710c867f68b0ac214de0eb0504e10. Available at: urn:smcs:nando_horizontal_spec:bd913a9ead8710c867f68b0ac214de0eb0504e10"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "6cf98e2294c64a5adbc00b29a53a36aeec70fb9e",
+   "url": "urn:smcs:nando_horizontal_spec:6cf98e2294c64a5adbc00b29a53a36aeec70fb9e",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-20T13:05:03.140+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-01-14T08:45:02.818+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_horizontal_spec"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-20T13:05:03.155+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_horizontal_spec:6cf98e2294c64a5adbc00b29a53a36aeec70fb9e"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_horizontal_spec:6cf98e2294c64a5adbc00b29a53a36aeec70fb9e"
+    ],
+    "esST_REFERENCE": [
+     "6cf98e2294c64a5adbc00b29a53a36aeec70fb9e"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-20T13:05:03.149+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"6cf98e2294c64a5adbc00b29a53a36aeec70fb9e\", \"specificationId\": 151705, \"specificationCode\": \"EN 13501-2:2023-12 \", \"legislationId\": 33, \"specificationDescription\": \"EN 13501-2:2023-12 Fire classification of construction products and building elements - Part 2: Classification using data from fire resistance and/or smoke control tests, excluding ventilation services\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "legislationId": [
+     "33"
+    ],
+    "specificationCode": [
+     "EN 13501-2:2023-12 "
+    ],
+    "specificationDescription": [
+     "EN 13501-2:2023-12 Fire classification of construction products and building elements - Part 2: Classification using data from fire resistance and/or smoke control tests, excluding ventilation services"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "6cf98e2294c64a5adbc00b29a53a36aeec70fb9e. Available at: urn:smcs:nando_horizontal_spec:6cf98e2294c64a5adbc00b29a53a36aeec70fb9e"
+  }
+ ],
+ "warnings": []
+}

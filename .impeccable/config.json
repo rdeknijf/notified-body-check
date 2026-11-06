@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "src/nando_api/static/index.html"
+        ],
+        "createdAt": "2026-11-04T20:32:17.979Z",
+        "reason": "agent: static scan cannot resolve clamp()/var() padding; rendered scan of http://127.0.0.1:8601/ reports no cramped-padding; getComputedStyle at 390px: sections 48px/16px, .log 20px/16px"
+      }
+    ]
+  }
+}

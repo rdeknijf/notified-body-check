@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{SERVICE_NAME}}: free API for EU notified bodies</title>
+  <meta name="description" content="Free, unofficial JSON API and Atom feeds over NANDO, the EU register of notified bodies. It covers status, scope, suspensions, and withdrawals for every act in NANDO.">
+  <link rel="preload" href="/static/fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/site.css">
+  <link rel="alternate" type="application/atom+xml" title="{{SERVICE_NAME}}: all changes" href="/v1/changes.atom">
+</head>
+<body>
+  <a class="skip" href="#check">Skip to the check</a>
+  <header class="masthead">
+    <a class="wordmark" href="/">{{SERVICE_NAME}}</a>
+    <nav aria-label="Sections">
+      <a href="#check">Check</a>
+      <a href="#endpoints">Endpoints</a>
+      <a href="#alerts">Alerts</a>
+      <a href="#exports">Exports</a>
+      <a href="#source">Source</a>
+      <a href="/docs">API docs</a>
+    </nav>
+  </header>
+
+  <div class="stale" id="stale" role="alert"{{STALE_HIDDEN}}>
+    <p><b>Stale data.</b> {{STALE_TEXT}} Check NANDO itself before you rely on a result.</p>
+  </div>
+
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <h1 id="intro-title">Notified body status, scope, and changes, as JSON.</h1>
+        <p class="lede">A free API and Atom feeds over NANDO, the EU register of notified bodies. Check a body under any act in NANDO in one call, and follow suspensions and withdrawals without an account.</p>
+        <p class="facts" id="facts" aria-live="polite">Reading the local register&hellip;</p>
+        <div class="actions">
+          <a class="button primary" href="#check">Run a check</a>
+          <a class="button" href="/docs">Open the API docs</a>
+        </div>
+        <p class="unofficial">This service is unofficial and not affiliated with the European Commission. It serves the data as published in NANDO, with the sync time on every answer.</p>
+      </div>
+
+      <div class="check" id="check">
+        <form class="check-form" id="check-form" aria-describedby="check-help">
+          <div class="field">
+            <label for="f-body">Body number</label>
+            <input id="f-body" name="body" inputmode="numeric" autocomplete="off" spellcheck="false" value="0123" required>
+          </div>
+          <div class="field">
+            <label for="f-legislation">Act</label>
+            <input id="f-legislation" name="legislation" autocomplete="off" spellcheck="false" value="2017/745" list="acts" required>
+            <datalist id="acts"></datalist>
+          </div>
+          <button class="button primary" type="submit">Check</button>
+          <details class="more" id="more">
+            <summary>Procedure or product</summary>
+            <div class="field">
+              <label for="f-procedure">Procedure</label>
+              <input id="f-procedure" name="procedure" autocomplete="off" placeholder="quality management system">
+            </div>
+            <div class="field">
+              <label for="f-product">Product</label>
+              <input id="f-product" name="product" autocomplete="off" placeholder="MDA 0302">
+            </div>
+          </details>
+          <p class="help" id="check-help">Try
+            <a href="?body=0123&amp;legislation=2017/745" data-example>0123 under 2017/745</a>,
+            <a href="?body=1685&amp;legislation=2014/33/EU" data-example>1685 under 2014/33/EU</a>, or
+            <a href="?body=2744&amp;legislation=2014/68/EU" data-example>2744 under 2014/68/EU</a>.
+          </p>
+        </form>
+
+        <article class="card" id="card" aria-live="polite" aria-busy="true" aria-labelledby="card-name">
+          <div class="card-tab"><span class="tab-label">NB</span> <span id="card-number">----</span></div>
+          <div class="card-body">
+            <p class="card-name" id="card-name">Checking the local register&hellip;</p>
+            <p class="card-act" id="card-act"></p>
+            <div class="stamp" id="card-stamp" hidden></div>
+            <dl class="entries" id="card-entries"></dl>
+          </div>
+        </article>
+
+        <div class="curl">
+          <code id="curl-line">curl ''</code>
+          <button class="copy" type="button" data-copy="curl-line" aria-label="Copy the curl command">Copy</button>
+        </div>
+        <details class="raw">
+          <summary>Show the JSON answer</summary>
+          <pre id="raw-json">{}</pre>
+        </details>
+      </div>
+    </section>
+
+    <section class="register" id="endpoints" aria-labelledby="endpoints-title">
+      <h2 id="endpoints-title">Endpoints</h2>
+      <p class="section-lede">Every JSON answer carries <code>as_of</code>, the <code>stale</code> flag, the source, the CC BY 4.0 attribution, and the unofficial notice. You do not need a key or an account.</p>
+      <table class="ledger">
+        <thead>
+          <tr><th scope="col">Call</th><th scope="col">Answers</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code><b>GET</b> /v1/check?body=0123&amp;legislation=2017/745</code></td><td>Notified or not, the status, end date, and which scope entries match a procedure or product.</td></tr>
+          <tr><td><code><b>POST</b> /v1/check/batch</code></td><td>Up to 500 checks in one call, for supplier and certificate lists.</td></tr>
+          <tr><td><code><b>GET</b> /v1/bodies?country=&amp;legislation=&amp;status=&amp;q=</code></td><td>Search and filter bodies.</td></tr>
+          <tr><td><code><b>GET</b> /v1/bodies/0123</code></td><td>One body with its notifications per act and status.</td></tr>
+          <tr><td><code><b>GET</b> /v1/bodies/0123/notifications</code></td><td>All current notifications of a body, with scope on request.</td></tr>
+          <tr><td><code><b>GET</b> /v1/notifications/{id}</code></td><td>One notification with its scope and version history.</td></tr>
+          <tr><td><code><b>GET</b> /v1/legislation</code></td><td>Every act in NANDO, with the number of current notifications, by the same rule as the check.</td></tr>
+          <tr><td><code><b>GET</b> /v1/legislation/2017/745/bodies</code></td><td>Bodies notified under one act. By default only the current notifications, by the same rule as the check.</td></tr>
+          <tr><td><code><b>GET</b> /v1/changes</code></td><td>The change feed, paged, with the same filters as the Atom feed.</td></tr>
+          <tr><td><code><b>GET</b> /v1/changes.atom</code></td><td>The same changes as an Atom feed.</td></tr>
+          <tr><td><code><b>GET</b> /v1/exports</code></td><td>Daily snapshot files in JSONL and CSV.</td></tr>
+          <tr><td><code><b>GET</b> /v1/status</code></td><td>Last sync, record counts, source health, and whether the data is stale.</td></tr>
+        </tbody>
+      </table>
+      <p class="section-foot">Full schema: <a href="/docs">interactive docs</a> or <a href="/openapi.json">openapi.json</a>.</p>
+    </section>
+
+    <section class="alerts" id="alerts" aria-labelledby="alerts-title">
+      <div class="alerts-copy">
+        <h2 id="alerts-title">Alerts without an account</h2>
+        <p class="section-lede">Pick what to follow and paste the feed URL into any feed reader. It updates when the register changes: suspensions, withdrawals, restorations, scope and end-date changes, new notifications.</p>
+        <form class="feed-form" id="feed-form">
+          <div class="field">
+            <label for="feed-legislation">Act</label>
+            <select id="feed-legislation"><option value="">All acts</option></select>
+          </div>
+          <div class="field">
+            <label for="feed-body">Body number</label>
+            <input id="feed-body" inputmode="numeric" autocomplete="off" placeholder="Any body">
+          </div>
+          <div class="field">
+            <label for="feed-type">Change</label>
+            <select id="feed-type">
+              <option value="">All changes</option>
+              <option value="suspended,withdrawn">Suspensions and withdrawals</option>
+              <option value="suspended">Suspensions</option>
+              <option value="withdrawn">Withdrawals</option>
+              <option value="restored">Restorations</option>
+              <option value="scope_added,scope_removed">Scope changes</option>
+              <option value="new">New notifications</option>
+            </select>
+          </div>
+        </form>
+        <div class="curl">
+          <code id="feed-url">/v1/changes.atom</code>
+          <button class="copy" type="button" data-copy="feed-url" aria-label="Copy the feed URL">Copy</button>
+        </div>
+      </div>
+      <div class="log">
+        <h3>Latest entries</h3>
+        <ol class="log-list" id="log-list" aria-live="polite"></ol>
+      </div>
+    </section>
+
+    <section class="exports" id="exports" aria-labelledby="exports-title">
+      <h2 id="exports-title">Daily exports</h2>
+      <p class="section-lede">There are two files per day, one in JSONL and one in CSV. Each has every current notification, joined with its body and act. Anyone can download them for free.</p>
+      <ul class="export-list" id="export-list"><li>Reading the list&hellip;</li></ul>
+    </section>
+
+    <section class="source" id="source" aria-labelledby="source-title">
+      <h2 id="source-title">Source and limits</h2>
+      <div class="source-grid">
+        <div>
+          <h3>Where the data comes from</h3>
+          <p>European Commission, NANDO, via the <a href="https://webgate.ec.europa.eu/single-market-compliance-space/notified-bodies">Single Market Compliance Space</a>. This service reuses the data under the Commission's reuse policy, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011D0833">Commission Decision 2011/833/EU</a>. The Commission adopted <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> as the open licence for that policy (Commission Decision C(2019) 1655 of 22 February 2019), and applies it to Commission content unless otherwise indicated; see the Commission's <a href="https://commission.europa.eu/legal-notice_en">legal notice</a>. This service is unofficial and not affiliated with or endorsed by the European Commission.</p>
+          <p>A notification counts as notified when its status id is 1 or 3 and its end date is empty or has not passed (UTC). The check then gives <code>notified: true</code>, and the status shows as "Active". When the end date has passed, the status shows as "Expired", and the check gives <code>notified: false</code> with the reason <code>end_date_passed</code>. Status ids 2, 4, 5, and 6 never count as notified.</p>
+          <p>This follows the Active and Expired lists of the NANDO site, which use the end date as well as the status id. NANDO keeps many current notifications with status id 3 ("Expired") and a future end date, and lists them under Active. When the end date decides the status shown, the answer keeps the raw <code>status_id</code> and adds a short <code>status_basis</code> note. Two cases differ from the NANDO site (checked 2026-11-06): NANDO lists a status 1 notification with a past end date under neither list, and it lists a suspended notification with a future end date under Active. This service shows the first as "Expired" and the second as "Suspended", not notified.</p>
+          <p>This service asks NANDO for new and changed records about every 15 minutes, and reads the full register once a day, shortly after 02:00 UTC. Every JSON answer gives the time of the last successful sync in <code>as_of</code>, and sets <code>stale</code> to true when that sync is more than {{STALE_HOURS}} hours old.</p>
+          <p>Changes made: this service restructures the records into JSON and CSV, removes personal contact fields (email, phone, fax), converts update times from Brussels time to UTC, adds status names, and works out change events by comparing versions.</p>
+        </div>
+        <div>
+          <h3>Copied from NANDO</h3>
+          <ul class="plain">
+            <li>Body numbers, names, addresses, websites</li>
+            <li>Notification ids, versions, status ids, dates</li>
+            <li>Status names for status ids 2, 4, and 5, as the NANDO site labels them</li>
+            <li>Scope: procedures, products, standards, annexes</li>
+            <li>The acts, with their codes and names</li>
+          </ul>
+          <h3>Worked out by this service</h3>
+          <ul class="plain">
+            <li><code>notified</code> in the check, from the status id and the end date</li>
+            <li>The status names "Active" and "Expired" for status ids 1 and 3, from the end date, with <code>status_basis</code> when they differ from the NANDO label</li>
+            <li>The status name "Unknown (6)" for status id 6, which the NANDO site does not label</li>
+            <li>The status "Removed from source" in the check, for a notification that NANDO no longer lists</li>
+            <li>Change events, from content hashes between syncs</li>
+            <li><code>since</code>, from the versions this service has stored, or the start of the day after the end date when the end date makes the status Expired (always a UTC timestamp)</li>
+            <li>UTC times</li>
+          </ul>
+        </div>
+      </div>
+      <p class="section-foot">The service comes with no warranty. Check NANDO itself before you rely on a result for a legal or commercial decision. <a href="/terms">Terms</a>.</p>
+    </section>
+  </main>
+
+  <footer class="colophon">
+    <span>{{SERVICE_NAME}}</span>
+    <a href="/terms">Terms</a>
+    <a href="/docs">API docs</a>
+    <a href="/v1/status">Status</a>
+    <a href="/v1/changes.atom">Atom feed</a>
+  </footer>
+  <p class="sr-only" id="copy-status" role="status"></p>
+  <noscript><p class="noscript">The live check needs JavaScript. The API itself works with any HTTP client: <code>curl '/v1/check?body=0123&amp;legislation=2017/745'</code>.</p></noscript>
+  <script src="/static/site.js" defer></script>
+</body>
+</html>

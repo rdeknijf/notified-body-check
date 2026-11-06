@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T20:21:58Z",
+  "title": "Design System: nando-api",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "#efe9dc",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 86.1)",
+          "oklch(26.4% 0.009 86.1)",
+          "oklch(37.9% 0.015 86.1)",
+          "oklch(49.3% 0.018 86.1)",
+          "oklch(60.7% 0.018 86.1)",
+          "oklch(72.1% 0.015 86.1)",
+          "oklch(83.6% 0.009 86.1)",
+          "oklch(95.0% 0.005 86.1)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Index Card",
+        "canonical": "#fbf8f1",
+        "tonalRamp": [
+          "oklch(15.0% 0.002 87.5)",
+          "oklch(26.4% 0.005 87.5)",
+          "oklch(37.9% 0.008 87.5)",
+          "oklch(49.3% 0.010 87.5)",
+          "oklch(60.7% 0.010 87.5)",
+          "oklch(72.1% 0.008 87.5)",
+          "oklch(83.6% 0.005 87.5)",
+          "oklch(95.0% 0.002 87.5)"
+        ]
+      },
+      "manila": {
+        "role": "neutral",
+        "displayName": "Manila",
+        "canonical": "#e2cf9f",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 89.0)",
+          "oklch(26.4% 0.031 89.0)",
+          "oklch(37.9% 0.053 89.0)",
+          "oklch(49.3% 0.066 89.0)",
+          "oklch(60.7% 0.066 89.0)",
+          "oklch(72.1% 0.053 89.0)",
+          "oklch(83.6% 0.031 89.0)",
+          "oklch(95.0% 0.017 89.0)"
+        ]
+      },
+      "manila-edge": {
+        "role": "neutral",
+        "displayName": "Manila Edge",
+        "canonical": "#c9b27a",
+        "tonalRamp": [
+          "oklch(15.0% 0.020 88.1)",
+          "oklch(26.4% 0.037 88.1)",
+          "oklch(37.9% 0.062 88.1)",
+          "oklch(49.3% 0.078 88.1)",
+          "oklch(60.7% 0.078 88.1)",
+          "oklch(72.1% 0.062 88.1)",
+          "oklch(83.6% 0.037 88.1)",
+          "oklch(95.0% 0.020 88.1)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Carbon Ink",
+        "canonical": "#1b2233",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 266.8)",
+          "oklch(26.4% 0.016 266.8)",
+          "oklch(37.9% 0.027 266.8)",
+          "oklch(49.3% 0.034 266.8)",
+          "oklch(60.7% 0.034 266.8)",
+          "oklch(72.1% 0.027 266.8)",
+          "oklch(83.6% 0.016 266.8)",
+          "oklch(95.0% 0.008 266.8)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "#454d5e",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 265.3)",
+          "oklch(26.4% 0.014 265.3)",
+          "oklch(37.9% 0.024 265.3)",
+          "oklch(49.3% 0.030 265.3)",
+          "oklch(60.7% 0.030 265.3)",
+          "oklch(72.1% 0.024 265.3)",
+          "oklch(83.6% 0.014 265.3)",
+          "oklch(95.0% 0.008 265.3)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "#5d6474",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 266.7)",
+          "oklch(26.4% 0.013 266.7)",
+          "oklch(37.9% 0.021 266.7)",
+          "oklch(49.3% 0.027 266.7)",
+          "oklch(60.7% 0.027 266.7)",
+          "oklch(72.1% 0.021 266.7)",
+          "oklch(83.6% 0.013 266.7)",
+          "oklch(95.0% 0.007 266.7)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Ruled Line",
+        "canonical": "#d3c9b3",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 86.5)",
+          "oklch(26.4% 0.015 86.5)",
+          "oklch(37.9% 0.025 86.5)",
+          "oklch(49.3% 0.032 86.5)",
+          "oklch(60.7% 0.032 86.5)",
+          "oklch(72.1% 0.025 86.5)",
+          "oklch(83.6% 0.015 86.5)",
+          "oklch(95.0% 0.008 86.5)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#b5a98c",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 88.2)",
+          "oklch(26.4% 0.020 88.2)",
+          "oklch(37.9% 0.034 88.2)",
+          "oklch(49.3% 0.042 88.2)",
+          "oklch(60.7% 0.042 88.2)",
+          "oklch(72.1% 0.034 88.2)",
+          "oklch(83.6% 0.020 88.2)",
+          "oklch(95.0% 0.011 88.2)"
+        ]
+      },
+      "stamp": {
+        "role": "primary",
+        "displayName": "Stamp Vermilion",
+        "canonical": "#b8321c",
+        "tonalRamp": [
+          "oklch(15.0% 0.044 32.0)",
+          "oklch(26.4% 0.082 32.0)",
+          "oklch(37.9% 0.139 32.0)",
+          "oklch(49.3% 0.174 32.0)",
+          "oklch(60.7% 0.174 32.0)",
+          "oklch(72.1% 0.139 32.0)",
+          "oklch(83.6% 0.082 32.0)",
+          "oklch(95.0% 0.044 32.0)"
+        ]
+      },
+      "stamp-deep": {
+        "role": "primary",
+        "displayName": "Pressed Vermilion",
+        "canonical": "#962613",
+        "tonalRamp": [
+          "oklch(15.0% 0.038 32.1)",
+          "oklch(26.4% 0.071 32.1)",
+          "oklch(37.9% 0.120 32.1)",
+          "oklch(49.3% 0.151 32.1)",
+          "oklch(60.7% 0.151 32.1)",
+          "oklch(72.1% 0.120 32.1)",
+          "oklch(83.6% 0.071 32.1)",
+          "oklch(95.0% 0.038 32.1)"
+        ]
+      },
+      "on-stamp": {
+        "role": "primary",
+        "displayName": "Stamp Paper",
+        "canonical": "#fff8f0",
+        "tonalRamp": [
+          "oklch(15.0% 0.003 71.3)",
+          "oklch(26.4% 0.006 71.3)",
+          "oklch(37.9% 0.010 71.3)",
+          "oklch(49.3% 0.013 71.3)",
+          "oklch(60.7% 0.013 71.3)",
+          "oklch(72.1% 0.010 71.3)",
+          "oklch(83.6% 0.006 71.3)",
+          "oklch(95.0% 0.003 71.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The one page title per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The body name on the card; terms clause headings at 1.125rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose, capped at the 68ch measure."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase labels for form fields, card entries, table heads, and small panel headings."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Mono for code, numbers, identifiers, and data values only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-lift",
+        "value": "0 1px 0 var(--rule), 0 12px 28px -18px rgba(27, 34, 51, 0.45)",
+        "purpose": "The answer card only: a hairline plus a soft ambient fall in carbon ink."
+      },
+      {
+        "name": "stamp-ring",
+        "value": "inset 0 0 0 1.5px var(--card), inset 0 0 0 3px var(--stamp)",
+        "purpose": "Inner double ring of the active stamp. Not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve, for every transition and the stamp press."
+      },
+      {
+        "name": "control-transition",
+        "value": "160ms",
+        "purpose": "Button background, text, and border colour changes."
+      },
+      {
+        "name": "stamp-press",
+        "value": "420ms",
+        "purpose": "Stamp lands from 1.14 scale with a 0.6px blur to rest at minus 7 degrees. Removed under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "40rem"
+      },
+      {
+        "name": "single-column",
+        "value": "60rem"
+      }
+    ],
+    "theme": {
+      "colorScheme": "light",
+      "darkMode": false
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action per view, in stamp vermilion.",
+      "html": "<button class=\"ds-btn-primary\">Run a check</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: 0.55rem 1.1rem; border-radius: 3px; font: 650 0.9375rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); cursor: pointer; transition: background-color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: var(--stamp, #b8321c); border: 1.5px solid var(--stamp, #b8321c); color: var(--on-stamp, #fff8f0); } .ds-btn-primary:hover { background: var(--stamp-deep, #962613); border-color: var(--stamp-deep, #962613); } .ds-btn-primary:focus-visible { outline: 2px solid var(--stamp, #b8321c); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action: carbon outline that fills with carbon on hover.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">Open the API docs</a>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: 0.55rem 1.1rem; border-radius: 3px; font: 650 0.9375rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); cursor: pointer; transition: background-color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 160ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); background: transparent; border: 1.5px solid var(--ink, #1b2233); color: var(--ink, #1b2233); text-decoration: none; } .ds-btn-ghost:hover { background: var(--ink, #1b2233); color: var(--card, #fbf8f1); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--stamp, #b8321c); outline-offset: 3px; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Uppercase label over a card-filled mono input.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Body number</span><input class=\"ds-input\" value=\"0123\"></label>",
+      "css": ".ds-field { display: grid; gap: 0.3rem; max-width: 16rem; } .ds-label { font: 700 0.75rem/1.2 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2, #454d5e); } .ds-input { min-height: 2.75rem; padding: 0.5rem 0.65rem; border: 1px solid var(--ink-3, #5d6474); border-radius: 3px; background: var(--card, #fbf8f1); color: var(--ink, #1b2233); font: 400 1rem/1.2 var(--mono, \"IBM Plex Mono\", ui-monospace, monospace); caret-color: var(--stamp, #b8321c); } .ds-input:focus-visible { outline: 2px solid var(--stamp, #b8321c); outline-offset: 1px; }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "description": "Wordmark left, section links in faded ink right, over a strong rule.",
+      "html": "<header class=\"ds-mast\"><a class=\"ds-word\" href=\"#\">SERVICE_NAME</a><nav class=\"ds-nav\"><a href=\"#\">Check</a><a href=\"#\">Endpoints</a><a href=\"#\">Alerts</a><a href=\"#\">API docs</a></nav></header>",
+      "css": ".ds-mast { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--rule-strong, #b5a98c); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); } .ds-word { font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; color: var(--ink, #1b2233); text-decoration: none; } .ds-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-size: 0.9375rem; } .ds-nav a { color: var(--ink-2, #454d5e); text-decoration: none; } .ds-nav a:hover { color: var(--ink, #1b2233); text-decoration: underline; text-decoration-color: var(--stamp, #b8321c); text-underline-offset: 0.2em; } .ds-nav a:focus-visible, .ds-word:focus-visible { outline: 2px solid var(--stamp, #b8321c); outline-offset: 3px; }"
+    },
+    {
+      "name": "Index Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The answer card: manila tab with the body number, stamp, and ruled entries. The only lifted surface.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-tab\"><span class=\"ds-tab-label\">NB</span> 0123</div><div class=\"ds-card-body\"><p class=\"ds-card-name\">Example Body GmbH, Germany</p><p class=\"ds-card-act\">Regulation (EU) 2017/745 on medical devices</p><div class=\"ds-stamp\">Notified</div><dl class=\"ds-entries\"><dt>Status</dt><dd>Active <span class=\"ds-derived\">name worked out by this service</span></dd><dt>End date</dt><dd>none</dd><dt>Notified</dt><dd class=\"ds-no\">no</dd></dl></div></article>",
+      "css": ".ds-card { position: relative; margin-top: 1.4rem; max-width: 34rem; background: var(--card, #fbf8f1); border: 1px solid var(--rule-strong, #b5a98c); border-radius: 2px 6px 6px 6px; box-shadow: 0 1px 0 var(--rule, #d3c9b3), 0 12px 28px -18px rgba(27, 34, 51, 0.45); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); color: var(--ink, #1b2233); } .ds-tab { position: absolute; top: -1.4rem; left: -1px; height: 1.45rem; display: flex; align-items: center; gap: 0.4rem; padding: 0 0.9rem; border: 1px solid var(--manila-edge, #c9b27a); border-bottom: 0; border-radius: 4px 4px 0 0; background: var(--manila, #e2cf9f); font: 600 0.9375rem/1 var(--mono, \"IBM Plex Mono\", ui-monospace, monospace); letter-spacing: 0.06em; } .ds-tab-label { font-weight: 400; font-size: 0.75rem; color: var(--ink-2, #454d5e); } .ds-card-body { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1rem; row-gap: 0.35rem; padding: 1.4rem 1.5rem 1.25rem; } .ds-card-name { margin: 0; font-size: 1.375rem; font-weight: 720; letter-spacing: -0.015em; line-height: 1.2; } .ds-card-act { margin: 0; grid-row: 2; color: var(--ink-2, #454d5e); } .ds-card .ds-stamp { grid-column: 2; grid-row: 1 / span 2; align-self: start; display: inline-block; padding: 0.35rem 0.7rem; border: 2.5px solid var(--stamp, #b8321c); border-radius: 4px; color: var(--stamp, #b8321c); font: 800 1rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); letter-spacing: 0.12em; text-transform: uppercase; transform: rotate(-7deg); mix-blend-mode: multiply; box-shadow: inset 0 0 0 1.5px var(--card, #fbf8f1), inset 0 0 0 3px var(--stamp, #b8321c); } .ds-entries { grid-column: 1 / -1; display: grid; grid-template-columns: max-content minmax(0, 1fr); margin: 1rem 0 0; border-top: 2px solid var(--stamp, #b8321c); } .ds-entries dt, .ds-entries dd { margin: 0; padding: 0.55rem 0; border-bottom: 1px solid var(--rule, #d3c9b3); } .ds-entries dt { padding-right: 1.25rem; padding-top: 0.7rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2, #454d5e); } .ds-entries dd { font: 400 0.9375rem/1.55 var(--mono, \"IBM Plex Mono\", ui-monospace, monospace); } .ds-derived { margin-left: 0.4rem; font: 400 0.75rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); color: var(--ink-3, #5d6474); } .ds-no { text-decoration: line-through; text-decoration-color: var(--stamp, #b8321c); text-decoration-thickness: 2px; }"
+    },
+    {
+      "name": "Stamp Tones",
+      "kind": "custom",
+      "refersTo": "stamp-active",
+      "description": "Status as a stamped word: active (double ring), adverse (solid fill), unknown (dashed).",
+      "html": "<div class=\"ds-stamps\"><span class=\"ds-stamp\">Notified</span><span class=\"ds-stamp ds-adverse\">Suspended</span><span class=\"ds-stamp ds-unknown\">Unknown</span></div>",
+      "css": ".ds-stamps { display: flex; gap: 1.5rem; padding: 1rem; background: var(--card, #fbf8f1); } .ds-stamp { display: inline-block; padding: 0.35rem 0.7rem; border: 2.5px solid var(--stamp, #b8321c); border-radius: 4px; color: var(--stamp, #b8321c); font: 800 1rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); letter-spacing: 0.12em; text-transform: uppercase; transform: rotate(-7deg); mix-blend-mode: multiply; box-shadow: inset 0 0 0 1.5px var(--card, #fbf8f1), inset 0 0 0 3px var(--stamp, #b8321c); animation: ds-press 420ms var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-adverse { background: var(--stamp, #b8321c); color: var(--on-stamp, #fff8f0); box-shadow: none; } .ds-unknown { border-style: dashed; box-shadow: none; } @keyframes ds-press { from { transform: rotate(-7deg) scale(1.14); filter: blur(0.6px); } to { transform: rotate(-7deg) scale(1); filter: blur(0); } } @media (prefers-reduced-motion: reduce) { .ds-stamp { animation: none; } }"
+    },
+    {
+      "name": "Curl Bar",
+      "kind": "custom",
+      "refersTo": "curl-bar",
+      "description": "Copyable call on a carbon bar with a Copy button that fills vermilion on hover.",
+      "html": "<div class=\"ds-curl\"><code>curl 'https://example.test/v1/check?body=0123&amp;legislation=2017/745'</code><button class=\"ds-copy\" type=\"button\">Copy</button></div>",
+      "css": ".ds-curl { display: flex; align-items: stretch; max-width: 34rem; border: 1px solid var(--ink, #1b2233); border-radius: 3px; background: var(--ink, #1b2233); color: var(--card, #fbf8f1); } .ds-curl code { flex: 1; min-width: 0; padding: 0.7rem 0.85rem; white-space: pre-wrap; overflow-wrap: anywhere; font: 400 0.8125rem/1.5 var(--mono, \"IBM Plex Mono\", ui-monospace, monospace); } .ds-copy { flex: none; border: 0; border-left: 1px solid var(--ink-2, #454d5e); background: transparent; color: var(--card, #fbf8f1); font: 650 0.8125rem/1 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); padding: 0 0.95rem; cursor: pointer; } .ds-copy:hover { background: var(--stamp, #b8321c); } .ds-copy:focus-visible { outline: 2px solid var(--card, #fbf8f1); outline-offset: -3px; }"
+    },
+    {
+      "name": "Ledger",
+      "kind": "custom",
+      "description": "Ruled register: uppercase head over a heavy carbon rule, hairline rows, vermilion method verb.",
+      "html": "<table class=\"ds-ledger\"><thead><tr><th>Call</th><th>Answers</th></tr></thead><tbody><tr><td><code><b>GET</b> /v1/bodies/0123</code></td><td>One body with its notifications per act and status.</td></tr><tr><td><code><b>POST</b> /v1/check/batch</code></td><td>Up to 500 checks in one call.</td></tr></tbody></table>",
+      "css": ".ds-ledger { width: 100%; border-collapse: collapse; font: 400 1rem/1.55 var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); color: var(--ink, #1b2233); } .ds-ledger th { text-align: left; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2, #454d5e); padding: 0 1rem 0.6rem 0; border-bottom: 2px solid var(--ink, #1b2233); } .ds-ledger td { padding: 0.8rem 1rem 0.8rem 0; border-bottom: 1px solid var(--rule, #d3c9b3); vertical-align: top; } .ds-ledger code { font: 400 0.875rem/1.5 var(--mono, \"IBM Plex Mono\", ui-monospace, monospace); } .ds-ledger code b { color: var(--stamp, #b8321c); font-weight: 600; margin-right: 0.35rem; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Register Card File",
+    "overview": "The site is a registry card file. Each answer is an index card for one body: the four-digit body number sits on a manila tab, the facts sit in ruled entry rows, and the status lands as a rubber stamp. Everything else on the page (the endpoint ledger, the change log, the export list, the numbered terms) is a ruled register on the same warm card stock.\n\nTwo inks do all the work. A carbon blue-black writes the text and the entries, and one vermilion stamp ink marks what matters: the stamp, the primary action, the method verb in a call, the clause number, the link underline. Rank comes from weight, case, and rules before size. Depth is limited to the one card that holds the live answer; the rest of the page is flat paper divided by hairlines.\n\nThe system has one light theme only (`color-scheme: light`). There is no dark mode, and no surface may add one without a new decision. The wordmark renders the `SERVICE_NAME` constant from `src/nando_api/config.py`; no visual asset may hard-code the service name.",
+    "keyCharacteristics": [
+      "Warm card stock ground with a lighter card surface and a manila tab.",
+      "One text ink in three strengths, one stamp ink plus its deep press state.",
+      "A grotesk for prose and headings; a mono only for code, numbers, and data entries.",
+      "Status shown as a stamped word in a bordered, rotated mark, never as a colour alone.",
+      "Hairline rules and 2px heavy rules organise every list, table, and card."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Vermilion is the only accent hue. Never add a second accent; give a new mark weight, case, or a rule instead of a new colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Age Rule",
+        "body": "In a dated list, the newest entry takes the darkest ink and older entries step down to faded ink, then pencil.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "The grotesk speaks; the mono records. Use the mono only for code, numbers, identifiers, and data values, never for prose or headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rank Before Size Rule",
+        "body": "Separate levels with weight, uppercase tracking, and rules before you reach for a larger size.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Card Rule",
+        "body": "Only the answer card is lifted. Panels, inputs, and code blocks stay flat with a strong-rule border.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do show every status as a stamped word; the tone (active, adverse, unknown) changes the form of the mark, not only its colour.",
+      "Do keep vermilion as the one accent and use it for marks, rules, and the primary action.",
+      "Do set code, numbers, identifiers, and data values in IBM Plex Mono, and everything else in Schibsted Grotesk.",
+      "Do mark facts this service derives with a small pencil note, separate from facts copied from the register.",
+      "Do separate rows with the hairline rule and open a register with the 2px heavy rule.",
+      "Do keep the light theme only and declare `color-scheme: light`."
+    ],
+    "donts": [
+      "Don't add a second accent hue or a status colour scale (no green for active, no amber for warnings).",
+      "Don't lift any surface other than the answer card with a shadow.",
+      "Don't set prose or headings in the mono.",
+      "Don't add a dark theme without a new decision.",
+      "Don't hard-code the service name in markup or assets; render `SERVICE_NAME`."
+    ]
+  }
+}

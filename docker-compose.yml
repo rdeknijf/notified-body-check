@@ -1,0 +1,42 @@
+# Live setup on the host behind Traefik and Cloudflare. The worker polls the
+# NANDO search endpoint: incremental every 15 minutes, full snapshot nightly.
+services:
+  api:
+    build: .
+    container_name: nando-api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - DATABASE_PATH=/data/nando.db
+      - EXPORT_DIR=/data/exports
+    volumes:
+      - ./data:/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nando-api.rule=Host(`nbcheck.deknijf.com`)"
+      - "traefik.http.routers.nando-api.entrypoints=websecure"
+      - "traefik.http.routers.nando-api.tls.certresolver=myresolver"
+      - "traefik.http.routers.nando-api.middlewares=nando-api-ratelimit"
+      - "traefik.http.middlewares.nando-api-ratelimit.ratelimit.average=10"
+      - "traefik.http.middlewares.nando-api-ratelimit.ratelimit.burst=40"
+      - "traefik.http.middlewares.nando-api-ratelimit.ratelimit.sourcecriterion.requestheadername=CF-Connecting-IP"
+      - "traefik.http.services.nando-api.loadbalancer.server.port=8000"
+      - "traefik.docker.network=proxy"
+    networks:
+      - proxy
+
+  worker:
+    build: .
+    container_name: nando-api-worker
+    restart: "no"
+    env_file: .env
+    environment:
+      - DATABASE_PATH=/data/nando.db
+      - EXPORT_DIR=/data/exports
+    command: ["nando-api", "worker", "--interval", "900", "--snapshot-hour", "2"]
+    volumes:
+      - ./data:/data
+
+networks:
+  proxy:
+    external: true

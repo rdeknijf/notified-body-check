@@ -1,0 +1,227 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 27,
+ "totalResults": 3433,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "24f3d2f5ae329a61adf5713b8d5aff1775ff008a",
+   "url": "urn:smcs:nando_body:24f3d2f5ae329a61adf5713b8d5aff1775ff008a",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-04T11:30:00.542+0100"
+    ],
+    "bodyNumber": [
+     "1544"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "www.qualiform.cz"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "24f3d2f5ae329a61adf5713b8d5aff1775ff008a"
+    ],
+    "organizationId": [
+     "288523"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"24f3d2f5ae329a61adf5713b8d5aff1775ff008a\", \"organizationName\": \"QUALIFORM a.s.\", \"organizationId\": 288523, \"organizationRefeCd\": \"EPOS_54946\", \"bodyNumber\": 1544, \"bodyTypeId\": 3, \"bodyTypeAbbrev\": \"NB\", \"organizationStreetAndNumber\": \"Jihlavská 682/2f\", \"organizationZipCodeAndCity\": \"664 41 Troubsko\", \"organizationCountryId\": 203, \"organizationCountryName\": \"Czech Republic\", \"organizationPhone\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"www.qualiform.cz\", \"bodyLastApprovalDate\": \"2026-11-04T00:00:00Z\", \"organizationVersion\": 7, \"organizationIfLatestVersion\": \"Y\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Jihlavská 682/2f"
+    ],
+    "organizationName": [
+     "QUALIFORM a.s."
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-11-04T11:30:00.584+0100"
+    ],
+    "csType": [
+     "nando_body"
+    ],
+    "organizationIfLatestVersion": [
+     "Y"
+    ],
+    "esDA_IngestDate": [
+     "2026-11-04T11:30:00.584+0100"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_body:24f3d2f5ae329a61adf5713b8d5aff1775ff008a"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_body:24f3d2f5ae329a61adf5713b8d5aff1775ff008a"
+    ],
+    "organizationRefeCd": [
+     "EPOS_54946"
+    ],
+    "esDA_QueueDate": [
+     "2026-11-04T11:30:00.576+0100"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "organizationVersion": [
+     "7"
+    ],
+    "organizationCountryId": [
+     "203"
+    ],
+    "countryName": [
+     "Czech Republic"
+    ],
+    "orgAddressCity": [
+     "664 41 Troubsko"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "24f3d2f5ae329a61adf5713b8d5aff1775ff008a. Available at: urn:smcs:nando_body:24f3d2f5ae329a61adf5713b8d5aff1775ff008a"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "7447bcec044b0d3b904010b59f7ff25ed72a4250",
+   "url": "urn:smcs:nando_body:7447bcec044b0d3b904010b59f7ff25ed72a4250",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_SortDate": [
+     "2026-10-30T14:35:00.403+0100"
+    ],
+    "bodyNumber": [
+     "656"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "language": [
+     "en"
+    ],
+    "orgWebsite": [
+     "www.moodyhellas.gr"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "esST_REFERENCE": [
+     "7447bcec044b0d3b904010b59f7ff25ed72a4250"
+    ],
+    "organizationId": [
+     "222304"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"7447bcec044b0d3b904010b59f7ff25ed72a4250\", \"organizationName\": \"MOODY TOTTRUP HELLAS S.A. INSPECTIONS AND CERTIFICATIONS (MOODY HELLAS S.A.)\", \"organizationId\": 222304, \"organizationRefeCd\": \"EPOS_43978\", \"bodyNumber\": 656, \"bodyTypeId\": 3, \"bodyTypeAbbrev\": \"NB\", \"organizationStreetAndNumber\": \"Helvetias 21\", \"organizationZipCodeAndCity\": \"153 43 ATHENS\", \"organizationCountryId\": 300, \"organizationCountryName\": \"Greece\", \"organizationPhone\": \"+00 0\", \"organizationFax\": \"+00 0\", \"organizationEmail\": \"x@example.invalid\", \"organizationWebsite\": \"www.moodyhellas.gr\", \"bodyLastApprovalDate\": \"2016-10-19T00:00:00Z\", \"bodyEndDate\": \"2031-10-09T00:00:00Z\", \"organizationVersion\": 9, \"organizationIfLatestVersion\": \"Y\"}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "bodyEndDate": [
+     "2031-10-09T00:00:00.000+0000"
+    ],
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "orgAddressStreet": [
+     "Helvetias 21"
+    ],
+    "organizationName": [
+     "MOODY TOTTRUP HELLAS S.A. INSPECTIONS AND CERTIFICATIONS (MOODY HELLAS S.A.)"
+    ],
+    "csType": [
+     "nando_body"
+    ],
+    "organizationIfLatestVersion": [
+     "Y"
+    ],
+    "esDA_IngestDate": [
+     "2026-10-30T14:35:00.447+0100"
+    ],
+    "orgPhone": [
+     "+00 0"
+    ],
+    "url": [
+     "urn:smcs:nando_body:7447bcec044b0d3b904010b59f7ff25ed72a4250"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_body:7447bcec044b0d3b904010b59f7ff25ed72a4250"
+    ],
+    "organizationRefeCd": [
+     "EPOS_43978"
+    ],
+    "esDA_QueueDate": [
+     "2026-10-30T14:35:00.442+0100"
+    ],
+    "bodyTypeId": [
+     "3"
+    ],
+    "orgEmail": [
+     "x@example.invalid"
+    ],
+    "organizationVersion": [
+     "9"
+    ],
+    "organizationCountryId": [
+     "300"
+    ],
+    "orgFax": [
+     "+00 0"
+    ],
+    "countryName": [
+     "Greece"
+    ],
+    "orgAddressCity": [
+     "153 43 ATHENS"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "7447bcec044b0d3b904010b59f7ff25ed72a4250. Available at: urn:smcs:nando_body:7447bcec044b0d3b904010b59f7ff25ed72a4250"
+  }
+ ],
+ "warnings": []
+}

@@ -1,0 +1,158 @@
+{
+ "apiVersion": "2.157.1",
+ "terms": "*",
+ "responseTime": 17,
+ "totalResults": 1627,
+ "pageNumber": 1,
+ "pageSize": 2,
+ "sort": "[es_SortDate:DESC]",
+ "groupByField": "organizationRefeCdAndType",
+ "queryLanguage": {
+  "language": "en",
+  "probability": 0.0
+ },
+ "bestBets": [],
+ "results": [
+  {
+   "apiVersion": "2.157.1",
+   "reference": "1b8312335a1bf59f6e4ac30b0870104713786f36",
+   "url": "urn:smcs:nando_procedure:1b8312335a1bf59f6e4ac30b0870104713786f36",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2026-02-13T10:10:03.394+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2026-02-13T10:10:03.410+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_procedure"
+    ],
+    "esDA_IngestDate": [
+     "2026-02-13T10:10:03.410+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_procedure:1b8312335a1bf59f6e4ac30b0870104713786f36"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_procedure:1b8312335a1bf59f6e4ac30b0870104713786f36"
+    ],
+    "esST_REFERENCE": [
+     "1b8312335a1bf59f6e4ac30b0870104713786f36"
+    ],
+    "esDA_QueueDate": [
+     "2026-02-13T10:10:03.404+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"1b8312335a1bf59f6e4ac30b0870104713786f36\", \"procedureId\": 171844, \"procedureName\": \"EU-type examination\", \"language\": \"EN\", \"legislationId\": 171420, \"annexName\": \"Article 26\", \"annexId\": 171843}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "procedureName": [
+     "EU-type examination"
+    ],
+    "csLanguage": [
+     "EN"
+    ],
+    "legislationId": [
+     "171420"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "1b8312335a1bf59f6e4ac30b0870104713786f36. Available at: urn:smcs:nando_procedure:1b8312335a1bf59f6e4ac30b0870104713786f36"
+  },
+  {
+   "apiVersion": "2.157.1",
+   "reference": "f5770e4435371a85ae6492c173bc83a7151a0715",
+   "url": "urn:smcs:nando_procedure:f5770e4435371a85ae6492c173bc83a7151a0715",
+   "contentType": "application/octet-stream",
+   "language": "en",
+   "databaseLabel": "",
+   "summary": "",
+   "weight": 0.0,
+   "content": "",
+   "accessRestriction": false,
+   "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+   "metadata": {
+    "es_ContentType": [
+     "application/octet-stream"
+    ],
+    "es_SortDate": [
+     "2025-12-09T17:36:17.320+0100"
+    ],
+    "esDA_FirstIngestDate": [
+     "2025-12-09T17:36:17.333+0100"
+    ],
+    "esST_DATASOURCE": [
+     "GROWTH_NANDO"
+    ],
+    "csType": [
+     "nando_procedure"
+    ],
+    "esDA_IngestDate": [
+     "2025-12-09T17:36:17.333+0100"
+    ],
+    "language": [
+     "en"
+    ],
+    "esST_checksum": [
+     "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    ],
+    "url": [
+     "urn:smcs:nando_procedure:f5770e4435371a85ae6492c173bc83a7151a0715"
+    ],
+    "esST_URL": [
+     "urn:smcs:nando_procedure:f5770e4435371a85ae6492c173bc83a7151a0715"
+    ],
+    "esST_REFERENCE": [
+     "f5770e4435371a85ae6492c173bc83a7151a0715"
+    ],
+    "esDA_QueueDate": [
+     "2025-12-09T17:36:17.327+0100"
+    ],
+    "jsonDoc": [
+     "{\"csId\": \"f5770e4435371a85ae6492c173bc83a7151a0715\", \"procedureId\": 168712, \"procedureName\": \"EU type examination – production type (Module B) plus Internal production control (Module C)\", \"language\": \"EN\", \"legislationId\": 168695, \"annexName\": \" Article 2(2)(a) – Module B and Article 2(2)(b) – Module C\", \"annexId\": 168709}"
+    ],
+    "esST_FileName": [
+     "file.txt"
+    ],
+    "procedureName": [
+     "EU type examination – production type (Module B) plus Internal production control (Module C)"
+    ],
+    "csLanguage": [
+     "EN"
+    ],
+    "legislationId": [
+     "168695"
+    ]
+   },
+   "enrichedMetadata": {},
+   "children": [],
+   "highlightedFragments": [],
+   "citation": "f5770e4435371a85ae6492c173bc83a7151a0715. Available at: urn:smcs:nando_procedure:f5770e4435371a85ae6492c173bc83a7151a0715"
+  }
+ ],
+ "warnings": []
+}

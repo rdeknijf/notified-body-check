@@ -1,0 +1,10 @@
+.env
+.git
+.venv
+data
+tests
+scripts
+.impeccable
+.pytest_cache
+.ruff_cache
+.coverage
