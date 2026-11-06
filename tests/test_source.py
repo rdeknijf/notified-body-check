@@ -11,6 +11,7 @@ from conftest import TEST_KEY
 from nando_api import config
 from nando_api.source import (
     PAGE_SIZE,
+    RESULT_CAP,
     EuropaSearchClient,
     RequestBudgetError,
     SourceBlockedError,
@@ -176,6 +177,23 @@ def test_iter_documents_refuses_over_cap():
         pytest.raises(SourceError, match="10000 cap"),
     ):
         list(client.iter_documents(QUERY, sort=SORT, label="big"))
+
+
+@pytest.mark.parametrize("max_pages", [None, RESULT_CAP // PAGE_SIZE + 1])
+def test_iter_documents_refuses_over_cap_when_reads_can_pass_it(max_pages):
+    with (
+        make(ok(total=RESULT_CAP + 1)) as client,
+        pytest.raises(SourceError, match="10000 cap"),
+    ):
+        list(client.iter_documents(QUERY, sort=SORT, label="big", max_pages=max_pages))
+
+
+def test_iter_documents_reads_newest_pages_over_cap_when_bounded():
+    handler, asked = paged(13_363)
+    with make(handler, request_interval=0) as client:
+        docs = list(client.iter_documents(QUERY, sort=SORT, label="p", max_pages=10))
+    assert len(docs) == 10 * PAGE_SIZE
+    assert asked == list(range(1, 11))
 
 
 @pytest.mark.parametrize(

@@ -154,14 +154,16 @@ class EuropaSearchClient:
         """Yield every result of a query, page by page.
 
         Raises `SourceError` when the query has more hits than the index can
-        page through; the caller must partition such a query.
+        page through and `max_pages` does not keep the reads inside the cap;
+        the caller must partition such a query.
         `stop` ends the iteration at the first result for which it is true.
         """
+        bounded = max_pages is not None and max_pages * PAGE_SIZE <= RESULT_CAP
         page = 1
         while True:
             body = self.search(query, page=page, sort=sort, label=f"{label}-p{page}")
             total = int(body.get("totalResults", 0))
-            if page == 1 and total > RESULT_CAP:
+            if page == 1 and total > RESULT_CAP and not bounded:
                 msg = f"{label}: {total} hits exceed the {RESULT_CAP} cap; partition it"
                 raise SourceError(msg)
             results = body.get("results") or []
