@@ -1,0 +1,17 @@
+# The SQLite database and the daily exports. Scaleway block storage is
+# ReadWriteOnce, which is why api and worker share one pod (deployment.yaml).
+# The retain class keeps the volume when the PVC is removed.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nbcheck-data
+  namespace: nbcheck
+  labels:
+    app: nbcheck
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: sbs-default-retain
+  resources:
+    requests:
+      storage: 2Gi

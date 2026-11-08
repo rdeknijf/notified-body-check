@@ -1,0 +1,113 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nbcheck
+  namespace: nbcheck
+  labels:
+    app: nbcheck
+spec:
+  # 0 until the data is restored on the PVC. Setting this to 1 is the go-live
+  # commit, and it also starts the worker that polls NANDO.
+  replicas: 0
+  # The volume is ReadWriteOnce, so the old pod must stop before a new pod starts.
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: nbcheck
+  template:
+    metadata:
+      labels:
+        app: nbcheck
+    spec:
+      imagePullSecrets:
+        - name: ghcr-pull
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        # A fresh block volume is owned by root; the app runs as uid 1000.
+        fsGroup: 1000
+      containers:
+        - name: api
+          image: ghcr.io/rdeknijf/notified-body-check:625417128da5e5e2a43ea35ba26c7df3be23a297
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - secretRef:
+                name: nbcheck-secrets
+          env:
+            - name: DATABASE_PATH
+              value: /data/nando.db
+            - name: EXPORT_DIR
+              value: /data/exports
+          volumeMounts:
+            - name: data
+              mountPath: /data
+          readinessProbe:
+            httpGet:
+              path: /v1/status
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /v1/status
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 5
+          resources:
+            requests:
+              cpu: 25m
+              memory: 64Mi
+            limits:
+              memory: 256Mi
+        - name: worker
+          image: ghcr.io/rdeknijf/notified-body-check:625417128da5e5e2a43ea35ba26c7df3be23a297
+          imagePullPolicy: IfNotPresent
+          # The worker exits with code 1 when the source refuses access, and it
+          # must then stay stopped (AGENTS.md rule 3). A container in a Deployment
+          # always restarts and a pod can be replaced, so the refusal is stored on
+          # the volume. To resume polling after the refusal is resolved, delete
+          # /data/worker-refused and replace the pod. Other exits, such as an out
+          # of memory kill, restart normally.
+          command:
+            - sh
+            - -c
+            - |
+              if [ -e /data/worker-refused ]; then
+                echo "/data/worker-refused exists; polling stays off"
+                exec sleep infinity
+              fi
+              nando-api worker --interval 900 --snapshot-hour 2
+              code=$?
+              if [ "$code" -eq 1 ]; then
+                touch /data/worker-refused
+                echo "worker exited with code 1; polling stays off"
+                exec sleep infinity
+              fi
+              exit "$code"
+          envFrom:
+            - secretRef:
+                name: nbcheck-secrets
+          env:
+            - name: DATABASE_PATH
+              value: /data/nando.db
+            - name: EXPORT_DIR
+              value: /data/exports
+          volumeMounts:
+            - name: data
+              mountPath: /data
+          resources:
+            requests:
+              cpu: 25m
+              memory: 192Mi
+            limits:
+              memory: 512Mi
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: nbcheck-data

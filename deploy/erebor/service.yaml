@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nbcheck
+  namespace: nbcheck
+  labels:
+    app: nbcheck
+spec:
+  selector:
+    app: nbcheck
+  ports:
+    - name: http
+      port: 8000
+      targetPort: 8000
