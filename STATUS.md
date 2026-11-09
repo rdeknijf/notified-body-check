@@ -8,6 +8,13 @@ Work items are tracked outside this repo (beads epic `idea-machine-ns8`).
 
 A free, unofficial public API over NANDO (every act in NANDO) with a changes feed, Atom alerts, daily exports, a landing page, and terms. Live at https://nbcheck.deknijf.com; public repo https://github.com/rdeknijf/notified-body-check.
 
+## Verified state (2026-11-09)
+
+- Runs on the erebor cluster since 2026-11-09 (namespace `nbcheck`, 2 GiB volume, manifests in `deploy/erebor/`), behind ingress-nginx and Cloudflare. The ingress rate limit is 10 requests per second, burst 40, per `CF-Connecting-IP` (a burst of 120 gave 43 x 200 and 77 x 429). `/v1/status` showed a successful worker sync every 15 minutes.
+- Deploy: set the new image SHA in `deploy/erebor/deployment.yaml` and merge to `main`. Flux on erebor rolls it out.
+- The old Compose stack in `~/services/nbcheck` on buckland is stopped, its files stay, and it is out of the host's `update.sh`. The older sections below describe the state before the move.
+- No backup job exists for the volume on erebor yet (bead sq-wnlp in rdeknijf/square). The last copy is `~/backups/erebor-move-2026-11-09/nbcheck/` on buckland.
+
 ## Verified state (2026-11-06)
 
 - Live since 2026-11-06 12:03 UTC on host buckland (`~/services/nbcheck`, Docker Compose behind Traefik and Cloudflare; DNS CNAME `nbcheck` proxied). `api` and `worker` run; the stack is in the host's `update.sh` list and in its site probe. Deploy: `git ls-files | rsync -a --files-from=- ./ buckland:services/nbcheck/`, then `docker compose up -d --build` there. `.env` and `data/` are copied once, not from git.
@@ -46,4 +53,4 @@ A free, unofficial public API over NANDO (every act in NANDO) with a changes fee
 1. Read `AGENTS.md` (rules and load discipline).
 2. `uv sync && uv run pytest` to confirm the gates.
 3. `uv run nando-api serve --port 8601` to see the site with the local data.
-4. Deploy: see the first bullet of the 2026-11-06 state.
+4. Deploy: see the 2026-11-09 state.
