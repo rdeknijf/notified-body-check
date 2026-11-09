@@ -42,6 +42,11 @@ spec:
               value: /data/nando.db
             - name: EXPORT_DIR
               value: /data/exports
+            # The image starts uvicorn with --proxy-headers, which trusts only
+            # loopback by default. ingress-nginx connects from another pod, and
+            # export and feed links need the https scheme it forwards.
+            - name: FORWARDED_ALLOW_IPS
+              value: "*"
           volumeMounts:
             - name: data
               mountPath: /data
